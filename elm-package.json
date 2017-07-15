@@ -1,5 +1,5 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "summary": "Provides all colorbrewer colors in elm",
     "repository": "https://github.com/dawehner/elm-colorbrewer.git",
     "license": "BSD3",
