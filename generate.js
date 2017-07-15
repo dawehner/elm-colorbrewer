@@ -6,6 +6,7 @@ const generateColorFile = (filename, colors) => {
   delete colors.index;
 
   const colorElms = [];
+  const colorNames = [];
   for (name in colors) {
     delete colors[name]['type'];
     for (count in colors[name]) {
@@ -14,14 +15,22 @@ const generateColorFile = (filename, colors) => {
         const colors = color.replace('(', '').replace(')', '').split(',').map((string) => parseInt(string)).join(', ');
         return `(${colors})`;
       });
-      colorElms.push(`${colorName} : List (Int, Int, Int)
+      colorElms.push(`
+{-| Provides the ${`${name}${count}`} color scheme. -}
+${colorName} : List (Int, Int, Int)
 ${colorName} = [${rgbColours.join(', ')}]
-`)
+`);
+      colorNames.push(colorName);
     }
   }
 
   const template = `module Colorbrewer.${filename} exposing (..)
 
+{-|
+Colorbrewer.${filename}.
+
+@docs ${colorNames.join(', ')}
+-}
 ${colorElms.join("\n")}
 `;
 
