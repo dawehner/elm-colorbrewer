@@ -1,5 +1,4 @@
-
-module ColorBrewer.Qualitative exposing (..)
+module Colorbrewer.Qualitative exposing (..)
 
 set23 : List (Int, Int, Int)
 set23 = [(102, 194, 165), (252, 141, 98), (141, 160, 203)]

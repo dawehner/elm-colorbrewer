@@ -1,5 +1,4 @@
-
-module ColorBrewer.Divering exposing (..)
+module Colorbrewer.Diverging exposing (..)
 
 spectral3 : List (Int, Int, Int)
 spectral3 = [(252, 141, 89), (255, 255, 191), (153, 213, 148)]

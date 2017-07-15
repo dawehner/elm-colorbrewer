@@ -1,5 +1,4 @@
-
-module ColorBrewer.SequentialSH exposing (..)
+module Colorbrewer.SequentialSH exposing (..)
 
 oranges3 : List (Int, Int, Int)
 oranges3 = [(254, 230, 206), (253, 174, 107), (230, 85, 13)]

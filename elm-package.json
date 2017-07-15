@@ -4,7 +4,8 @@
   "repository": "https://github.com/dawehner/elm-colorbrewer.git",
   "license": "BSD3",
   "source-directories": [
-    "."
+    ".",
+    "Colorbrewer"
   ],
   "exposed-modules": ["Colorbrewer.Diverging", "Colorbrewer.Qualitative", "Colorbrewer.SequentialSH", "Colorbrewer.SequentialMH"],
   "dependencies": {

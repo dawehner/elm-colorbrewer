@@ -1,5 +1,4 @@
-
-module ColorBrewer.SequentialMH exposing (..)
+module Colorbrewer.SequentialMH exposing (..)
 
 orrd3 : List (Int, Int, Int)
 orrd3 = [(254, 232, 200), (253, 187, 132), (227, 74, 51)]

@@ -20,16 +20,15 @@ ${colorName} = [${rgbColours.join(', ')}]
     }
   }
 
-  const template = `
-module ColorBrewer.${filename} exposing (..)
+  const template = `module Colorbrewer.${filename} exposing (..)
 
 ${colorElms.join("\n")}
 `;
 
-  fs.writeFileSync(`${filename}.elm`, template);
+  fs.writeFileSync(`ColorBrewer/${filename}.elm`, template);
 };
 
 generateColorFile('SequentialSH', data["sequential\nsingle-hue"]);
 generateColorFile('SequentialMH', data["sequential\nmulti-hue"]);
-generateColorFile('Divering', data['diverging']);
+generateColorFile('Diverging', data['diverging']);
 generateColorFile('Qualitative', data['qualitative']);
