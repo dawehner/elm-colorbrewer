@@ -31,3 +31,9 @@ Qualitative color schemes should be used
 
 Read more on [betterfigures](https://betterfigures.org/2015/06/23/picking-a-colour-scale-for-scientific-graphics/) about the usage of color schemes when the particular
 entries are unrelated. An example would be recipe category background colors.
+
+## Todods
+
+* Figure out the best way to represent those numbers. Should they be Color objects themselves?
+* Figure out how to make it easy to provide multiple elements. A list always returns maybes
+* Write a demo which shows every color
