@@ -12,12 +12,12 @@ const generateColorFile = (filename, colors) => {
     for (count in colors[name]) {
       const colorName = `${name}${count}`.toLowerCase();
       const rgbColours = colors[name][count].map((color) => {
-        const colors = color.replace('(', '').replace(')', '').split(',').map((string) => parseInt(string)).join(', ');
-        return `(${colors})`;
+        const colors = color.replace('(', '').replace(')', '').split(',').map((string) => parseInt(string)).join(' ');
+        return `rgb ${colors}`;
       });
       colorElms.push(`
 {-| Provides the ${`${name}${count}`} color scheme. -}
-${colorName} : List (Int, Int, Int)
+${colorName} : List Color
 ${colorName} = [${rgbColours.join(', ')}]
 `);
       colorNames.push(colorName);
@@ -31,6 +31,9 @@ Colorbrewer.${filename}.
 
 @docs ${colorNames.join(', ')}
 -}
+
+import Color exposing (Color, rgb)
+
 ${colorElms.join("\n")}
 `;
 
