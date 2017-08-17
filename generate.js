@@ -15,10 +15,22 @@ const generateColorFile = (filename, colors) => {
         const colors = color.replace('(', '').replace(')', '').split(',').map((string) => parseInt(string)).join(' ');
         return `rgb ${colors}`;
       });
+
+      const individualColors = rgbColours.map((rgbColour, index) => {
+        return `
+{-| Provides the ${`${name}${count}-${index}`} color. -}
+${colorName}_${index} : Color
+${colorName}_${index} = ${rgbColour}
+`;
+      });
+      Object.keys(rgbColours).forEach((index) => colorNames.push(`${colorName}_${index}`));
+
       colorElms.push(`
 {-| Provides the ${`${name}${count}`} color scheme. -}
 ${colorName} : List Color
 ${colorName} = [${rgbColours.join(', ')}]
+
+${individualColors.join("\n")}
 `);
       colorNames.push(colorName);
     }
