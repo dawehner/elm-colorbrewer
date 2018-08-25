@@ -4,5 +4,5 @@ generate:
 	node generate.js
 
 format:
-	elm-format Colorbrewer --yes
+	elm-format src/Colorbrewer --yes
 

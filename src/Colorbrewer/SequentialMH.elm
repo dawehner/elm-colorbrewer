@@ -11,4043 +11,4043 @@ module Colorbrewer.SequentialMH exposing (orrd3_0, orrd3_1, orrd3_2, orrd3, orrd
 -}
 orrd3 : List ( Float, Float, Float )
 orrd3 =
-    [ ( 254, 232, 200 ), ( 253, 187, 132 ), ( 227, 74, 51 ) ]
+    [ ( 0.9921875, 0.90625, 0.78125 ), ( 0.98828125, 0.73046875, 0.515625 ), ( 0.88671875, 0.2890625, 0.19921875 ) ]
 
 
 {-| Provides the OrRd3-0 color.
 -}
 orrd3_0 : ( Float, Float, Float )
 orrd3_0 =
-    ( 254, 232, 200 )
+    ( 0.9921875, 0.90625, 0.78125 )
 
 
 {-| Provides the OrRd3-1 color.
 -}
 orrd3_1 : ( Float, Float, Float )
 orrd3_1 =
-    ( 253, 187, 132 )
+    ( 0.98828125, 0.73046875, 0.515625 )
 
 
 {-| Provides the OrRd3-2 color.
 -}
 orrd3_2 : ( Float, Float, Float )
 orrd3_2 =
-    ( 227, 74, 51 )
+    ( 0.88671875, 0.2890625, 0.19921875 )
 
 
 {-| Provides the OrRd4 color scheme.
 -}
 orrd4 : List ( Float, Float, Float )
 orrd4 =
-    [ ( 254, 240, 217 ), ( 253, 204, 138 ), ( 252, 141, 89 ), ( 215, 48, 31 ) ]
+    [ ( 0.9921875, 0.9375, 0.84765625 ), ( 0.98828125, 0.796875, 0.5390625 ), ( 0.984375, 0.55078125, 0.34765625 ), ( 0.83984375, 0.1875, 0.12109375 ) ]
 
 
 {-| Provides the OrRd4-0 color.
 -}
 orrd4_0 : ( Float, Float, Float )
 orrd4_0 =
-    ( 254, 240, 217 )
+    ( 0.9921875, 0.9375, 0.84765625 )
 
 
 {-| Provides the OrRd4-1 color.
 -}
 orrd4_1 : ( Float, Float, Float )
 orrd4_1 =
-    ( 253, 204, 138 )
+    ( 0.98828125, 0.796875, 0.5390625 )
 
 
 {-| Provides the OrRd4-2 color.
 -}
 orrd4_2 : ( Float, Float, Float )
 orrd4_2 =
-    ( 252, 141, 89 )
+    ( 0.984375, 0.55078125, 0.34765625 )
 
 
 {-| Provides the OrRd4-3 color.
 -}
 orrd4_3 : ( Float, Float, Float )
 orrd4_3 =
-    ( 215, 48, 31 )
+    ( 0.83984375, 0.1875, 0.12109375 )
 
 
 {-| Provides the OrRd5 color scheme.
 -}
 orrd5 : List ( Float, Float, Float )
 orrd5 =
-    [ ( 254, 240, 217 ), ( 253, 204, 138 ), ( 252, 141, 89 ), ( 227, 74, 51 ), ( 179, 0, 0 ) ]
+    [ ( 0.9921875, 0.9375, 0.84765625 ), ( 0.98828125, 0.796875, 0.5390625 ), ( 0.984375, 0.55078125, 0.34765625 ), ( 0.88671875, 0.2890625, 0.19921875 ), ( 0.69921875, 0, 0 ) ]
 
 
 {-| Provides the OrRd5-0 color.
 -}
 orrd5_0 : ( Float, Float, Float )
 orrd5_0 =
-    ( 254, 240, 217 )
+    ( 0.9921875, 0.9375, 0.84765625 )
 
 
 {-| Provides the OrRd5-1 color.
 -}
 orrd5_1 : ( Float, Float, Float )
 orrd5_1 =
-    ( 253, 204, 138 )
+    ( 0.98828125, 0.796875, 0.5390625 )
 
 
 {-| Provides the OrRd5-2 color.
 -}
 orrd5_2 : ( Float, Float, Float )
 orrd5_2 =
-    ( 252, 141, 89 )
+    ( 0.984375, 0.55078125, 0.34765625 )
 
 
 {-| Provides the OrRd5-3 color.
 -}
 orrd5_3 : ( Float, Float, Float )
 orrd5_3 =
-    ( 227, 74, 51 )
+    ( 0.88671875, 0.2890625, 0.19921875 )
 
 
 {-| Provides the OrRd5-4 color.
 -}
 orrd5_4 : ( Float, Float, Float )
 orrd5_4 =
-    ( 179, 0, 0 )
+    ( 0.69921875, 0, 0 )
 
 
 {-| Provides the OrRd6 color scheme.
 -}
 orrd6 : List ( Float, Float, Float )
 orrd6 =
-    [ ( 254, 240, 217 ), ( 253, 212, 158 ), ( 253, 187, 132 ), ( 252, 141, 89 ), ( 227, 74, 51 ), ( 179, 0, 0 ) ]
+    [ ( 0.9921875, 0.9375, 0.84765625 ), ( 0.98828125, 0.828125, 0.6171875 ), ( 0.98828125, 0.73046875, 0.515625 ), ( 0.984375, 0.55078125, 0.34765625 ), ( 0.88671875, 0.2890625, 0.19921875 ), ( 0.69921875, 0, 0 ) ]
 
 
 {-| Provides the OrRd6-0 color.
 -}
 orrd6_0 : ( Float, Float, Float )
 orrd6_0 =
-    ( 254, 240, 217 )
+    ( 0.9921875, 0.9375, 0.84765625 )
 
 
 {-| Provides the OrRd6-1 color.
 -}
 orrd6_1 : ( Float, Float, Float )
 orrd6_1 =
-    ( 253, 212, 158 )
+    ( 0.98828125, 0.828125, 0.6171875 )
 
 
 {-| Provides the OrRd6-2 color.
 -}
 orrd6_2 : ( Float, Float, Float )
 orrd6_2 =
-    ( 253, 187, 132 )
+    ( 0.98828125, 0.73046875, 0.515625 )
 
 
 {-| Provides the OrRd6-3 color.
 -}
 orrd6_3 : ( Float, Float, Float )
 orrd6_3 =
-    ( 252, 141, 89 )
+    ( 0.984375, 0.55078125, 0.34765625 )
 
 
 {-| Provides the OrRd6-4 color.
 -}
 orrd6_4 : ( Float, Float, Float )
 orrd6_4 =
-    ( 227, 74, 51 )
+    ( 0.88671875, 0.2890625, 0.19921875 )
 
 
 {-| Provides the OrRd6-5 color.
 -}
 orrd6_5 : ( Float, Float, Float )
 orrd6_5 =
-    ( 179, 0, 0 )
+    ( 0.69921875, 0, 0 )
 
 
 {-| Provides the OrRd7 color scheme.
 -}
 orrd7 : List ( Float, Float, Float )
 orrd7 =
-    [ ( 254, 240, 217 ), ( 253, 212, 158 ), ( 253, 187, 132 ), ( 252, 141, 89 ), ( 239, 101, 72 ), ( 215, 48, 31 ), ( 153, 0, 0 ) ]
+    [ ( 0.9921875, 0.9375, 0.84765625 ), ( 0.98828125, 0.828125, 0.6171875 ), ( 0.98828125, 0.73046875, 0.515625 ), ( 0.984375, 0.55078125, 0.34765625 ), ( 0.93359375, 0.39453125, 0.28125 ), ( 0.83984375, 0.1875, 0.12109375 ), ( 0.59765625, 0, 0 ) ]
 
 
 {-| Provides the OrRd7-0 color.
 -}
 orrd7_0 : ( Float, Float, Float )
 orrd7_0 =
-    ( 254, 240, 217 )
+    ( 0.9921875, 0.9375, 0.84765625 )
 
 
 {-| Provides the OrRd7-1 color.
 -}
 orrd7_1 : ( Float, Float, Float )
 orrd7_1 =
-    ( 253, 212, 158 )
+    ( 0.98828125, 0.828125, 0.6171875 )
 
 
 {-| Provides the OrRd7-2 color.
 -}
 orrd7_2 : ( Float, Float, Float )
 orrd7_2 =
-    ( 253, 187, 132 )
+    ( 0.98828125, 0.73046875, 0.515625 )
 
 
 {-| Provides the OrRd7-3 color.
 -}
 orrd7_3 : ( Float, Float, Float )
 orrd7_3 =
-    ( 252, 141, 89 )
+    ( 0.984375, 0.55078125, 0.34765625 )
 
 
 {-| Provides the OrRd7-4 color.
 -}
 orrd7_4 : ( Float, Float, Float )
 orrd7_4 =
-    ( 239, 101, 72 )
+    ( 0.93359375, 0.39453125, 0.28125 )
 
 
 {-| Provides the OrRd7-5 color.
 -}
 orrd7_5 : ( Float, Float, Float )
 orrd7_5 =
-    ( 215, 48, 31 )
+    ( 0.83984375, 0.1875, 0.12109375 )
 
 
 {-| Provides the OrRd7-6 color.
 -}
 orrd7_6 : ( Float, Float, Float )
 orrd7_6 =
-    ( 153, 0, 0 )
+    ( 0.59765625, 0, 0 )
 
 
 {-| Provides the OrRd8 color scheme.
 -}
 orrd8 : List ( Float, Float, Float )
 orrd8 =
-    [ ( 255, 247, 236 ), ( 254, 232, 200 ), ( 253, 212, 158 ), ( 253, 187, 132 ), ( 252, 141, 89 ), ( 239, 101, 72 ), ( 215, 48, 31 ), ( 153, 0, 0 ) ]
+    [ ( 0.99609375, 0.96484375, 0.921875 ), ( 0.9921875, 0.90625, 0.78125 ), ( 0.98828125, 0.828125, 0.6171875 ), ( 0.98828125, 0.73046875, 0.515625 ), ( 0.984375, 0.55078125, 0.34765625 ), ( 0.93359375, 0.39453125, 0.28125 ), ( 0.83984375, 0.1875, 0.12109375 ), ( 0.59765625, 0, 0 ) ]
 
 
 {-| Provides the OrRd8-0 color.
 -}
 orrd8_0 : ( Float, Float, Float )
 orrd8_0 =
-    ( 255, 247, 236 )
+    ( 0.99609375, 0.96484375, 0.921875 )
 
 
 {-| Provides the OrRd8-1 color.
 -}
 orrd8_1 : ( Float, Float, Float )
 orrd8_1 =
-    ( 254, 232, 200 )
+    ( 0.9921875, 0.90625, 0.78125 )
 
 
 {-| Provides the OrRd8-2 color.
 -}
 orrd8_2 : ( Float, Float, Float )
 orrd8_2 =
-    ( 253, 212, 158 )
+    ( 0.98828125, 0.828125, 0.6171875 )
 
 
 {-| Provides the OrRd8-3 color.
 -}
 orrd8_3 : ( Float, Float, Float )
 orrd8_3 =
-    ( 253, 187, 132 )
+    ( 0.98828125, 0.73046875, 0.515625 )
 
 
 {-| Provides the OrRd8-4 color.
 -}
 orrd8_4 : ( Float, Float, Float )
 orrd8_4 =
-    ( 252, 141, 89 )
+    ( 0.984375, 0.55078125, 0.34765625 )
 
 
 {-| Provides the OrRd8-5 color.
 -}
 orrd8_5 : ( Float, Float, Float )
 orrd8_5 =
-    ( 239, 101, 72 )
+    ( 0.93359375, 0.39453125, 0.28125 )
 
 
 {-| Provides the OrRd8-6 color.
 -}
 orrd8_6 : ( Float, Float, Float )
 orrd8_6 =
-    ( 215, 48, 31 )
+    ( 0.83984375, 0.1875, 0.12109375 )
 
 
 {-| Provides the OrRd8-7 color.
 -}
 orrd8_7 : ( Float, Float, Float )
 orrd8_7 =
-    ( 153, 0, 0 )
+    ( 0.59765625, 0, 0 )
 
 
 {-| Provides the OrRd9 color scheme.
 -}
 orrd9 : List ( Float, Float, Float )
 orrd9 =
-    [ ( 255, 247, 236 ), ( 254, 232, 200 ), ( 253, 212, 158 ), ( 253, 187, 132 ), ( 252, 141, 89 ), ( 239, 101, 72 ), ( 215, 48, 31 ), ( 179, 0, 0 ), ( 127, 0, 0 ) ]
+    [ ( 0.99609375, 0.96484375, 0.921875 ), ( 0.9921875, 0.90625, 0.78125 ), ( 0.98828125, 0.828125, 0.6171875 ), ( 0.98828125, 0.73046875, 0.515625 ), ( 0.984375, 0.55078125, 0.34765625 ), ( 0.93359375, 0.39453125, 0.28125 ), ( 0.83984375, 0.1875, 0.12109375 ), ( 0.69921875, 0, 0 ), ( 0.49609375, 0, 0 ) ]
 
 
 {-| Provides the OrRd9-0 color.
 -}
 orrd9_0 : ( Float, Float, Float )
 orrd9_0 =
-    ( 255, 247, 236 )
+    ( 0.99609375, 0.96484375, 0.921875 )
 
 
 {-| Provides the OrRd9-1 color.
 -}
 orrd9_1 : ( Float, Float, Float )
 orrd9_1 =
-    ( 254, 232, 200 )
+    ( 0.9921875, 0.90625, 0.78125 )
 
 
 {-| Provides the OrRd9-2 color.
 -}
 orrd9_2 : ( Float, Float, Float )
 orrd9_2 =
-    ( 253, 212, 158 )
+    ( 0.98828125, 0.828125, 0.6171875 )
 
 
 {-| Provides the OrRd9-3 color.
 -}
 orrd9_3 : ( Float, Float, Float )
 orrd9_3 =
-    ( 253, 187, 132 )
+    ( 0.98828125, 0.73046875, 0.515625 )
 
 
 {-| Provides the OrRd9-4 color.
 -}
 orrd9_4 : ( Float, Float, Float )
 orrd9_4 =
-    ( 252, 141, 89 )
+    ( 0.984375, 0.55078125, 0.34765625 )
 
 
 {-| Provides the OrRd9-5 color.
 -}
 orrd9_5 : ( Float, Float, Float )
 orrd9_5 =
-    ( 239, 101, 72 )
+    ( 0.93359375, 0.39453125, 0.28125 )
 
 
 {-| Provides the OrRd9-6 color.
 -}
 orrd9_6 : ( Float, Float, Float )
 orrd9_6 =
-    ( 215, 48, 31 )
+    ( 0.83984375, 0.1875, 0.12109375 )
 
 
 {-| Provides the OrRd9-7 color.
 -}
 orrd9_7 : ( Float, Float, Float )
 orrd9_7 =
-    ( 179, 0, 0 )
+    ( 0.69921875, 0, 0 )
 
 
 {-| Provides the OrRd9-8 color.
 -}
 orrd9_8 : ( Float, Float, Float )
 orrd9_8 =
-    ( 127, 0, 0 )
+    ( 0.49609375, 0, 0 )
 
 
 {-| Provides the PuBu3 color scheme.
 -}
 pubu3 : List ( Float, Float, Float )
 pubu3 =
-    [ ( 236, 231, 242 ), ( 166, 189, 219 ), ( 43, 140, 190 ) ]
+    [ ( 0.921875, 0.90234375, 0.9453125 ), ( 0.6484375, 0.73828125, 0.85546875 ), ( 0.16796875, 0.546875, 0.7421875 ) ]
 
 
 {-| Provides the PuBu3-0 color.
 -}
 pubu3_0 : ( Float, Float, Float )
 pubu3_0 =
-    ( 236, 231, 242 )
+    ( 0.921875, 0.90234375, 0.9453125 )
 
 
 {-| Provides the PuBu3-1 color.
 -}
 pubu3_1 : ( Float, Float, Float )
 pubu3_1 =
-    ( 166, 189, 219 )
+    ( 0.6484375, 0.73828125, 0.85546875 )
 
 
 {-| Provides the PuBu3-2 color.
 -}
 pubu3_2 : ( Float, Float, Float )
 pubu3_2 =
-    ( 43, 140, 190 )
+    ( 0.16796875, 0.546875, 0.7421875 )
 
 
 {-| Provides the PuBu4 color scheme.
 -}
 pubu4 : List ( Float, Float, Float )
 pubu4 =
-    [ ( 241, 238, 246 ), ( 189, 201, 225 ), ( 116, 169, 207 ), ( 5, 112, 176 ) ]
+    [ ( 0.94140625, 0.9296875, 0.9609375 ), ( 0.73828125, 0.78515625, 0.87890625 ), ( 0.453125, 0.66015625, 0.80859375 ), ( 0.01953125, 0.4375, 0.6875 ) ]
 
 
 {-| Provides the PuBu4-0 color.
 -}
 pubu4_0 : ( Float, Float, Float )
 pubu4_0 =
-    ( 241, 238, 246 )
+    ( 0.94140625, 0.9296875, 0.9609375 )
 
 
 {-| Provides the PuBu4-1 color.
 -}
 pubu4_1 : ( Float, Float, Float )
 pubu4_1 =
-    ( 189, 201, 225 )
+    ( 0.73828125, 0.78515625, 0.87890625 )
 
 
 {-| Provides the PuBu4-2 color.
 -}
 pubu4_2 : ( Float, Float, Float )
 pubu4_2 =
-    ( 116, 169, 207 )
+    ( 0.453125, 0.66015625, 0.80859375 )
 
 
 {-| Provides the PuBu4-3 color.
 -}
 pubu4_3 : ( Float, Float, Float )
 pubu4_3 =
-    ( 5, 112, 176 )
+    ( 0.01953125, 0.4375, 0.6875 )
 
 
 {-| Provides the PuBu5 color scheme.
 -}
 pubu5 : List ( Float, Float, Float )
 pubu5 =
-    [ ( 241, 238, 246 ), ( 189, 201, 225 ), ( 116, 169, 207 ), ( 43, 140, 190 ), ( 4, 90, 141 ) ]
+    [ ( 0.94140625, 0.9296875, 0.9609375 ), ( 0.73828125, 0.78515625, 0.87890625 ), ( 0.453125, 0.66015625, 0.80859375 ), ( 0.16796875, 0.546875, 0.7421875 ), ( 0.015625, 0.3515625, 0.55078125 ) ]
 
 
 {-| Provides the PuBu5-0 color.
 -}
 pubu5_0 : ( Float, Float, Float )
 pubu5_0 =
-    ( 241, 238, 246 )
+    ( 0.94140625, 0.9296875, 0.9609375 )
 
 
 {-| Provides the PuBu5-1 color.
 -}
 pubu5_1 : ( Float, Float, Float )
 pubu5_1 =
-    ( 189, 201, 225 )
+    ( 0.73828125, 0.78515625, 0.87890625 )
 
 
 {-| Provides the PuBu5-2 color.
 -}
 pubu5_2 : ( Float, Float, Float )
 pubu5_2 =
-    ( 116, 169, 207 )
+    ( 0.453125, 0.66015625, 0.80859375 )
 
 
 {-| Provides the PuBu5-3 color.
 -}
 pubu5_3 : ( Float, Float, Float )
 pubu5_3 =
-    ( 43, 140, 190 )
+    ( 0.16796875, 0.546875, 0.7421875 )
 
 
 {-| Provides the PuBu5-4 color.
 -}
 pubu5_4 : ( Float, Float, Float )
 pubu5_4 =
-    ( 4, 90, 141 )
+    ( 0.015625, 0.3515625, 0.55078125 )
 
 
 {-| Provides the PuBu6 color scheme.
 -}
 pubu6 : List ( Float, Float, Float )
 pubu6 =
-    [ ( 241, 238, 246 ), ( 208, 209, 230 ), ( 166, 189, 219 ), ( 116, 169, 207 ), ( 43, 140, 190 ), ( 4, 90, 141 ) ]
+    [ ( 0.94140625, 0.9296875, 0.9609375 ), ( 0.8125, 0.81640625, 0.8984375 ), ( 0.6484375, 0.73828125, 0.85546875 ), ( 0.453125, 0.66015625, 0.80859375 ), ( 0.16796875, 0.546875, 0.7421875 ), ( 0.015625, 0.3515625, 0.55078125 ) ]
 
 
 {-| Provides the PuBu6-0 color.
 -}
 pubu6_0 : ( Float, Float, Float )
 pubu6_0 =
-    ( 241, 238, 246 )
+    ( 0.94140625, 0.9296875, 0.9609375 )
 
 
 {-| Provides the PuBu6-1 color.
 -}
 pubu6_1 : ( Float, Float, Float )
 pubu6_1 =
-    ( 208, 209, 230 )
+    ( 0.8125, 0.81640625, 0.8984375 )
 
 
 {-| Provides the PuBu6-2 color.
 -}
 pubu6_2 : ( Float, Float, Float )
 pubu6_2 =
-    ( 166, 189, 219 )
+    ( 0.6484375, 0.73828125, 0.85546875 )
 
 
 {-| Provides the PuBu6-3 color.
 -}
 pubu6_3 : ( Float, Float, Float )
 pubu6_3 =
-    ( 116, 169, 207 )
+    ( 0.453125, 0.66015625, 0.80859375 )
 
 
 {-| Provides the PuBu6-4 color.
 -}
 pubu6_4 : ( Float, Float, Float )
 pubu6_4 =
-    ( 43, 140, 190 )
+    ( 0.16796875, 0.546875, 0.7421875 )
 
 
 {-| Provides the PuBu6-5 color.
 -}
 pubu6_5 : ( Float, Float, Float )
 pubu6_5 =
-    ( 4, 90, 141 )
+    ( 0.015625, 0.3515625, 0.55078125 )
 
 
 {-| Provides the PuBu7 color scheme.
 -}
 pubu7 : List ( Float, Float, Float )
 pubu7 =
-    [ ( 241, 238, 246 ), ( 208, 209, 230 ), ( 166, 189, 219 ), ( 116, 169, 207 ), ( 54, 144, 192 ), ( 5, 112, 176 ), ( 3, 78, 123 ) ]
+    [ ( 0.94140625, 0.9296875, 0.9609375 ), ( 0.8125, 0.81640625, 0.8984375 ), ( 0.6484375, 0.73828125, 0.85546875 ), ( 0.453125, 0.66015625, 0.80859375 ), ( 0.2109375, 0.5625, 0.75 ), ( 0.01953125, 0.4375, 0.6875 ), ( 0.01171875, 0.3046875, 0.48046875 ) ]
 
 
 {-| Provides the PuBu7-0 color.
 -}
 pubu7_0 : ( Float, Float, Float )
 pubu7_0 =
-    ( 241, 238, 246 )
+    ( 0.94140625, 0.9296875, 0.9609375 )
 
 
 {-| Provides the PuBu7-1 color.
 -}
 pubu7_1 : ( Float, Float, Float )
 pubu7_1 =
-    ( 208, 209, 230 )
+    ( 0.8125, 0.81640625, 0.8984375 )
 
 
 {-| Provides the PuBu7-2 color.
 -}
 pubu7_2 : ( Float, Float, Float )
 pubu7_2 =
-    ( 166, 189, 219 )
+    ( 0.6484375, 0.73828125, 0.85546875 )
 
 
 {-| Provides the PuBu7-3 color.
 -}
 pubu7_3 : ( Float, Float, Float )
 pubu7_3 =
-    ( 116, 169, 207 )
+    ( 0.453125, 0.66015625, 0.80859375 )
 
 
 {-| Provides the PuBu7-4 color.
 -}
 pubu7_4 : ( Float, Float, Float )
 pubu7_4 =
-    ( 54, 144, 192 )
+    ( 0.2109375, 0.5625, 0.75 )
 
 
 {-| Provides the PuBu7-5 color.
 -}
 pubu7_5 : ( Float, Float, Float )
 pubu7_5 =
-    ( 5, 112, 176 )
+    ( 0.01953125, 0.4375, 0.6875 )
 
 
 {-| Provides the PuBu7-6 color.
 -}
 pubu7_6 : ( Float, Float, Float )
 pubu7_6 =
-    ( 3, 78, 123 )
+    ( 0.01171875, 0.3046875, 0.48046875 )
 
 
 {-| Provides the PuBu8 color scheme.
 -}
 pubu8 : List ( Float, Float, Float )
 pubu8 =
-    [ ( 255, 247, 251 ), ( 236, 231, 242 ), ( 208, 209, 230 ), ( 166, 189, 219 ), ( 116, 169, 207 ), ( 54, 144, 192 ), ( 5, 112, 176 ), ( 3, 78, 123 ) ]
+    [ ( 0.99609375, 0.96484375, 0.98046875 ), ( 0.921875, 0.90234375, 0.9453125 ), ( 0.8125, 0.81640625, 0.8984375 ), ( 0.6484375, 0.73828125, 0.85546875 ), ( 0.453125, 0.66015625, 0.80859375 ), ( 0.2109375, 0.5625, 0.75 ), ( 0.01953125, 0.4375, 0.6875 ), ( 0.01171875, 0.3046875, 0.48046875 ) ]
 
 
 {-| Provides the PuBu8-0 color.
 -}
 pubu8_0 : ( Float, Float, Float )
 pubu8_0 =
-    ( 255, 247, 251 )
+    ( 0.99609375, 0.96484375, 0.98046875 )
 
 
 {-| Provides the PuBu8-1 color.
 -}
 pubu8_1 : ( Float, Float, Float )
 pubu8_1 =
-    ( 236, 231, 242 )
+    ( 0.921875, 0.90234375, 0.9453125 )
 
 
 {-| Provides the PuBu8-2 color.
 -}
 pubu8_2 : ( Float, Float, Float )
 pubu8_2 =
-    ( 208, 209, 230 )
+    ( 0.8125, 0.81640625, 0.8984375 )
 
 
 {-| Provides the PuBu8-3 color.
 -}
 pubu8_3 : ( Float, Float, Float )
 pubu8_3 =
-    ( 166, 189, 219 )
+    ( 0.6484375, 0.73828125, 0.85546875 )
 
 
 {-| Provides the PuBu8-4 color.
 -}
 pubu8_4 : ( Float, Float, Float )
 pubu8_4 =
-    ( 116, 169, 207 )
+    ( 0.453125, 0.66015625, 0.80859375 )
 
 
 {-| Provides the PuBu8-5 color.
 -}
 pubu8_5 : ( Float, Float, Float )
 pubu8_5 =
-    ( 54, 144, 192 )
+    ( 0.2109375, 0.5625, 0.75 )
 
 
 {-| Provides the PuBu8-6 color.
 -}
 pubu8_6 : ( Float, Float, Float )
 pubu8_6 =
-    ( 5, 112, 176 )
+    ( 0.01953125, 0.4375, 0.6875 )
 
 
 {-| Provides the PuBu8-7 color.
 -}
 pubu8_7 : ( Float, Float, Float )
 pubu8_7 =
-    ( 3, 78, 123 )
+    ( 0.01171875, 0.3046875, 0.48046875 )
 
 
 {-| Provides the PuBu9 color scheme.
 -}
 pubu9 : List ( Float, Float, Float )
 pubu9 =
-    [ ( 255, 247, 251 ), ( 236, 231, 242 ), ( 208, 209, 230 ), ( 166, 189, 219 ), ( 116, 169, 207 ), ( 54, 144, 192 ), ( 5, 112, 176 ), ( 4, 90, 141 ), ( 2, 56, 88 ) ]
+    [ ( 0.99609375, 0.96484375, 0.98046875 ), ( 0.921875, 0.90234375, 0.9453125 ), ( 0.8125, 0.81640625, 0.8984375 ), ( 0.6484375, 0.73828125, 0.85546875 ), ( 0.453125, 0.66015625, 0.80859375 ), ( 0.2109375, 0.5625, 0.75 ), ( 0.01953125, 0.4375, 0.6875 ), ( 0.015625, 0.3515625, 0.55078125 ), ( 0.0078125, 0.21875, 0.34375 ) ]
 
 
 {-| Provides the PuBu9-0 color.
 -}
 pubu9_0 : ( Float, Float, Float )
 pubu9_0 =
-    ( 255, 247, 251 )
+    ( 0.99609375, 0.96484375, 0.98046875 )
 
 
 {-| Provides the PuBu9-1 color.
 -}
 pubu9_1 : ( Float, Float, Float )
 pubu9_1 =
-    ( 236, 231, 242 )
+    ( 0.921875, 0.90234375, 0.9453125 )
 
 
 {-| Provides the PuBu9-2 color.
 -}
 pubu9_2 : ( Float, Float, Float )
 pubu9_2 =
-    ( 208, 209, 230 )
+    ( 0.8125, 0.81640625, 0.8984375 )
 
 
 {-| Provides the PuBu9-3 color.
 -}
 pubu9_3 : ( Float, Float, Float )
 pubu9_3 =
-    ( 166, 189, 219 )
+    ( 0.6484375, 0.73828125, 0.85546875 )
 
 
 {-| Provides the PuBu9-4 color.
 -}
 pubu9_4 : ( Float, Float, Float )
 pubu9_4 =
-    ( 116, 169, 207 )
+    ( 0.453125, 0.66015625, 0.80859375 )
 
 
 {-| Provides the PuBu9-5 color.
 -}
 pubu9_5 : ( Float, Float, Float )
 pubu9_5 =
-    ( 54, 144, 192 )
+    ( 0.2109375, 0.5625, 0.75 )
 
 
 {-| Provides the PuBu9-6 color.
 -}
 pubu9_6 : ( Float, Float, Float )
 pubu9_6 =
-    ( 5, 112, 176 )
+    ( 0.01953125, 0.4375, 0.6875 )
 
 
 {-| Provides the PuBu9-7 color.
 -}
 pubu9_7 : ( Float, Float, Float )
 pubu9_7 =
-    ( 4, 90, 141 )
+    ( 0.015625, 0.3515625, 0.55078125 )
 
 
 {-| Provides the PuBu9-8 color.
 -}
 pubu9_8 : ( Float, Float, Float )
 pubu9_8 =
-    ( 2, 56, 88 )
+    ( 0.0078125, 0.21875, 0.34375 )
 
 
 {-| Provides the BuPu3 color scheme.
 -}
 bupu3 : List ( Float, Float, Float )
 bupu3 =
-    [ ( 224, 236, 244 ), ( 158, 188, 218 ), ( 136, 86, 167 ) ]
+    [ ( 0.875, 0.921875, 0.953125 ), ( 0.6171875, 0.734375, 0.8515625 ), ( 0.53125, 0.3359375, 0.65234375 ) ]
 
 
 {-| Provides the BuPu3-0 color.
 -}
 bupu3_0 : ( Float, Float, Float )
 bupu3_0 =
-    ( 224, 236, 244 )
+    ( 0.875, 0.921875, 0.953125 )
 
 
 {-| Provides the BuPu3-1 color.
 -}
 bupu3_1 : ( Float, Float, Float )
 bupu3_1 =
-    ( 158, 188, 218 )
+    ( 0.6171875, 0.734375, 0.8515625 )
 
 
 {-| Provides the BuPu3-2 color.
 -}
 bupu3_2 : ( Float, Float, Float )
 bupu3_2 =
-    ( 136, 86, 167 )
+    ( 0.53125, 0.3359375, 0.65234375 )
 
 
 {-| Provides the BuPu4 color scheme.
 -}
 bupu4 : List ( Float, Float, Float )
 bupu4 =
-    [ ( 237, 248, 251 ), ( 179, 205, 227 ), ( 140, 150, 198 ), ( 136, 65, 157 ) ]
+    [ ( 0.92578125, 0.96875, 0.98046875 ), ( 0.69921875, 0.80078125, 0.88671875 ), ( 0.546875, 0.5859375, 0.7734375 ), ( 0.53125, 0.25390625, 0.61328125 ) ]
 
 
 {-| Provides the BuPu4-0 color.
 -}
 bupu4_0 : ( Float, Float, Float )
 bupu4_0 =
-    ( 237, 248, 251 )
+    ( 0.92578125, 0.96875, 0.98046875 )
 
 
 {-| Provides the BuPu4-1 color.
 -}
 bupu4_1 : ( Float, Float, Float )
 bupu4_1 =
-    ( 179, 205, 227 )
+    ( 0.69921875, 0.80078125, 0.88671875 )
 
 
 {-| Provides the BuPu4-2 color.
 -}
 bupu4_2 : ( Float, Float, Float )
 bupu4_2 =
-    ( 140, 150, 198 )
+    ( 0.546875, 0.5859375, 0.7734375 )
 
 
 {-| Provides the BuPu4-3 color.
 -}
 bupu4_3 : ( Float, Float, Float )
 bupu4_3 =
-    ( 136, 65, 157 )
+    ( 0.53125, 0.25390625, 0.61328125 )
 
 
 {-| Provides the BuPu5 color scheme.
 -}
 bupu5 : List ( Float, Float, Float )
 bupu5 =
-    [ ( 237, 248, 251 ), ( 179, 205, 227 ), ( 140, 150, 198 ), ( 136, 86, 167 ), ( 129, 15, 124 ) ]
+    [ ( 0.92578125, 0.96875, 0.98046875 ), ( 0.69921875, 0.80078125, 0.88671875 ), ( 0.546875, 0.5859375, 0.7734375 ), ( 0.53125, 0.3359375, 0.65234375 ), ( 0.50390625, 0.05859375, 0.484375 ) ]
 
 
 {-| Provides the BuPu5-0 color.
 -}
 bupu5_0 : ( Float, Float, Float )
 bupu5_0 =
-    ( 237, 248, 251 )
+    ( 0.92578125, 0.96875, 0.98046875 )
 
 
 {-| Provides the BuPu5-1 color.
 -}
 bupu5_1 : ( Float, Float, Float )
 bupu5_1 =
-    ( 179, 205, 227 )
+    ( 0.69921875, 0.80078125, 0.88671875 )
 
 
 {-| Provides the BuPu5-2 color.
 -}
 bupu5_2 : ( Float, Float, Float )
 bupu5_2 =
-    ( 140, 150, 198 )
+    ( 0.546875, 0.5859375, 0.7734375 )
 
 
 {-| Provides the BuPu5-3 color.
 -}
 bupu5_3 : ( Float, Float, Float )
 bupu5_3 =
-    ( 136, 86, 167 )
+    ( 0.53125, 0.3359375, 0.65234375 )
 
 
 {-| Provides the BuPu5-4 color.
 -}
 bupu5_4 : ( Float, Float, Float )
 bupu5_4 =
-    ( 129, 15, 124 )
+    ( 0.50390625, 0.05859375, 0.484375 )
 
 
 {-| Provides the BuPu6 color scheme.
 -}
 bupu6 : List ( Float, Float, Float )
 bupu6 =
-    [ ( 237, 248, 251 ), ( 191, 211, 230 ), ( 158, 188, 218 ), ( 140, 150, 198 ), ( 136, 86, 167 ), ( 129, 15, 124 ) ]
+    [ ( 0.92578125, 0.96875, 0.98046875 ), ( 0.74609375, 0.82421875, 0.8984375 ), ( 0.6171875, 0.734375, 0.8515625 ), ( 0.546875, 0.5859375, 0.7734375 ), ( 0.53125, 0.3359375, 0.65234375 ), ( 0.50390625, 0.05859375, 0.484375 ) ]
 
 
 {-| Provides the BuPu6-0 color.
 -}
 bupu6_0 : ( Float, Float, Float )
 bupu6_0 =
-    ( 237, 248, 251 )
+    ( 0.92578125, 0.96875, 0.98046875 )
 
 
 {-| Provides the BuPu6-1 color.
 -}
 bupu6_1 : ( Float, Float, Float )
 bupu6_1 =
-    ( 191, 211, 230 )
+    ( 0.74609375, 0.82421875, 0.8984375 )
 
 
 {-| Provides the BuPu6-2 color.
 -}
 bupu6_2 : ( Float, Float, Float )
 bupu6_2 =
-    ( 158, 188, 218 )
+    ( 0.6171875, 0.734375, 0.8515625 )
 
 
 {-| Provides the BuPu6-3 color.
 -}
 bupu6_3 : ( Float, Float, Float )
 bupu6_3 =
-    ( 140, 150, 198 )
+    ( 0.546875, 0.5859375, 0.7734375 )
 
 
 {-| Provides the BuPu6-4 color.
 -}
 bupu6_4 : ( Float, Float, Float )
 bupu6_4 =
-    ( 136, 86, 167 )
+    ( 0.53125, 0.3359375, 0.65234375 )
 
 
 {-| Provides the BuPu6-5 color.
 -}
 bupu6_5 : ( Float, Float, Float )
 bupu6_5 =
-    ( 129, 15, 124 )
+    ( 0.50390625, 0.05859375, 0.484375 )
 
 
 {-| Provides the BuPu7 color scheme.
 -}
 bupu7 : List ( Float, Float, Float )
 bupu7 =
-    [ ( 237, 248, 251 ), ( 191, 211, 230 ), ( 158, 188, 218 ), ( 140, 150, 198 ), ( 140, 107, 177 ), ( 136, 65, 157 ), ( 110, 1, 107 ) ]
+    [ ( 0.92578125, 0.96875, 0.98046875 ), ( 0.74609375, 0.82421875, 0.8984375 ), ( 0.6171875, 0.734375, 0.8515625 ), ( 0.546875, 0.5859375, 0.7734375 ), ( 0.546875, 0.41796875, 0.69140625 ), ( 0.53125, 0.25390625, 0.61328125 ), ( 0.4296875, 0.00390625, 0.41796875 ) ]
 
 
 {-| Provides the BuPu7-0 color.
 -}
 bupu7_0 : ( Float, Float, Float )
 bupu7_0 =
-    ( 237, 248, 251 )
+    ( 0.92578125, 0.96875, 0.98046875 )
 
 
 {-| Provides the BuPu7-1 color.
 -}
 bupu7_1 : ( Float, Float, Float )
 bupu7_1 =
-    ( 191, 211, 230 )
+    ( 0.74609375, 0.82421875, 0.8984375 )
 
 
 {-| Provides the BuPu7-2 color.
 -}
 bupu7_2 : ( Float, Float, Float )
 bupu7_2 =
-    ( 158, 188, 218 )
+    ( 0.6171875, 0.734375, 0.8515625 )
 
 
 {-| Provides the BuPu7-3 color.
 -}
 bupu7_3 : ( Float, Float, Float )
 bupu7_3 =
-    ( 140, 150, 198 )
+    ( 0.546875, 0.5859375, 0.7734375 )
 
 
 {-| Provides the BuPu7-4 color.
 -}
 bupu7_4 : ( Float, Float, Float )
 bupu7_4 =
-    ( 140, 107, 177 )
+    ( 0.546875, 0.41796875, 0.69140625 )
 
 
 {-| Provides the BuPu7-5 color.
 -}
 bupu7_5 : ( Float, Float, Float )
 bupu7_5 =
-    ( 136, 65, 157 )
+    ( 0.53125, 0.25390625, 0.61328125 )
 
 
 {-| Provides the BuPu7-6 color.
 -}
 bupu7_6 : ( Float, Float, Float )
 bupu7_6 =
-    ( 110, 1, 107 )
+    ( 0.4296875, 0.00390625, 0.41796875 )
 
 
 {-| Provides the BuPu8 color scheme.
 -}
 bupu8 : List ( Float, Float, Float )
 bupu8 =
-    [ ( 247, 252, 253 ), ( 224, 236, 244 ), ( 191, 211, 230 ), ( 158, 188, 218 ), ( 140, 150, 198 ), ( 140, 107, 177 ), ( 136, 65, 157 ), ( 110, 1, 107 ) ]
+    [ ( 0.96484375, 0.984375, 0.98828125 ), ( 0.875, 0.921875, 0.953125 ), ( 0.74609375, 0.82421875, 0.8984375 ), ( 0.6171875, 0.734375, 0.8515625 ), ( 0.546875, 0.5859375, 0.7734375 ), ( 0.546875, 0.41796875, 0.69140625 ), ( 0.53125, 0.25390625, 0.61328125 ), ( 0.4296875, 0.00390625, 0.41796875 ) ]
 
 
 {-| Provides the BuPu8-0 color.
 -}
 bupu8_0 : ( Float, Float, Float )
 bupu8_0 =
-    ( 247, 252, 253 )
+    ( 0.96484375, 0.984375, 0.98828125 )
 
 
 {-| Provides the BuPu8-1 color.
 -}
 bupu8_1 : ( Float, Float, Float )
 bupu8_1 =
-    ( 224, 236, 244 )
+    ( 0.875, 0.921875, 0.953125 )
 
 
 {-| Provides the BuPu8-2 color.
 -}
 bupu8_2 : ( Float, Float, Float )
 bupu8_2 =
-    ( 191, 211, 230 )
+    ( 0.74609375, 0.82421875, 0.8984375 )
 
 
 {-| Provides the BuPu8-3 color.
 -}
 bupu8_3 : ( Float, Float, Float )
 bupu8_3 =
-    ( 158, 188, 218 )
+    ( 0.6171875, 0.734375, 0.8515625 )
 
 
 {-| Provides the BuPu8-4 color.
 -}
 bupu8_4 : ( Float, Float, Float )
 bupu8_4 =
-    ( 140, 150, 198 )
+    ( 0.546875, 0.5859375, 0.7734375 )
 
 
 {-| Provides the BuPu8-5 color.
 -}
 bupu8_5 : ( Float, Float, Float )
 bupu8_5 =
-    ( 140, 107, 177 )
+    ( 0.546875, 0.41796875, 0.69140625 )
 
 
 {-| Provides the BuPu8-6 color.
 -}
 bupu8_6 : ( Float, Float, Float )
 bupu8_6 =
-    ( 136, 65, 157 )
+    ( 0.53125, 0.25390625, 0.61328125 )
 
 
 {-| Provides the BuPu8-7 color.
 -}
 bupu8_7 : ( Float, Float, Float )
 bupu8_7 =
-    ( 110, 1, 107 )
+    ( 0.4296875, 0.00390625, 0.41796875 )
 
 
 {-| Provides the BuPu9 color scheme.
 -}
 bupu9 : List ( Float, Float, Float )
 bupu9 =
-    [ ( 247, 252, 253 ), ( 224, 236, 244 ), ( 191, 211, 230 ), ( 158, 188, 218 ), ( 140, 150, 198 ), ( 140, 107, 177 ), ( 136, 65, 157 ), ( 129, 15, 124 ), ( 77, 0, 75 ) ]
+    [ ( 0.96484375, 0.984375, 0.98828125 ), ( 0.875, 0.921875, 0.953125 ), ( 0.74609375, 0.82421875, 0.8984375 ), ( 0.6171875, 0.734375, 0.8515625 ), ( 0.546875, 0.5859375, 0.7734375 ), ( 0.546875, 0.41796875, 0.69140625 ), ( 0.53125, 0.25390625, 0.61328125 ), ( 0.50390625, 0.05859375, 0.484375 ), ( 0.30078125, 0, 0.29296875 ) ]
 
 
 {-| Provides the BuPu9-0 color.
 -}
 bupu9_0 : ( Float, Float, Float )
 bupu9_0 =
-    ( 247, 252, 253 )
+    ( 0.96484375, 0.984375, 0.98828125 )
 
 
 {-| Provides the BuPu9-1 color.
 -}
 bupu9_1 : ( Float, Float, Float )
 bupu9_1 =
-    ( 224, 236, 244 )
+    ( 0.875, 0.921875, 0.953125 )
 
 
 {-| Provides the BuPu9-2 color.
 -}
 bupu9_2 : ( Float, Float, Float )
 bupu9_2 =
-    ( 191, 211, 230 )
+    ( 0.74609375, 0.82421875, 0.8984375 )
 
 
 {-| Provides the BuPu9-3 color.
 -}
 bupu9_3 : ( Float, Float, Float )
 bupu9_3 =
-    ( 158, 188, 218 )
+    ( 0.6171875, 0.734375, 0.8515625 )
 
 
 {-| Provides the BuPu9-4 color.
 -}
 bupu9_4 : ( Float, Float, Float )
 bupu9_4 =
-    ( 140, 150, 198 )
+    ( 0.546875, 0.5859375, 0.7734375 )
 
 
 {-| Provides the BuPu9-5 color.
 -}
 bupu9_5 : ( Float, Float, Float )
 bupu9_5 =
-    ( 140, 107, 177 )
+    ( 0.546875, 0.41796875, 0.69140625 )
 
 
 {-| Provides the BuPu9-6 color.
 -}
 bupu9_6 : ( Float, Float, Float )
 bupu9_6 =
-    ( 136, 65, 157 )
+    ( 0.53125, 0.25390625, 0.61328125 )
 
 
 {-| Provides the BuPu9-7 color.
 -}
 bupu9_7 : ( Float, Float, Float )
 bupu9_7 =
-    ( 129, 15, 124 )
+    ( 0.50390625, 0.05859375, 0.484375 )
 
 
 {-| Provides the BuPu9-8 color.
 -}
 bupu9_8 : ( Float, Float, Float )
 bupu9_8 =
-    ( 77, 0, 75 )
+    ( 0.30078125, 0, 0.29296875 )
 
 
 {-| Provides the BuGn3 color scheme.
 -}
 bugn3 : List ( Float, Float, Float )
 bugn3 =
-    [ ( 229, 245, 249 ), ( 153, 216, 201 ), ( 44, 162, 95 ) ]
+    [ ( 0.89453125, 0.95703125, 0.97265625 ), ( 0.59765625, 0.84375, 0.78515625 ), ( 0.171875, 0.6328125, 0.37109375 ) ]
 
 
 {-| Provides the BuGn3-0 color.
 -}
 bugn3_0 : ( Float, Float, Float )
 bugn3_0 =
-    ( 229, 245, 249 )
+    ( 0.89453125, 0.95703125, 0.97265625 )
 
 
 {-| Provides the BuGn3-1 color.
 -}
 bugn3_1 : ( Float, Float, Float )
 bugn3_1 =
-    ( 153, 216, 201 )
+    ( 0.59765625, 0.84375, 0.78515625 )
 
 
 {-| Provides the BuGn3-2 color.
 -}
 bugn3_2 : ( Float, Float, Float )
 bugn3_2 =
-    ( 44, 162, 95 )
+    ( 0.171875, 0.6328125, 0.37109375 )
 
 
 {-| Provides the BuGn4 color scheme.
 -}
 bugn4 : List ( Float, Float, Float )
 bugn4 =
-    [ ( 237, 248, 251 ), ( 178, 226, 226 ), ( 102, 194, 164 ), ( 35, 139, 69 ) ]
+    [ ( 0.92578125, 0.96875, 0.98046875 ), ( 0.6953125, 0.8828125, 0.8828125 ), ( 0.3984375, 0.7578125, 0.640625 ), ( 0.13671875, 0.54296875, 0.26953125 ) ]
 
 
 {-| Provides the BuGn4-0 color.
 -}
 bugn4_0 : ( Float, Float, Float )
 bugn4_0 =
-    ( 237, 248, 251 )
+    ( 0.92578125, 0.96875, 0.98046875 )
 
 
 {-| Provides the BuGn4-1 color.
 -}
 bugn4_1 : ( Float, Float, Float )
 bugn4_1 =
-    ( 178, 226, 226 )
+    ( 0.6953125, 0.8828125, 0.8828125 )
 
 
 {-| Provides the BuGn4-2 color.
 -}
 bugn4_2 : ( Float, Float, Float )
 bugn4_2 =
-    ( 102, 194, 164 )
+    ( 0.3984375, 0.7578125, 0.640625 )
 
 
 {-| Provides the BuGn4-3 color.
 -}
 bugn4_3 : ( Float, Float, Float )
 bugn4_3 =
-    ( 35, 139, 69 )
+    ( 0.13671875, 0.54296875, 0.26953125 )
 
 
 {-| Provides the BuGn5 color scheme.
 -}
 bugn5 : List ( Float, Float, Float )
 bugn5 =
-    [ ( 237, 248, 251 ), ( 178, 226, 226 ), ( 102, 194, 164 ), ( 44, 162, 95 ), ( 0, 109, 44 ) ]
+    [ ( 0.92578125, 0.96875, 0.98046875 ), ( 0.6953125, 0.8828125, 0.8828125 ), ( 0.3984375, 0.7578125, 0.640625 ), ( 0.171875, 0.6328125, 0.37109375 ), ( 0, 0.42578125, 0.171875 ) ]
 
 
 {-| Provides the BuGn5-0 color.
 -}
 bugn5_0 : ( Float, Float, Float )
 bugn5_0 =
-    ( 237, 248, 251 )
+    ( 0.92578125, 0.96875, 0.98046875 )
 
 
 {-| Provides the BuGn5-1 color.
 -}
 bugn5_1 : ( Float, Float, Float )
 bugn5_1 =
-    ( 178, 226, 226 )
+    ( 0.6953125, 0.8828125, 0.8828125 )
 
 
 {-| Provides the BuGn5-2 color.
 -}
 bugn5_2 : ( Float, Float, Float )
 bugn5_2 =
-    ( 102, 194, 164 )
+    ( 0.3984375, 0.7578125, 0.640625 )
 
 
 {-| Provides the BuGn5-3 color.
 -}
 bugn5_3 : ( Float, Float, Float )
 bugn5_3 =
-    ( 44, 162, 95 )
+    ( 0.171875, 0.6328125, 0.37109375 )
 
 
 {-| Provides the BuGn5-4 color.
 -}
 bugn5_4 : ( Float, Float, Float )
 bugn5_4 =
-    ( 0, 109, 44 )
+    ( 0, 0.42578125, 0.171875 )
 
 
 {-| Provides the BuGn6 color scheme.
 -}
 bugn6 : List ( Float, Float, Float )
 bugn6 =
-    [ ( 237, 248, 251 ), ( 204, 236, 230 ), ( 153, 216, 201 ), ( 102, 194, 164 ), ( 44, 162, 95 ), ( 0, 109, 44 ) ]
+    [ ( 0.92578125, 0.96875, 0.98046875 ), ( 0.796875, 0.921875, 0.8984375 ), ( 0.59765625, 0.84375, 0.78515625 ), ( 0.3984375, 0.7578125, 0.640625 ), ( 0.171875, 0.6328125, 0.37109375 ), ( 0, 0.42578125, 0.171875 ) ]
 
 
 {-| Provides the BuGn6-0 color.
 -}
 bugn6_0 : ( Float, Float, Float )
 bugn6_0 =
-    ( 237, 248, 251 )
+    ( 0.92578125, 0.96875, 0.98046875 )
 
 
 {-| Provides the BuGn6-1 color.
 -}
 bugn6_1 : ( Float, Float, Float )
 bugn6_1 =
-    ( 204, 236, 230 )
+    ( 0.796875, 0.921875, 0.8984375 )
 
 
 {-| Provides the BuGn6-2 color.
 -}
 bugn6_2 : ( Float, Float, Float )
 bugn6_2 =
-    ( 153, 216, 201 )
+    ( 0.59765625, 0.84375, 0.78515625 )
 
 
 {-| Provides the BuGn6-3 color.
 -}
 bugn6_3 : ( Float, Float, Float )
 bugn6_3 =
-    ( 102, 194, 164 )
+    ( 0.3984375, 0.7578125, 0.640625 )
 
 
 {-| Provides the BuGn6-4 color.
 -}
 bugn6_4 : ( Float, Float, Float )
 bugn6_4 =
-    ( 44, 162, 95 )
+    ( 0.171875, 0.6328125, 0.37109375 )
 
 
 {-| Provides the BuGn6-5 color.
 -}
 bugn6_5 : ( Float, Float, Float )
 bugn6_5 =
-    ( 0, 109, 44 )
+    ( 0, 0.42578125, 0.171875 )
 
 
 {-| Provides the BuGn7 color scheme.
 -}
 bugn7 : List ( Float, Float, Float )
 bugn7 =
-    [ ( 237, 248, 251 ), ( 204, 236, 230 ), ( 153, 216, 201 ), ( 102, 194, 164 ), ( 65, 174, 118 ), ( 35, 139, 69 ), ( 0, 88, 36 ) ]
+    [ ( 0.92578125, 0.96875, 0.98046875 ), ( 0.796875, 0.921875, 0.8984375 ), ( 0.59765625, 0.84375, 0.78515625 ), ( 0.3984375, 0.7578125, 0.640625 ), ( 0.25390625, 0.6796875, 0.4609375 ), ( 0.13671875, 0.54296875, 0.26953125 ), ( 0, 0.34375, 0.140625 ) ]
 
 
 {-| Provides the BuGn7-0 color.
 -}
 bugn7_0 : ( Float, Float, Float )
 bugn7_0 =
-    ( 237, 248, 251 )
+    ( 0.92578125, 0.96875, 0.98046875 )
 
 
 {-| Provides the BuGn7-1 color.
 -}
 bugn7_1 : ( Float, Float, Float )
 bugn7_1 =
-    ( 204, 236, 230 )
+    ( 0.796875, 0.921875, 0.8984375 )
 
 
 {-| Provides the BuGn7-2 color.
 -}
 bugn7_2 : ( Float, Float, Float )
 bugn7_2 =
-    ( 153, 216, 201 )
+    ( 0.59765625, 0.84375, 0.78515625 )
 
 
 {-| Provides the BuGn7-3 color.
 -}
 bugn7_3 : ( Float, Float, Float )
 bugn7_3 =
-    ( 102, 194, 164 )
+    ( 0.3984375, 0.7578125, 0.640625 )
 
 
 {-| Provides the BuGn7-4 color.
 -}
 bugn7_4 : ( Float, Float, Float )
 bugn7_4 =
-    ( 65, 174, 118 )
+    ( 0.25390625, 0.6796875, 0.4609375 )
 
 
 {-| Provides the BuGn7-5 color.
 -}
 bugn7_5 : ( Float, Float, Float )
 bugn7_5 =
-    ( 35, 139, 69 )
+    ( 0.13671875, 0.54296875, 0.26953125 )
 
 
 {-| Provides the BuGn7-6 color.
 -}
 bugn7_6 : ( Float, Float, Float )
 bugn7_6 =
-    ( 0, 88, 36 )
+    ( 0, 0.34375, 0.140625 )
 
 
 {-| Provides the BuGn8 color scheme.
 -}
 bugn8 : List ( Float, Float, Float )
 bugn8 =
-    [ ( 247, 252, 253 ), ( 229, 245, 249 ), ( 204, 236, 230 ), ( 153, 216, 201 ), ( 102, 194, 164 ), ( 65, 174, 118 ), ( 35, 139, 69 ), ( 0, 88, 36 ) ]
+    [ ( 0.96484375, 0.984375, 0.98828125 ), ( 0.89453125, 0.95703125, 0.97265625 ), ( 0.796875, 0.921875, 0.8984375 ), ( 0.59765625, 0.84375, 0.78515625 ), ( 0.3984375, 0.7578125, 0.640625 ), ( 0.25390625, 0.6796875, 0.4609375 ), ( 0.13671875, 0.54296875, 0.26953125 ), ( 0, 0.34375, 0.140625 ) ]
 
 
 {-| Provides the BuGn8-0 color.
 -}
 bugn8_0 : ( Float, Float, Float )
 bugn8_0 =
-    ( 247, 252, 253 )
+    ( 0.96484375, 0.984375, 0.98828125 )
 
 
 {-| Provides the BuGn8-1 color.
 -}
 bugn8_1 : ( Float, Float, Float )
 bugn8_1 =
-    ( 229, 245, 249 )
+    ( 0.89453125, 0.95703125, 0.97265625 )
 
 
 {-| Provides the BuGn8-2 color.
 -}
 bugn8_2 : ( Float, Float, Float )
 bugn8_2 =
-    ( 204, 236, 230 )
+    ( 0.796875, 0.921875, 0.8984375 )
 
 
 {-| Provides the BuGn8-3 color.
 -}
 bugn8_3 : ( Float, Float, Float )
 bugn8_3 =
-    ( 153, 216, 201 )
+    ( 0.59765625, 0.84375, 0.78515625 )
 
 
 {-| Provides the BuGn8-4 color.
 -}
 bugn8_4 : ( Float, Float, Float )
 bugn8_4 =
-    ( 102, 194, 164 )
+    ( 0.3984375, 0.7578125, 0.640625 )
 
 
 {-| Provides the BuGn8-5 color.
 -}
 bugn8_5 : ( Float, Float, Float )
 bugn8_5 =
-    ( 65, 174, 118 )
+    ( 0.25390625, 0.6796875, 0.4609375 )
 
 
 {-| Provides the BuGn8-6 color.
 -}
 bugn8_6 : ( Float, Float, Float )
 bugn8_6 =
-    ( 35, 139, 69 )
+    ( 0.13671875, 0.54296875, 0.26953125 )
 
 
 {-| Provides the BuGn8-7 color.
 -}
 bugn8_7 : ( Float, Float, Float )
 bugn8_7 =
-    ( 0, 88, 36 )
+    ( 0, 0.34375, 0.140625 )
 
 
 {-| Provides the BuGn9 color scheme.
 -}
 bugn9 : List ( Float, Float, Float )
 bugn9 =
-    [ ( 247, 252, 253 ), ( 229, 245, 249 ), ( 204, 236, 230 ), ( 153, 216, 201 ), ( 102, 194, 164 ), ( 65, 174, 118 ), ( 35, 139, 69 ), ( 0, 109, 44 ), ( 0, 68, 27 ) ]
+    [ ( 0.96484375, 0.984375, 0.98828125 ), ( 0.89453125, 0.95703125, 0.97265625 ), ( 0.796875, 0.921875, 0.8984375 ), ( 0.59765625, 0.84375, 0.78515625 ), ( 0.3984375, 0.7578125, 0.640625 ), ( 0.25390625, 0.6796875, 0.4609375 ), ( 0.13671875, 0.54296875, 0.26953125 ), ( 0, 0.42578125, 0.171875 ), ( 0, 0.265625, 0.10546875 ) ]
 
 
 {-| Provides the BuGn9-0 color.
 -}
 bugn9_0 : ( Float, Float, Float )
 bugn9_0 =
-    ( 247, 252, 253 )
+    ( 0.96484375, 0.984375, 0.98828125 )
 
 
 {-| Provides the BuGn9-1 color.
 -}
 bugn9_1 : ( Float, Float, Float )
 bugn9_1 =
-    ( 229, 245, 249 )
+    ( 0.89453125, 0.95703125, 0.97265625 )
 
 
 {-| Provides the BuGn9-2 color.
 -}
 bugn9_2 : ( Float, Float, Float )
 bugn9_2 =
-    ( 204, 236, 230 )
+    ( 0.796875, 0.921875, 0.8984375 )
 
 
 {-| Provides the BuGn9-3 color.
 -}
 bugn9_3 : ( Float, Float, Float )
 bugn9_3 =
-    ( 153, 216, 201 )
+    ( 0.59765625, 0.84375, 0.78515625 )
 
 
 {-| Provides the BuGn9-4 color.
 -}
 bugn9_4 : ( Float, Float, Float )
 bugn9_4 =
-    ( 102, 194, 164 )
+    ( 0.3984375, 0.7578125, 0.640625 )
 
 
 {-| Provides the BuGn9-5 color.
 -}
 bugn9_5 : ( Float, Float, Float )
 bugn9_5 =
-    ( 65, 174, 118 )
+    ( 0.25390625, 0.6796875, 0.4609375 )
 
 
 {-| Provides the BuGn9-6 color.
 -}
 bugn9_6 : ( Float, Float, Float )
 bugn9_6 =
-    ( 35, 139, 69 )
+    ( 0.13671875, 0.54296875, 0.26953125 )
 
 
 {-| Provides the BuGn9-7 color.
 -}
 bugn9_7 : ( Float, Float, Float )
 bugn9_7 =
-    ( 0, 109, 44 )
+    ( 0, 0.42578125, 0.171875 )
 
 
 {-| Provides the BuGn9-8 color.
 -}
 bugn9_8 : ( Float, Float, Float )
 bugn9_8 =
-    ( 0, 68, 27 )
+    ( 0, 0.265625, 0.10546875 )
 
 
 {-| Provides the YlOrBr3 color scheme.
 -}
 ylorbr3 : List ( Float, Float, Float )
 ylorbr3 =
-    [ ( 255, 247, 188 ), ( 254, 196, 79 ), ( 217, 95, 14 ) ]
+    [ ( 0.99609375, 0.96484375, 0.734375 ), ( 0.9921875, 0.765625, 0.30859375 ), ( 0.84765625, 0.37109375, 0.0546875 ) ]
 
 
 {-| Provides the YlOrBr3-0 color.
 -}
 ylorbr3_0 : ( Float, Float, Float )
 ylorbr3_0 =
-    ( 255, 247, 188 )
+    ( 0.99609375, 0.96484375, 0.734375 )
 
 
 {-| Provides the YlOrBr3-1 color.
 -}
 ylorbr3_1 : ( Float, Float, Float )
 ylorbr3_1 =
-    ( 254, 196, 79 )
+    ( 0.9921875, 0.765625, 0.30859375 )
 
 
 {-| Provides the YlOrBr3-2 color.
 -}
 ylorbr3_2 : ( Float, Float, Float )
 ylorbr3_2 =
-    ( 217, 95, 14 )
+    ( 0.84765625, 0.37109375, 0.0546875 )
 
 
 {-| Provides the YlOrBr4 color scheme.
 -}
 ylorbr4 : List ( Float, Float, Float )
 ylorbr4 =
-    [ ( 255, 255, 212 ), ( 254, 217, 142 ), ( 254, 153, 41 ), ( 204, 76, 2 ) ]
+    [ ( 0.99609375, 0.99609375, 0.828125 ), ( 0.9921875, 0.84765625, 0.5546875 ), ( 0.9921875, 0.59765625, 0.16015625 ), ( 0.796875, 0.296875, 0.0078125 ) ]
 
 
 {-| Provides the YlOrBr4-0 color.
 -}
 ylorbr4_0 : ( Float, Float, Float )
 ylorbr4_0 =
-    ( 255, 255, 212 )
+    ( 0.99609375, 0.99609375, 0.828125 )
 
 
 {-| Provides the YlOrBr4-1 color.
 -}
 ylorbr4_1 : ( Float, Float, Float )
 ylorbr4_1 =
-    ( 254, 217, 142 )
+    ( 0.9921875, 0.84765625, 0.5546875 )
 
 
 {-| Provides the YlOrBr4-2 color.
 -}
 ylorbr4_2 : ( Float, Float, Float )
 ylorbr4_2 =
-    ( 254, 153, 41 )
+    ( 0.9921875, 0.59765625, 0.16015625 )
 
 
 {-| Provides the YlOrBr4-3 color.
 -}
 ylorbr4_3 : ( Float, Float, Float )
 ylorbr4_3 =
-    ( 204, 76, 2 )
+    ( 0.796875, 0.296875, 0.0078125 )
 
 
 {-| Provides the YlOrBr5 color scheme.
 -}
 ylorbr5 : List ( Float, Float, Float )
 ylorbr5 =
-    [ ( 255, 255, 212 ), ( 254, 217, 142 ), ( 254, 153, 41 ), ( 217, 95, 14 ), ( 153, 52, 4 ) ]
+    [ ( 0.99609375, 0.99609375, 0.828125 ), ( 0.9921875, 0.84765625, 0.5546875 ), ( 0.9921875, 0.59765625, 0.16015625 ), ( 0.84765625, 0.37109375, 0.0546875 ), ( 0.59765625, 0.203125, 0.015625 ) ]
 
 
 {-| Provides the YlOrBr5-0 color.
 -}
 ylorbr5_0 : ( Float, Float, Float )
 ylorbr5_0 =
-    ( 255, 255, 212 )
+    ( 0.99609375, 0.99609375, 0.828125 )
 
 
 {-| Provides the YlOrBr5-1 color.
 -}
 ylorbr5_1 : ( Float, Float, Float )
 ylorbr5_1 =
-    ( 254, 217, 142 )
+    ( 0.9921875, 0.84765625, 0.5546875 )
 
 
 {-| Provides the YlOrBr5-2 color.
 -}
 ylorbr5_2 : ( Float, Float, Float )
 ylorbr5_2 =
-    ( 254, 153, 41 )
+    ( 0.9921875, 0.59765625, 0.16015625 )
 
 
 {-| Provides the YlOrBr5-3 color.
 -}
 ylorbr5_3 : ( Float, Float, Float )
 ylorbr5_3 =
-    ( 217, 95, 14 )
+    ( 0.84765625, 0.37109375, 0.0546875 )
 
 
 {-| Provides the YlOrBr5-4 color.
 -}
 ylorbr5_4 : ( Float, Float, Float )
 ylorbr5_4 =
-    ( 153, 52, 4 )
+    ( 0.59765625, 0.203125, 0.015625 )
 
 
 {-| Provides the YlOrBr6 color scheme.
 -}
 ylorbr6 : List ( Float, Float, Float )
 ylorbr6 =
-    [ ( 255, 255, 212 ), ( 254, 227, 145 ), ( 254, 196, 79 ), ( 254, 153, 41 ), ( 217, 95, 14 ), ( 153, 52, 4 ) ]
+    [ ( 0.99609375, 0.99609375, 0.828125 ), ( 0.9921875, 0.88671875, 0.56640625 ), ( 0.9921875, 0.765625, 0.30859375 ), ( 0.9921875, 0.59765625, 0.16015625 ), ( 0.84765625, 0.37109375, 0.0546875 ), ( 0.59765625, 0.203125, 0.015625 ) ]
 
 
 {-| Provides the YlOrBr6-0 color.
 -}
 ylorbr6_0 : ( Float, Float, Float )
 ylorbr6_0 =
-    ( 255, 255, 212 )
+    ( 0.99609375, 0.99609375, 0.828125 )
 
 
 {-| Provides the YlOrBr6-1 color.
 -}
 ylorbr6_1 : ( Float, Float, Float )
 ylorbr6_1 =
-    ( 254, 227, 145 )
+    ( 0.9921875, 0.88671875, 0.56640625 )
 
 
 {-| Provides the YlOrBr6-2 color.
 -}
 ylorbr6_2 : ( Float, Float, Float )
 ylorbr6_2 =
-    ( 254, 196, 79 )
+    ( 0.9921875, 0.765625, 0.30859375 )
 
 
 {-| Provides the YlOrBr6-3 color.
 -}
 ylorbr6_3 : ( Float, Float, Float )
 ylorbr6_3 =
-    ( 254, 153, 41 )
+    ( 0.9921875, 0.59765625, 0.16015625 )
 
 
 {-| Provides the YlOrBr6-4 color.
 -}
 ylorbr6_4 : ( Float, Float, Float )
 ylorbr6_4 =
-    ( 217, 95, 14 )
+    ( 0.84765625, 0.37109375, 0.0546875 )
 
 
 {-| Provides the YlOrBr6-5 color.
 -}
 ylorbr6_5 : ( Float, Float, Float )
 ylorbr6_5 =
-    ( 153, 52, 4 )
+    ( 0.59765625, 0.203125, 0.015625 )
 
 
 {-| Provides the YlOrBr7 color scheme.
 -}
 ylorbr7 : List ( Float, Float, Float )
 ylorbr7 =
-    [ ( 255, 255, 212 ), ( 254, 227, 145 ), ( 254, 196, 79 ), ( 254, 153, 41 ), ( 236, 112, 20 ), ( 204, 76, 2 ), ( 140, 45, 4 ) ]
+    [ ( 0.99609375, 0.99609375, 0.828125 ), ( 0.9921875, 0.88671875, 0.56640625 ), ( 0.9921875, 0.765625, 0.30859375 ), ( 0.9921875, 0.59765625, 0.16015625 ), ( 0.921875, 0.4375, 0.078125 ), ( 0.796875, 0.296875, 0.0078125 ), ( 0.546875, 0.17578125, 0.015625 ) ]
 
 
 {-| Provides the YlOrBr7-0 color.
 -}
 ylorbr7_0 : ( Float, Float, Float )
 ylorbr7_0 =
-    ( 255, 255, 212 )
+    ( 0.99609375, 0.99609375, 0.828125 )
 
 
 {-| Provides the YlOrBr7-1 color.
 -}
 ylorbr7_1 : ( Float, Float, Float )
 ylorbr7_1 =
-    ( 254, 227, 145 )
+    ( 0.9921875, 0.88671875, 0.56640625 )
 
 
 {-| Provides the YlOrBr7-2 color.
 -}
 ylorbr7_2 : ( Float, Float, Float )
 ylorbr7_2 =
-    ( 254, 196, 79 )
+    ( 0.9921875, 0.765625, 0.30859375 )
 
 
 {-| Provides the YlOrBr7-3 color.
 -}
 ylorbr7_3 : ( Float, Float, Float )
 ylorbr7_3 =
-    ( 254, 153, 41 )
+    ( 0.9921875, 0.59765625, 0.16015625 )
 
 
 {-| Provides the YlOrBr7-4 color.
 -}
 ylorbr7_4 : ( Float, Float, Float )
 ylorbr7_4 =
-    ( 236, 112, 20 )
+    ( 0.921875, 0.4375, 0.078125 )
 
 
 {-| Provides the YlOrBr7-5 color.
 -}
 ylorbr7_5 : ( Float, Float, Float )
 ylorbr7_5 =
-    ( 204, 76, 2 )
+    ( 0.796875, 0.296875, 0.0078125 )
 
 
 {-| Provides the YlOrBr7-6 color.
 -}
 ylorbr7_6 : ( Float, Float, Float )
 ylorbr7_6 =
-    ( 140, 45, 4 )
+    ( 0.546875, 0.17578125, 0.015625 )
 
 
 {-| Provides the YlOrBr8 color scheme.
 -}
 ylorbr8 : List ( Float, Float, Float )
 ylorbr8 =
-    [ ( 255, 255, 229 ), ( 255, 247, 188 ), ( 254, 227, 145 ), ( 254, 196, 79 ), ( 254, 153, 41 ), ( 236, 112, 20 ), ( 204, 76, 2 ), ( 140, 45, 4 ) ]
+    [ ( 0.99609375, 0.99609375, 0.89453125 ), ( 0.99609375, 0.96484375, 0.734375 ), ( 0.9921875, 0.88671875, 0.56640625 ), ( 0.9921875, 0.765625, 0.30859375 ), ( 0.9921875, 0.59765625, 0.16015625 ), ( 0.921875, 0.4375, 0.078125 ), ( 0.796875, 0.296875, 0.0078125 ), ( 0.546875, 0.17578125, 0.015625 ) ]
 
 
 {-| Provides the YlOrBr8-0 color.
 -}
 ylorbr8_0 : ( Float, Float, Float )
 ylorbr8_0 =
-    ( 255, 255, 229 )
+    ( 0.99609375, 0.99609375, 0.89453125 )
 
 
 {-| Provides the YlOrBr8-1 color.
 -}
 ylorbr8_1 : ( Float, Float, Float )
 ylorbr8_1 =
-    ( 255, 247, 188 )
+    ( 0.99609375, 0.96484375, 0.734375 )
 
 
 {-| Provides the YlOrBr8-2 color.
 -}
 ylorbr8_2 : ( Float, Float, Float )
 ylorbr8_2 =
-    ( 254, 227, 145 )
+    ( 0.9921875, 0.88671875, 0.56640625 )
 
 
 {-| Provides the YlOrBr8-3 color.
 -}
 ylorbr8_3 : ( Float, Float, Float )
 ylorbr8_3 =
-    ( 254, 196, 79 )
+    ( 0.9921875, 0.765625, 0.30859375 )
 
 
 {-| Provides the YlOrBr8-4 color.
 -}
 ylorbr8_4 : ( Float, Float, Float )
 ylorbr8_4 =
-    ( 254, 153, 41 )
+    ( 0.9921875, 0.59765625, 0.16015625 )
 
 
 {-| Provides the YlOrBr8-5 color.
 -}
 ylorbr8_5 : ( Float, Float, Float )
 ylorbr8_5 =
-    ( 236, 112, 20 )
+    ( 0.921875, 0.4375, 0.078125 )
 
 
 {-| Provides the YlOrBr8-6 color.
 -}
 ylorbr8_6 : ( Float, Float, Float )
 ylorbr8_6 =
-    ( 204, 76, 2 )
+    ( 0.796875, 0.296875, 0.0078125 )
 
 
 {-| Provides the YlOrBr8-7 color.
 -}
 ylorbr8_7 : ( Float, Float, Float )
 ylorbr8_7 =
-    ( 140, 45, 4 )
+    ( 0.546875, 0.17578125, 0.015625 )
 
 
 {-| Provides the YlOrBr9 color scheme.
 -}
 ylorbr9 : List ( Float, Float, Float )
 ylorbr9 =
-    [ ( 255, 255, 229 ), ( 255, 247, 188 ), ( 254, 227, 145 ), ( 254, 196, 79 ), ( 254, 153, 41 ), ( 236, 112, 20 ), ( 204, 76, 2 ), ( 153, 52, 4 ), ( 102, 37, 6 ) ]
+    [ ( 0.99609375, 0.99609375, 0.89453125 ), ( 0.99609375, 0.96484375, 0.734375 ), ( 0.9921875, 0.88671875, 0.56640625 ), ( 0.9921875, 0.765625, 0.30859375 ), ( 0.9921875, 0.59765625, 0.16015625 ), ( 0.921875, 0.4375, 0.078125 ), ( 0.796875, 0.296875, 0.0078125 ), ( 0.59765625, 0.203125, 0.015625 ), ( 0.3984375, 0.14453125, 0.0234375 ) ]
 
 
 {-| Provides the YlOrBr9-0 color.
 -}
 ylorbr9_0 : ( Float, Float, Float )
 ylorbr9_0 =
-    ( 255, 255, 229 )
+    ( 0.99609375, 0.99609375, 0.89453125 )
 
 
 {-| Provides the YlOrBr9-1 color.
 -}
 ylorbr9_1 : ( Float, Float, Float )
 ylorbr9_1 =
-    ( 255, 247, 188 )
+    ( 0.99609375, 0.96484375, 0.734375 )
 
 
 {-| Provides the YlOrBr9-2 color.
 -}
 ylorbr9_2 : ( Float, Float, Float )
 ylorbr9_2 =
-    ( 254, 227, 145 )
+    ( 0.9921875, 0.88671875, 0.56640625 )
 
 
 {-| Provides the YlOrBr9-3 color.
 -}
 ylorbr9_3 : ( Float, Float, Float )
 ylorbr9_3 =
-    ( 254, 196, 79 )
+    ( 0.9921875, 0.765625, 0.30859375 )
 
 
 {-| Provides the YlOrBr9-4 color.
 -}
 ylorbr9_4 : ( Float, Float, Float )
 ylorbr9_4 =
-    ( 254, 153, 41 )
+    ( 0.9921875, 0.59765625, 0.16015625 )
 
 
 {-| Provides the YlOrBr9-5 color.
 -}
 ylorbr9_5 : ( Float, Float, Float )
 ylorbr9_5 =
-    ( 236, 112, 20 )
+    ( 0.921875, 0.4375, 0.078125 )
 
 
 {-| Provides the YlOrBr9-6 color.
 -}
 ylorbr9_6 : ( Float, Float, Float )
 ylorbr9_6 =
-    ( 204, 76, 2 )
+    ( 0.796875, 0.296875, 0.0078125 )
 
 
 {-| Provides the YlOrBr9-7 color.
 -}
 ylorbr9_7 : ( Float, Float, Float )
 ylorbr9_7 =
-    ( 153, 52, 4 )
+    ( 0.59765625, 0.203125, 0.015625 )
 
 
 {-| Provides the YlOrBr9-8 color.
 -}
 ylorbr9_8 : ( Float, Float, Float )
 ylorbr9_8 =
-    ( 102, 37, 6 )
+    ( 0.3984375, 0.14453125, 0.0234375 )
 
 
 {-| Provides the YlGn3 color scheme.
 -}
 ylgn3 : List ( Float, Float, Float )
 ylgn3 =
-    [ ( 247, 252, 185 ), ( 173, 221, 142 ), ( 49, 163, 84 ) ]
+    [ ( 0.96484375, 0.984375, 0.72265625 ), ( 0.67578125, 0.86328125, 0.5546875 ), ( 0.19140625, 0.63671875, 0.328125 ) ]
 
 
 {-| Provides the YlGn3-0 color.
 -}
 ylgn3_0 : ( Float, Float, Float )
 ylgn3_0 =
-    ( 247, 252, 185 )
+    ( 0.96484375, 0.984375, 0.72265625 )
 
 
 {-| Provides the YlGn3-1 color.
 -}
 ylgn3_1 : ( Float, Float, Float )
 ylgn3_1 =
-    ( 173, 221, 142 )
+    ( 0.67578125, 0.86328125, 0.5546875 )
 
 
 {-| Provides the YlGn3-2 color.
 -}
 ylgn3_2 : ( Float, Float, Float )
 ylgn3_2 =
-    ( 49, 163, 84 )
+    ( 0.19140625, 0.63671875, 0.328125 )
 
 
 {-| Provides the YlGn4 color scheme.
 -}
 ylgn4 : List ( Float, Float, Float )
 ylgn4 =
-    [ ( 255, 255, 204 ), ( 194, 230, 153 ), ( 120, 198, 121 ), ( 35, 132, 67 ) ]
+    [ ( 0.99609375, 0.99609375, 0.796875 ), ( 0.7578125, 0.8984375, 0.59765625 ), ( 0.46875, 0.7734375, 0.47265625 ), ( 0.13671875, 0.515625, 0.26171875 ) ]
 
 
 {-| Provides the YlGn4-0 color.
 -}
 ylgn4_0 : ( Float, Float, Float )
 ylgn4_0 =
-    ( 255, 255, 204 )
+    ( 0.99609375, 0.99609375, 0.796875 )
 
 
 {-| Provides the YlGn4-1 color.
 -}
 ylgn4_1 : ( Float, Float, Float )
 ylgn4_1 =
-    ( 194, 230, 153 )
+    ( 0.7578125, 0.8984375, 0.59765625 )
 
 
 {-| Provides the YlGn4-2 color.
 -}
 ylgn4_2 : ( Float, Float, Float )
 ylgn4_2 =
-    ( 120, 198, 121 )
+    ( 0.46875, 0.7734375, 0.47265625 )
 
 
 {-| Provides the YlGn4-3 color.
 -}
 ylgn4_3 : ( Float, Float, Float )
 ylgn4_3 =
-    ( 35, 132, 67 )
+    ( 0.13671875, 0.515625, 0.26171875 )
 
 
 {-| Provides the YlGn5 color scheme.
 -}
 ylgn5 : List ( Float, Float, Float )
 ylgn5 =
-    [ ( 255, 255, 204 ), ( 194, 230, 153 ), ( 120, 198, 121 ), ( 49, 163, 84 ), ( 0, 104, 55 ) ]
+    [ ( 0.99609375, 0.99609375, 0.796875 ), ( 0.7578125, 0.8984375, 0.59765625 ), ( 0.46875, 0.7734375, 0.47265625 ), ( 0.19140625, 0.63671875, 0.328125 ), ( 0, 0.40625, 0.21484375 ) ]
 
 
 {-| Provides the YlGn5-0 color.
 -}
 ylgn5_0 : ( Float, Float, Float )
 ylgn5_0 =
-    ( 255, 255, 204 )
+    ( 0.99609375, 0.99609375, 0.796875 )
 
 
 {-| Provides the YlGn5-1 color.
 -}
 ylgn5_1 : ( Float, Float, Float )
 ylgn5_1 =
-    ( 194, 230, 153 )
+    ( 0.7578125, 0.8984375, 0.59765625 )
 
 
 {-| Provides the YlGn5-2 color.
 -}
 ylgn5_2 : ( Float, Float, Float )
 ylgn5_2 =
-    ( 120, 198, 121 )
+    ( 0.46875, 0.7734375, 0.47265625 )
 
 
 {-| Provides the YlGn5-3 color.
 -}
 ylgn5_3 : ( Float, Float, Float )
 ylgn5_3 =
-    ( 49, 163, 84 )
+    ( 0.19140625, 0.63671875, 0.328125 )
 
 
 {-| Provides the YlGn5-4 color.
 -}
 ylgn5_4 : ( Float, Float, Float )
 ylgn5_4 =
-    ( 0, 104, 55 )
+    ( 0, 0.40625, 0.21484375 )
 
 
 {-| Provides the YlGn6 color scheme.
 -}
 ylgn6 : List ( Float, Float, Float )
 ylgn6 =
-    [ ( 255, 255, 204 ), ( 217, 240, 163 ), ( 173, 221, 142 ), ( 120, 198, 121 ), ( 49, 163, 84 ), ( 0, 104, 55 ) ]
+    [ ( 0.99609375, 0.99609375, 0.796875 ), ( 0.84765625, 0.9375, 0.63671875 ), ( 0.67578125, 0.86328125, 0.5546875 ), ( 0.46875, 0.7734375, 0.47265625 ), ( 0.19140625, 0.63671875, 0.328125 ), ( 0, 0.40625, 0.21484375 ) ]
 
 
 {-| Provides the YlGn6-0 color.
 -}
 ylgn6_0 : ( Float, Float, Float )
 ylgn6_0 =
-    ( 255, 255, 204 )
+    ( 0.99609375, 0.99609375, 0.796875 )
 
 
 {-| Provides the YlGn6-1 color.
 -}
 ylgn6_1 : ( Float, Float, Float )
 ylgn6_1 =
-    ( 217, 240, 163 )
+    ( 0.84765625, 0.9375, 0.63671875 )
 
 
 {-| Provides the YlGn6-2 color.
 -}
 ylgn6_2 : ( Float, Float, Float )
 ylgn6_2 =
-    ( 173, 221, 142 )
+    ( 0.67578125, 0.86328125, 0.5546875 )
 
 
 {-| Provides the YlGn6-3 color.
 -}
 ylgn6_3 : ( Float, Float, Float )
 ylgn6_3 =
-    ( 120, 198, 121 )
+    ( 0.46875, 0.7734375, 0.47265625 )
 
 
 {-| Provides the YlGn6-4 color.
 -}
 ylgn6_4 : ( Float, Float, Float )
 ylgn6_4 =
-    ( 49, 163, 84 )
+    ( 0.19140625, 0.63671875, 0.328125 )
 
 
 {-| Provides the YlGn6-5 color.
 -}
 ylgn6_5 : ( Float, Float, Float )
 ylgn6_5 =
-    ( 0, 104, 55 )
+    ( 0, 0.40625, 0.21484375 )
 
 
 {-| Provides the YlGn7 color scheme.
 -}
 ylgn7 : List ( Float, Float, Float )
 ylgn7 =
-    [ ( 255, 255, 204 ), ( 217, 240, 163 ), ( 173, 221, 142 ), ( 120, 198, 121 ), ( 65, 171, 93 ), ( 35, 132, 67 ), ( 0, 90, 50 ) ]
+    [ ( 0.99609375, 0.99609375, 0.796875 ), ( 0.84765625, 0.9375, 0.63671875 ), ( 0.67578125, 0.86328125, 0.5546875 ), ( 0.46875, 0.7734375, 0.47265625 ), ( 0.25390625, 0.66796875, 0.36328125 ), ( 0.13671875, 0.515625, 0.26171875 ), ( 0, 0.3515625, 0.1953125 ) ]
 
 
 {-| Provides the YlGn7-0 color.
 -}
 ylgn7_0 : ( Float, Float, Float )
 ylgn7_0 =
-    ( 255, 255, 204 )
+    ( 0.99609375, 0.99609375, 0.796875 )
 
 
 {-| Provides the YlGn7-1 color.
 -}
 ylgn7_1 : ( Float, Float, Float )
 ylgn7_1 =
-    ( 217, 240, 163 )
+    ( 0.84765625, 0.9375, 0.63671875 )
 
 
 {-| Provides the YlGn7-2 color.
 -}
 ylgn7_2 : ( Float, Float, Float )
 ylgn7_2 =
-    ( 173, 221, 142 )
+    ( 0.67578125, 0.86328125, 0.5546875 )
 
 
 {-| Provides the YlGn7-3 color.
 -}
 ylgn7_3 : ( Float, Float, Float )
 ylgn7_3 =
-    ( 120, 198, 121 )
+    ( 0.46875, 0.7734375, 0.47265625 )
 
 
 {-| Provides the YlGn7-4 color.
 -}
 ylgn7_4 : ( Float, Float, Float )
 ylgn7_4 =
-    ( 65, 171, 93 )
+    ( 0.25390625, 0.66796875, 0.36328125 )
 
 
 {-| Provides the YlGn7-5 color.
 -}
 ylgn7_5 : ( Float, Float, Float )
 ylgn7_5 =
-    ( 35, 132, 67 )
+    ( 0.13671875, 0.515625, 0.26171875 )
 
 
 {-| Provides the YlGn7-6 color.
 -}
 ylgn7_6 : ( Float, Float, Float )
 ylgn7_6 =
-    ( 0, 90, 50 )
+    ( 0, 0.3515625, 0.1953125 )
 
 
 {-| Provides the YlGn8 color scheme.
 -}
 ylgn8 : List ( Float, Float, Float )
 ylgn8 =
-    [ ( 255, 255, 229 ), ( 247, 252, 185 ), ( 217, 240, 163 ), ( 173, 221, 142 ), ( 120, 198, 121 ), ( 65, 171, 93 ), ( 35, 132, 67 ), ( 0, 90, 50 ) ]
+    [ ( 0.99609375, 0.99609375, 0.89453125 ), ( 0.96484375, 0.984375, 0.72265625 ), ( 0.84765625, 0.9375, 0.63671875 ), ( 0.67578125, 0.86328125, 0.5546875 ), ( 0.46875, 0.7734375, 0.47265625 ), ( 0.25390625, 0.66796875, 0.36328125 ), ( 0.13671875, 0.515625, 0.26171875 ), ( 0, 0.3515625, 0.1953125 ) ]
 
 
 {-| Provides the YlGn8-0 color.
 -}
 ylgn8_0 : ( Float, Float, Float )
 ylgn8_0 =
-    ( 255, 255, 229 )
+    ( 0.99609375, 0.99609375, 0.89453125 )
 
 
 {-| Provides the YlGn8-1 color.
 -}
 ylgn8_1 : ( Float, Float, Float )
 ylgn8_1 =
-    ( 247, 252, 185 )
+    ( 0.96484375, 0.984375, 0.72265625 )
 
 
 {-| Provides the YlGn8-2 color.
 -}
 ylgn8_2 : ( Float, Float, Float )
 ylgn8_2 =
-    ( 217, 240, 163 )
+    ( 0.84765625, 0.9375, 0.63671875 )
 
 
 {-| Provides the YlGn8-3 color.
 -}
 ylgn8_3 : ( Float, Float, Float )
 ylgn8_3 =
-    ( 173, 221, 142 )
+    ( 0.67578125, 0.86328125, 0.5546875 )
 
 
 {-| Provides the YlGn8-4 color.
 -}
 ylgn8_4 : ( Float, Float, Float )
 ylgn8_4 =
-    ( 120, 198, 121 )
+    ( 0.46875, 0.7734375, 0.47265625 )
 
 
 {-| Provides the YlGn8-5 color.
 -}
 ylgn8_5 : ( Float, Float, Float )
 ylgn8_5 =
-    ( 65, 171, 93 )
+    ( 0.25390625, 0.66796875, 0.36328125 )
 
 
 {-| Provides the YlGn8-6 color.
 -}
 ylgn8_6 : ( Float, Float, Float )
 ylgn8_6 =
-    ( 35, 132, 67 )
+    ( 0.13671875, 0.515625, 0.26171875 )
 
 
 {-| Provides the YlGn8-7 color.
 -}
 ylgn8_7 : ( Float, Float, Float )
 ylgn8_7 =
-    ( 0, 90, 50 )
+    ( 0, 0.3515625, 0.1953125 )
 
 
 {-| Provides the YlGn9 color scheme.
 -}
 ylgn9 : List ( Float, Float, Float )
 ylgn9 =
-    [ ( 255, 255, 229 ), ( 247, 252, 185 ), ( 217, 240, 163 ), ( 173, 221, 142 ), ( 120, 198, 121 ), ( 65, 171, 93 ), ( 35, 132, 67 ), ( 0, 104, 55 ), ( 0, 69, 41 ) ]
+    [ ( 0.99609375, 0.99609375, 0.89453125 ), ( 0.96484375, 0.984375, 0.72265625 ), ( 0.84765625, 0.9375, 0.63671875 ), ( 0.67578125, 0.86328125, 0.5546875 ), ( 0.46875, 0.7734375, 0.47265625 ), ( 0.25390625, 0.66796875, 0.36328125 ), ( 0.13671875, 0.515625, 0.26171875 ), ( 0, 0.40625, 0.21484375 ), ( 0, 0.26953125, 0.16015625 ) ]
 
 
 {-| Provides the YlGn9-0 color.
 -}
 ylgn9_0 : ( Float, Float, Float )
 ylgn9_0 =
-    ( 255, 255, 229 )
+    ( 0.99609375, 0.99609375, 0.89453125 )
 
 
 {-| Provides the YlGn9-1 color.
 -}
 ylgn9_1 : ( Float, Float, Float )
 ylgn9_1 =
-    ( 247, 252, 185 )
+    ( 0.96484375, 0.984375, 0.72265625 )
 
 
 {-| Provides the YlGn9-2 color.
 -}
 ylgn9_2 : ( Float, Float, Float )
 ylgn9_2 =
-    ( 217, 240, 163 )
+    ( 0.84765625, 0.9375, 0.63671875 )
 
 
 {-| Provides the YlGn9-3 color.
 -}
 ylgn9_3 : ( Float, Float, Float )
 ylgn9_3 =
-    ( 173, 221, 142 )
+    ( 0.67578125, 0.86328125, 0.5546875 )
 
 
 {-| Provides the YlGn9-4 color.
 -}
 ylgn9_4 : ( Float, Float, Float )
 ylgn9_4 =
-    ( 120, 198, 121 )
+    ( 0.46875, 0.7734375, 0.47265625 )
 
 
 {-| Provides the YlGn9-5 color.
 -}
 ylgn9_5 : ( Float, Float, Float )
 ylgn9_5 =
-    ( 65, 171, 93 )
+    ( 0.25390625, 0.66796875, 0.36328125 )
 
 
 {-| Provides the YlGn9-6 color.
 -}
 ylgn9_6 : ( Float, Float, Float )
 ylgn9_6 =
-    ( 35, 132, 67 )
+    ( 0.13671875, 0.515625, 0.26171875 )
 
 
 {-| Provides the YlGn9-7 color.
 -}
 ylgn9_7 : ( Float, Float, Float )
 ylgn9_7 =
-    ( 0, 104, 55 )
+    ( 0, 0.40625, 0.21484375 )
 
 
 {-| Provides the YlGn9-8 color.
 -}
 ylgn9_8 : ( Float, Float, Float )
 ylgn9_8 =
-    ( 0, 69, 41 )
+    ( 0, 0.26953125, 0.16015625 )
 
 
 {-| Provides the RdPu3 color scheme.
 -}
 rdpu3 : List ( Float, Float, Float )
 rdpu3 =
-    [ ( 253, 224, 221 ), ( 250, 159, 181 ), ( 197, 27, 138 ) ]
+    [ ( 0.98828125, 0.875, 0.86328125 ), ( 0.9765625, 0.62109375, 0.70703125 ), ( 0.76953125, 0.10546875, 0.5390625 ) ]
 
 
 {-| Provides the RdPu3-0 color.
 -}
 rdpu3_0 : ( Float, Float, Float )
 rdpu3_0 =
-    ( 253, 224, 221 )
+    ( 0.98828125, 0.875, 0.86328125 )
 
 
 {-| Provides the RdPu3-1 color.
 -}
 rdpu3_1 : ( Float, Float, Float )
 rdpu3_1 =
-    ( 250, 159, 181 )
+    ( 0.9765625, 0.62109375, 0.70703125 )
 
 
 {-| Provides the RdPu3-2 color.
 -}
 rdpu3_2 : ( Float, Float, Float )
 rdpu3_2 =
-    ( 197, 27, 138 )
+    ( 0.76953125, 0.10546875, 0.5390625 )
 
 
 {-| Provides the RdPu4 color scheme.
 -}
 rdpu4 : List ( Float, Float, Float )
 rdpu4 =
-    [ ( 254, 235, 226 ), ( 251, 180, 185 ), ( 247, 104, 161 ), ( 174, 1, 126 ) ]
+    [ ( 0.9921875, 0.91796875, 0.8828125 ), ( 0.98046875, 0.703125, 0.72265625 ), ( 0.96484375, 0.40625, 0.62890625 ), ( 0.6796875, 0.00390625, 0.4921875 ) ]
 
 
 {-| Provides the RdPu4-0 color.
 -}
 rdpu4_0 : ( Float, Float, Float )
 rdpu4_0 =
-    ( 254, 235, 226 )
+    ( 0.9921875, 0.91796875, 0.8828125 )
 
 
 {-| Provides the RdPu4-1 color.
 -}
 rdpu4_1 : ( Float, Float, Float )
 rdpu4_1 =
-    ( 251, 180, 185 )
+    ( 0.98046875, 0.703125, 0.72265625 )
 
 
 {-| Provides the RdPu4-2 color.
 -}
 rdpu4_2 : ( Float, Float, Float )
 rdpu4_2 =
-    ( 247, 104, 161 )
+    ( 0.96484375, 0.40625, 0.62890625 )
 
 
 {-| Provides the RdPu4-3 color.
 -}
 rdpu4_3 : ( Float, Float, Float )
 rdpu4_3 =
-    ( 174, 1, 126 )
+    ( 0.6796875, 0.00390625, 0.4921875 )
 
 
 {-| Provides the RdPu5 color scheme.
 -}
 rdpu5 : List ( Float, Float, Float )
 rdpu5 =
-    [ ( 254, 235, 226 ), ( 251, 180, 185 ), ( 247, 104, 161 ), ( 197, 27, 138 ), ( 122, 1, 119 ) ]
+    [ ( 0.9921875, 0.91796875, 0.8828125 ), ( 0.98046875, 0.703125, 0.72265625 ), ( 0.96484375, 0.40625, 0.62890625 ), ( 0.76953125, 0.10546875, 0.5390625 ), ( 0.4765625, 0.00390625, 0.46484375 ) ]
 
 
 {-| Provides the RdPu5-0 color.
 -}
 rdpu5_0 : ( Float, Float, Float )
 rdpu5_0 =
-    ( 254, 235, 226 )
+    ( 0.9921875, 0.91796875, 0.8828125 )
 
 
 {-| Provides the RdPu5-1 color.
 -}
 rdpu5_1 : ( Float, Float, Float )
 rdpu5_1 =
-    ( 251, 180, 185 )
+    ( 0.98046875, 0.703125, 0.72265625 )
 
 
 {-| Provides the RdPu5-2 color.
 -}
 rdpu5_2 : ( Float, Float, Float )
 rdpu5_2 =
-    ( 247, 104, 161 )
+    ( 0.96484375, 0.40625, 0.62890625 )
 
 
 {-| Provides the RdPu5-3 color.
 -}
 rdpu5_3 : ( Float, Float, Float )
 rdpu5_3 =
-    ( 197, 27, 138 )
+    ( 0.76953125, 0.10546875, 0.5390625 )
 
 
 {-| Provides the RdPu5-4 color.
 -}
 rdpu5_4 : ( Float, Float, Float )
 rdpu5_4 =
-    ( 122, 1, 119 )
+    ( 0.4765625, 0.00390625, 0.46484375 )
 
 
 {-| Provides the RdPu6 color scheme.
 -}
 rdpu6 : List ( Float, Float, Float )
 rdpu6 =
-    [ ( 254, 235, 226 ), ( 252, 197, 192 ), ( 250, 159, 181 ), ( 247, 104, 161 ), ( 197, 27, 138 ), ( 122, 1, 119 ) ]
+    [ ( 0.9921875, 0.91796875, 0.8828125 ), ( 0.984375, 0.76953125, 0.75 ), ( 0.9765625, 0.62109375, 0.70703125 ), ( 0.96484375, 0.40625, 0.62890625 ), ( 0.76953125, 0.10546875, 0.5390625 ), ( 0.4765625, 0.00390625, 0.46484375 ) ]
 
 
 {-| Provides the RdPu6-0 color.
 -}
 rdpu6_0 : ( Float, Float, Float )
 rdpu6_0 =
-    ( 254, 235, 226 )
+    ( 0.9921875, 0.91796875, 0.8828125 )
 
 
 {-| Provides the RdPu6-1 color.
 -}
 rdpu6_1 : ( Float, Float, Float )
 rdpu6_1 =
-    ( 252, 197, 192 )
+    ( 0.984375, 0.76953125, 0.75 )
 
 
 {-| Provides the RdPu6-2 color.
 -}
 rdpu6_2 : ( Float, Float, Float )
 rdpu6_2 =
-    ( 250, 159, 181 )
+    ( 0.9765625, 0.62109375, 0.70703125 )
 
 
 {-| Provides the RdPu6-3 color.
 -}
 rdpu6_3 : ( Float, Float, Float )
 rdpu6_3 =
-    ( 247, 104, 161 )
+    ( 0.96484375, 0.40625, 0.62890625 )
 
 
 {-| Provides the RdPu6-4 color.
 -}
 rdpu6_4 : ( Float, Float, Float )
 rdpu6_4 =
-    ( 197, 27, 138 )
+    ( 0.76953125, 0.10546875, 0.5390625 )
 
 
 {-| Provides the RdPu6-5 color.
 -}
 rdpu6_5 : ( Float, Float, Float )
 rdpu6_5 =
-    ( 122, 1, 119 )
+    ( 0.4765625, 0.00390625, 0.46484375 )
 
 
 {-| Provides the RdPu7 color scheme.
 -}
 rdpu7 : List ( Float, Float, Float )
 rdpu7 =
-    [ ( 254, 235, 226 ), ( 252, 197, 192 ), ( 250, 159, 181 ), ( 247, 104, 161 ), ( 221, 52, 151 ), ( 174, 1, 126 ), ( 122, 1, 119 ) ]
+    [ ( 0.9921875, 0.91796875, 0.8828125 ), ( 0.984375, 0.76953125, 0.75 ), ( 0.9765625, 0.62109375, 0.70703125 ), ( 0.96484375, 0.40625, 0.62890625 ), ( 0.86328125, 0.203125, 0.58984375 ), ( 0.6796875, 0.00390625, 0.4921875 ), ( 0.4765625, 0.00390625, 0.46484375 ) ]
 
 
 {-| Provides the RdPu7-0 color.
 -}
 rdpu7_0 : ( Float, Float, Float )
 rdpu7_0 =
-    ( 254, 235, 226 )
+    ( 0.9921875, 0.91796875, 0.8828125 )
 
 
 {-| Provides the RdPu7-1 color.
 -}
 rdpu7_1 : ( Float, Float, Float )
 rdpu7_1 =
-    ( 252, 197, 192 )
+    ( 0.984375, 0.76953125, 0.75 )
 
 
 {-| Provides the RdPu7-2 color.
 -}
 rdpu7_2 : ( Float, Float, Float )
 rdpu7_2 =
-    ( 250, 159, 181 )
+    ( 0.9765625, 0.62109375, 0.70703125 )
 
 
 {-| Provides the RdPu7-3 color.
 -}
 rdpu7_3 : ( Float, Float, Float )
 rdpu7_3 =
-    ( 247, 104, 161 )
+    ( 0.96484375, 0.40625, 0.62890625 )
 
 
 {-| Provides the RdPu7-4 color.
 -}
 rdpu7_4 : ( Float, Float, Float )
 rdpu7_4 =
-    ( 221, 52, 151 )
+    ( 0.86328125, 0.203125, 0.58984375 )
 
 
 {-| Provides the RdPu7-5 color.
 -}
 rdpu7_5 : ( Float, Float, Float )
 rdpu7_5 =
-    ( 174, 1, 126 )
+    ( 0.6796875, 0.00390625, 0.4921875 )
 
 
 {-| Provides the RdPu7-6 color.
 -}
 rdpu7_6 : ( Float, Float, Float )
 rdpu7_6 =
-    ( 122, 1, 119 )
+    ( 0.4765625, 0.00390625, 0.46484375 )
 
 
 {-| Provides the RdPu8 color scheme.
 -}
 rdpu8 : List ( Float, Float, Float )
 rdpu8 =
-    [ ( 255, 247, 243 ), ( 253, 224, 221 ), ( 252, 197, 192 ), ( 250, 159, 181 ), ( 247, 104, 161 ), ( 221, 52, 151 ), ( 174, 1, 126 ), ( 122, 1, 119 ) ]
+    [ ( 0.99609375, 0.96484375, 0.94921875 ), ( 0.98828125, 0.875, 0.86328125 ), ( 0.984375, 0.76953125, 0.75 ), ( 0.9765625, 0.62109375, 0.70703125 ), ( 0.96484375, 0.40625, 0.62890625 ), ( 0.86328125, 0.203125, 0.58984375 ), ( 0.6796875, 0.00390625, 0.4921875 ), ( 0.4765625, 0.00390625, 0.46484375 ) ]
 
 
 {-| Provides the RdPu8-0 color.
 -}
 rdpu8_0 : ( Float, Float, Float )
 rdpu8_0 =
-    ( 255, 247, 243 )
+    ( 0.99609375, 0.96484375, 0.94921875 )
 
 
 {-| Provides the RdPu8-1 color.
 -}
 rdpu8_1 : ( Float, Float, Float )
 rdpu8_1 =
-    ( 253, 224, 221 )
+    ( 0.98828125, 0.875, 0.86328125 )
 
 
 {-| Provides the RdPu8-2 color.
 -}
 rdpu8_2 : ( Float, Float, Float )
 rdpu8_2 =
-    ( 252, 197, 192 )
+    ( 0.984375, 0.76953125, 0.75 )
 
 
 {-| Provides the RdPu8-3 color.
 -}
 rdpu8_3 : ( Float, Float, Float )
 rdpu8_3 =
-    ( 250, 159, 181 )
+    ( 0.9765625, 0.62109375, 0.70703125 )
 
 
 {-| Provides the RdPu8-4 color.
 -}
 rdpu8_4 : ( Float, Float, Float )
 rdpu8_4 =
-    ( 247, 104, 161 )
+    ( 0.96484375, 0.40625, 0.62890625 )
 
 
 {-| Provides the RdPu8-5 color.
 -}
 rdpu8_5 : ( Float, Float, Float )
 rdpu8_5 =
-    ( 221, 52, 151 )
+    ( 0.86328125, 0.203125, 0.58984375 )
 
 
 {-| Provides the RdPu8-6 color.
 -}
 rdpu8_6 : ( Float, Float, Float )
 rdpu8_6 =
-    ( 174, 1, 126 )
+    ( 0.6796875, 0.00390625, 0.4921875 )
 
 
 {-| Provides the RdPu8-7 color.
 -}
 rdpu8_7 : ( Float, Float, Float )
 rdpu8_7 =
-    ( 122, 1, 119 )
+    ( 0.4765625, 0.00390625, 0.46484375 )
 
 
 {-| Provides the RdPu9 color scheme.
 -}
 rdpu9 : List ( Float, Float, Float )
 rdpu9 =
-    [ ( 255, 247, 243 ), ( 253, 224, 221 ), ( 252, 197, 192 ), ( 250, 159, 181 ), ( 247, 104, 161 ), ( 221, 52, 151 ), ( 174, 1, 126 ), ( 122, 1, 119 ), ( 73, 0, 106 ) ]
+    [ ( 0.99609375, 0.96484375, 0.94921875 ), ( 0.98828125, 0.875, 0.86328125 ), ( 0.984375, 0.76953125, 0.75 ), ( 0.9765625, 0.62109375, 0.70703125 ), ( 0.96484375, 0.40625, 0.62890625 ), ( 0.86328125, 0.203125, 0.58984375 ), ( 0.6796875, 0.00390625, 0.4921875 ), ( 0.4765625, 0.00390625, 0.46484375 ), ( 0.28515625, 0, 0.4140625 ) ]
 
 
 {-| Provides the RdPu9-0 color.
 -}
 rdpu9_0 : ( Float, Float, Float )
 rdpu9_0 =
-    ( 255, 247, 243 )
+    ( 0.99609375, 0.96484375, 0.94921875 )
 
 
 {-| Provides the RdPu9-1 color.
 -}
 rdpu9_1 : ( Float, Float, Float )
 rdpu9_1 =
-    ( 253, 224, 221 )
+    ( 0.98828125, 0.875, 0.86328125 )
 
 
 {-| Provides the RdPu9-2 color.
 -}
 rdpu9_2 : ( Float, Float, Float )
 rdpu9_2 =
-    ( 252, 197, 192 )
+    ( 0.984375, 0.76953125, 0.75 )
 
 
 {-| Provides the RdPu9-3 color.
 -}
 rdpu9_3 : ( Float, Float, Float )
 rdpu9_3 =
-    ( 250, 159, 181 )
+    ( 0.9765625, 0.62109375, 0.70703125 )
 
 
 {-| Provides the RdPu9-4 color.
 -}
 rdpu9_4 : ( Float, Float, Float )
 rdpu9_4 =
-    ( 247, 104, 161 )
+    ( 0.96484375, 0.40625, 0.62890625 )
 
 
 {-| Provides the RdPu9-5 color.
 -}
 rdpu9_5 : ( Float, Float, Float )
 rdpu9_5 =
-    ( 221, 52, 151 )
+    ( 0.86328125, 0.203125, 0.58984375 )
 
 
 {-| Provides the RdPu9-6 color.
 -}
 rdpu9_6 : ( Float, Float, Float )
 rdpu9_6 =
-    ( 174, 1, 126 )
+    ( 0.6796875, 0.00390625, 0.4921875 )
 
 
 {-| Provides the RdPu9-7 color.
 -}
 rdpu9_7 : ( Float, Float, Float )
 rdpu9_7 =
-    ( 122, 1, 119 )
+    ( 0.4765625, 0.00390625, 0.46484375 )
 
 
 {-| Provides the RdPu9-8 color.
 -}
 rdpu9_8 : ( Float, Float, Float )
 rdpu9_8 =
-    ( 73, 0, 106 )
+    ( 0.28515625, 0, 0.4140625 )
 
 
 {-| Provides the YlGnBu3 color scheme.
 -}
 ylgnbu3 : List ( Float, Float, Float )
 ylgnbu3 =
-    [ ( 237, 248, 177 ), ( 127, 205, 187 ), ( 44, 127, 184 ) ]
+    [ ( 0.92578125, 0.96875, 0.69140625 ), ( 0.49609375, 0.80078125, 0.73046875 ), ( 0.171875, 0.49609375, 0.71875 ) ]
 
 
 {-| Provides the YlGnBu3-0 color.
 -}
 ylgnbu3_0 : ( Float, Float, Float )
 ylgnbu3_0 =
-    ( 237, 248, 177 )
+    ( 0.92578125, 0.96875, 0.69140625 )
 
 
 {-| Provides the YlGnBu3-1 color.
 -}
 ylgnbu3_1 : ( Float, Float, Float )
 ylgnbu3_1 =
-    ( 127, 205, 187 )
+    ( 0.49609375, 0.80078125, 0.73046875 )
 
 
 {-| Provides the YlGnBu3-2 color.
 -}
 ylgnbu3_2 : ( Float, Float, Float )
 ylgnbu3_2 =
-    ( 44, 127, 184 )
+    ( 0.171875, 0.49609375, 0.71875 )
 
 
 {-| Provides the YlGnBu4 color scheme.
 -}
 ylgnbu4 : List ( Float, Float, Float )
 ylgnbu4 =
-    [ ( 255, 255, 204 ), ( 161, 218, 180 ), ( 65, 182, 196 ), ( 34, 94, 168 ) ]
+    [ ( 0.99609375, 0.99609375, 0.796875 ), ( 0.62890625, 0.8515625, 0.703125 ), ( 0.25390625, 0.7109375, 0.765625 ), ( 0.1328125, 0.3671875, 0.65625 ) ]
 
 
 {-| Provides the YlGnBu4-0 color.
 -}
 ylgnbu4_0 : ( Float, Float, Float )
 ylgnbu4_0 =
-    ( 255, 255, 204 )
+    ( 0.99609375, 0.99609375, 0.796875 )
 
 
 {-| Provides the YlGnBu4-1 color.
 -}
 ylgnbu4_1 : ( Float, Float, Float )
 ylgnbu4_1 =
-    ( 161, 218, 180 )
+    ( 0.62890625, 0.8515625, 0.703125 )
 
 
 {-| Provides the YlGnBu4-2 color.
 -}
 ylgnbu4_2 : ( Float, Float, Float )
 ylgnbu4_2 =
-    ( 65, 182, 196 )
+    ( 0.25390625, 0.7109375, 0.765625 )
 
 
 {-| Provides the YlGnBu4-3 color.
 -}
 ylgnbu4_3 : ( Float, Float, Float )
 ylgnbu4_3 =
-    ( 34, 94, 168 )
+    ( 0.1328125, 0.3671875, 0.65625 )
 
 
 {-| Provides the YlGnBu5 color scheme.
 -}
 ylgnbu5 : List ( Float, Float, Float )
 ylgnbu5 =
-    [ ( 255, 255, 204 ), ( 161, 218, 180 ), ( 65, 182, 196 ), ( 44, 127, 184 ), ( 37, 52, 148 ) ]
+    [ ( 0.99609375, 0.99609375, 0.796875 ), ( 0.62890625, 0.8515625, 0.703125 ), ( 0.25390625, 0.7109375, 0.765625 ), ( 0.171875, 0.49609375, 0.71875 ), ( 0.14453125, 0.203125, 0.578125 ) ]
 
 
 {-| Provides the YlGnBu5-0 color.
 -}
 ylgnbu5_0 : ( Float, Float, Float )
 ylgnbu5_0 =
-    ( 255, 255, 204 )
+    ( 0.99609375, 0.99609375, 0.796875 )
 
 
 {-| Provides the YlGnBu5-1 color.
 -}
 ylgnbu5_1 : ( Float, Float, Float )
 ylgnbu5_1 =
-    ( 161, 218, 180 )
+    ( 0.62890625, 0.8515625, 0.703125 )
 
 
 {-| Provides the YlGnBu5-2 color.
 -}
 ylgnbu5_2 : ( Float, Float, Float )
 ylgnbu5_2 =
-    ( 65, 182, 196 )
+    ( 0.25390625, 0.7109375, 0.765625 )
 
 
 {-| Provides the YlGnBu5-3 color.
 -}
 ylgnbu5_3 : ( Float, Float, Float )
 ylgnbu5_3 =
-    ( 44, 127, 184 )
+    ( 0.171875, 0.49609375, 0.71875 )
 
 
 {-| Provides the YlGnBu5-4 color.
 -}
 ylgnbu5_4 : ( Float, Float, Float )
 ylgnbu5_4 =
-    ( 37, 52, 148 )
+    ( 0.14453125, 0.203125, 0.578125 )
 
 
 {-| Provides the YlGnBu6 color scheme.
 -}
 ylgnbu6 : List ( Float, Float, Float )
 ylgnbu6 =
-    [ ( 255, 255, 204 ), ( 199, 233, 180 ), ( 127, 205, 187 ), ( 65, 182, 196 ), ( 44, 127, 184 ), ( 37, 52, 148 ) ]
+    [ ( 0.99609375, 0.99609375, 0.796875 ), ( 0.77734375, 0.91015625, 0.703125 ), ( 0.49609375, 0.80078125, 0.73046875 ), ( 0.25390625, 0.7109375, 0.765625 ), ( 0.171875, 0.49609375, 0.71875 ), ( 0.14453125, 0.203125, 0.578125 ) ]
 
 
 {-| Provides the YlGnBu6-0 color.
 -}
 ylgnbu6_0 : ( Float, Float, Float )
 ylgnbu6_0 =
-    ( 255, 255, 204 )
+    ( 0.99609375, 0.99609375, 0.796875 )
 
 
 {-| Provides the YlGnBu6-1 color.
 -}
 ylgnbu6_1 : ( Float, Float, Float )
 ylgnbu6_1 =
-    ( 199, 233, 180 )
+    ( 0.77734375, 0.91015625, 0.703125 )
 
 
 {-| Provides the YlGnBu6-2 color.
 -}
 ylgnbu6_2 : ( Float, Float, Float )
 ylgnbu6_2 =
-    ( 127, 205, 187 )
+    ( 0.49609375, 0.80078125, 0.73046875 )
 
 
 {-| Provides the YlGnBu6-3 color.
 -}
 ylgnbu6_3 : ( Float, Float, Float )
 ylgnbu6_3 =
-    ( 65, 182, 196 )
+    ( 0.25390625, 0.7109375, 0.765625 )
 
 
 {-| Provides the YlGnBu6-4 color.
 -}
 ylgnbu6_4 : ( Float, Float, Float )
 ylgnbu6_4 =
-    ( 44, 127, 184 )
+    ( 0.171875, 0.49609375, 0.71875 )
 
 
 {-| Provides the YlGnBu6-5 color.
 -}
 ylgnbu6_5 : ( Float, Float, Float )
 ylgnbu6_5 =
-    ( 37, 52, 148 )
+    ( 0.14453125, 0.203125, 0.578125 )
 
 
 {-| Provides the YlGnBu7 color scheme.
 -}
 ylgnbu7 : List ( Float, Float, Float )
 ylgnbu7 =
-    [ ( 255, 255, 204 ), ( 199, 233, 180 ), ( 127, 205, 187 ), ( 65, 182, 196 ), ( 29, 145, 192 ), ( 34, 94, 168 ), ( 12, 44, 132 ) ]
+    [ ( 0.99609375, 0.99609375, 0.796875 ), ( 0.77734375, 0.91015625, 0.703125 ), ( 0.49609375, 0.80078125, 0.73046875 ), ( 0.25390625, 0.7109375, 0.765625 ), ( 0.11328125, 0.56640625, 0.75 ), ( 0.1328125, 0.3671875, 0.65625 ), ( 0.046875, 0.171875, 0.515625 ) ]
 
 
 {-| Provides the YlGnBu7-0 color.
 -}
 ylgnbu7_0 : ( Float, Float, Float )
 ylgnbu7_0 =
-    ( 255, 255, 204 )
+    ( 0.99609375, 0.99609375, 0.796875 )
 
 
 {-| Provides the YlGnBu7-1 color.
 -}
 ylgnbu7_1 : ( Float, Float, Float )
 ylgnbu7_1 =
-    ( 199, 233, 180 )
+    ( 0.77734375, 0.91015625, 0.703125 )
 
 
 {-| Provides the YlGnBu7-2 color.
 -}
 ylgnbu7_2 : ( Float, Float, Float )
 ylgnbu7_2 =
-    ( 127, 205, 187 )
+    ( 0.49609375, 0.80078125, 0.73046875 )
 
 
 {-| Provides the YlGnBu7-3 color.
 -}
 ylgnbu7_3 : ( Float, Float, Float )
 ylgnbu7_3 =
-    ( 65, 182, 196 )
+    ( 0.25390625, 0.7109375, 0.765625 )
 
 
 {-| Provides the YlGnBu7-4 color.
 -}
 ylgnbu7_4 : ( Float, Float, Float )
 ylgnbu7_4 =
-    ( 29, 145, 192 )
+    ( 0.11328125, 0.56640625, 0.75 )
 
 
 {-| Provides the YlGnBu7-5 color.
 -}
 ylgnbu7_5 : ( Float, Float, Float )
 ylgnbu7_5 =
-    ( 34, 94, 168 )
+    ( 0.1328125, 0.3671875, 0.65625 )
 
 
 {-| Provides the YlGnBu7-6 color.
 -}
 ylgnbu7_6 : ( Float, Float, Float )
 ylgnbu7_6 =
-    ( 12, 44, 132 )
+    ( 0.046875, 0.171875, 0.515625 )
 
 
 {-| Provides the YlGnBu8 color scheme.
 -}
 ylgnbu8 : List ( Float, Float, Float )
 ylgnbu8 =
-    [ ( 255, 255, 217 ), ( 237, 248, 177 ), ( 199, 233, 180 ), ( 127, 205, 187 ), ( 65, 182, 196 ), ( 29, 145, 192 ), ( 34, 94, 168 ), ( 12, 44, 132 ) ]
+    [ ( 0.99609375, 0.99609375, 0.84765625 ), ( 0.92578125, 0.96875, 0.69140625 ), ( 0.77734375, 0.91015625, 0.703125 ), ( 0.49609375, 0.80078125, 0.73046875 ), ( 0.25390625, 0.7109375, 0.765625 ), ( 0.11328125, 0.56640625, 0.75 ), ( 0.1328125, 0.3671875, 0.65625 ), ( 0.046875, 0.171875, 0.515625 ) ]
 
 
 {-| Provides the YlGnBu8-0 color.
 -}
 ylgnbu8_0 : ( Float, Float, Float )
 ylgnbu8_0 =
-    ( 255, 255, 217 )
+    ( 0.99609375, 0.99609375, 0.84765625 )
 
 
 {-| Provides the YlGnBu8-1 color.
 -}
 ylgnbu8_1 : ( Float, Float, Float )
 ylgnbu8_1 =
-    ( 237, 248, 177 )
+    ( 0.92578125, 0.96875, 0.69140625 )
 
 
 {-| Provides the YlGnBu8-2 color.
 -}
 ylgnbu8_2 : ( Float, Float, Float )
 ylgnbu8_2 =
-    ( 199, 233, 180 )
+    ( 0.77734375, 0.91015625, 0.703125 )
 
 
 {-| Provides the YlGnBu8-3 color.
 -}
 ylgnbu8_3 : ( Float, Float, Float )
 ylgnbu8_3 =
-    ( 127, 205, 187 )
+    ( 0.49609375, 0.80078125, 0.73046875 )
 
 
 {-| Provides the YlGnBu8-4 color.
 -}
 ylgnbu8_4 : ( Float, Float, Float )
 ylgnbu8_4 =
-    ( 65, 182, 196 )
+    ( 0.25390625, 0.7109375, 0.765625 )
 
 
 {-| Provides the YlGnBu8-5 color.
 -}
 ylgnbu8_5 : ( Float, Float, Float )
 ylgnbu8_5 =
-    ( 29, 145, 192 )
+    ( 0.11328125, 0.56640625, 0.75 )
 
 
 {-| Provides the YlGnBu8-6 color.
 -}
 ylgnbu8_6 : ( Float, Float, Float )
 ylgnbu8_6 =
-    ( 34, 94, 168 )
+    ( 0.1328125, 0.3671875, 0.65625 )
 
 
 {-| Provides the YlGnBu8-7 color.
 -}
 ylgnbu8_7 : ( Float, Float, Float )
 ylgnbu8_7 =
-    ( 12, 44, 132 )
+    ( 0.046875, 0.171875, 0.515625 )
 
 
 {-| Provides the YlGnBu9 color scheme.
 -}
 ylgnbu9 : List ( Float, Float, Float )
 ylgnbu9 =
-    [ ( 255, 255, 217 ), ( 237, 248, 177 ), ( 199, 233, 180 ), ( 127, 205, 187 ), ( 65, 182, 196 ), ( 29, 145, 192 ), ( 34, 94, 168 ), ( 37, 52, 148 ), ( 8, 29, 88 ) ]
+    [ ( 0.99609375, 0.99609375, 0.84765625 ), ( 0.92578125, 0.96875, 0.69140625 ), ( 0.77734375, 0.91015625, 0.703125 ), ( 0.49609375, 0.80078125, 0.73046875 ), ( 0.25390625, 0.7109375, 0.765625 ), ( 0.11328125, 0.56640625, 0.75 ), ( 0.1328125, 0.3671875, 0.65625 ), ( 0.14453125, 0.203125, 0.578125 ), ( 0.03125, 0.11328125, 0.34375 ) ]
 
 
 {-| Provides the YlGnBu9-0 color.
 -}
 ylgnbu9_0 : ( Float, Float, Float )
 ylgnbu9_0 =
-    ( 255, 255, 217 )
+    ( 0.99609375, 0.99609375, 0.84765625 )
 
 
 {-| Provides the YlGnBu9-1 color.
 -}
 ylgnbu9_1 : ( Float, Float, Float )
 ylgnbu9_1 =
-    ( 237, 248, 177 )
+    ( 0.92578125, 0.96875, 0.69140625 )
 
 
 {-| Provides the YlGnBu9-2 color.
 -}
 ylgnbu9_2 : ( Float, Float, Float )
 ylgnbu9_2 =
-    ( 199, 233, 180 )
+    ( 0.77734375, 0.91015625, 0.703125 )
 
 
 {-| Provides the YlGnBu9-3 color.
 -}
 ylgnbu9_3 : ( Float, Float, Float )
 ylgnbu9_3 =
-    ( 127, 205, 187 )
+    ( 0.49609375, 0.80078125, 0.73046875 )
 
 
 {-| Provides the YlGnBu9-4 color.
 -}
 ylgnbu9_4 : ( Float, Float, Float )
 ylgnbu9_4 =
-    ( 65, 182, 196 )
+    ( 0.25390625, 0.7109375, 0.765625 )
 
 
 {-| Provides the YlGnBu9-5 color.
 -}
 ylgnbu9_5 : ( Float, Float, Float )
 ylgnbu9_5 =
-    ( 29, 145, 192 )
+    ( 0.11328125, 0.56640625, 0.75 )
 
 
 {-| Provides the YlGnBu9-6 color.
 -}
 ylgnbu9_6 : ( Float, Float, Float )
 ylgnbu9_6 =
-    ( 34, 94, 168 )
+    ( 0.1328125, 0.3671875, 0.65625 )
 
 
 {-| Provides the YlGnBu9-7 color.
 -}
 ylgnbu9_7 : ( Float, Float, Float )
 ylgnbu9_7 =
-    ( 37, 52, 148 )
+    ( 0.14453125, 0.203125, 0.578125 )
 
 
 {-| Provides the YlGnBu9-8 color.
 -}
 ylgnbu9_8 : ( Float, Float, Float )
 ylgnbu9_8 =
-    ( 8, 29, 88 )
+    ( 0.03125, 0.11328125, 0.34375 )
 
 
 {-| Provides the GnBu3 color scheme.
 -}
 gnbu3 : List ( Float, Float, Float )
 gnbu3 =
-    [ ( 224, 243, 219 ), ( 168, 221, 181 ), ( 67, 162, 202 ) ]
+    [ ( 0.875, 0.94921875, 0.85546875 ), ( 0.65625, 0.86328125, 0.70703125 ), ( 0.26171875, 0.6328125, 0.7890625 ) ]
 
 
 {-| Provides the GnBu3-0 color.
 -}
 gnbu3_0 : ( Float, Float, Float )
 gnbu3_0 =
-    ( 224, 243, 219 )
+    ( 0.875, 0.94921875, 0.85546875 )
 
 
 {-| Provides the GnBu3-1 color.
 -}
 gnbu3_1 : ( Float, Float, Float )
 gnbu3_1 =
-    ( 168, 221, 181 )
+    ( 0.65625, 0.86328125, 0.70703125 )
 
 
 {-| Provides the GnBu3-2 color.
 -}
 gnbu3_2 : ( Float, Float, Float )
 gnbu3_2 =
-    ( 67, 162, 202 )
+    ( 0.26171875, 0.6328125, 0.7890625 )
 
 
 {-| Provides the GnBu4 color scheme.
 -}
 gnbu4 : List ( Float, Float, Float )
 gnbu4 =
-    [ ( 240, 249, 232 ), ( 186, 228, 188 ), ( 123, 204, 196 ), ( 43, 140, 190 ) ]
+    [ ( 0.9375, 0.97265625, 0.90625 ), ( 0.7265625, 0.890625, 0.734375 ), ( 0.48046875, 0.796875, 0.765625 ), ( 0.16796875, 0.546875, 0.7421875 ) ]
 
 
 {-| Provides the GnBu4-0 color.
 -}
 gnbu4_0 : ( Float, Float, Float )
 gnbu4_0 =
-    ( 240, 249, 232 )
+    ( 0.9375, 0.97265625, 0.90625 )
 
 
 {-| Provides the GnBu4-1 color.
 -}
 gnbu4_1 : ( Float, Float, Float )
 gnbu4_1 =
-    ( 186, 228, 188 )
+    ( 0.7265625, 0.890625, 0.734375 )
 
 
 {-| Provides the GnBu4-2 color.
 -}
 gnbu4_2 : ( Float, Float, Float )
 gnbu4_2 =
-    ( 123, 204, 196 )
+    ( 0.48046875, 0.796875, 0.765625 )
 
 
 {-| Provides the GnBu4-3 color.
 -}
 gnbu4_3 : ( Float, Float, Float )
 gnbu4_3 =
-    ( 43, 140, 190 )
+    ( 0.16796875, 0.546875, 0.7421875 )
 
 
 {-| Provides the GnBu5 color scheme.
 -}
 gnbu5 : List ( Float, Float, Float )
 gnbu5 =
-    [ ( 240, 249, 232 ), ( 186, 228, 188 ), ( 123, 204, 196 ), ( 67, 162, 202 ), ( 8, 104, 172 ) ]
+    [ ( 0.9375, 0.97265625, 0.90625 ), ( 0.7265625, 0.890625, 0.734375 ), ( 0.48046875, 0.796875, 0.765625 ), ( 0.26171875, 0.6328125, 0.7890625 ), ( 0.03125, 0.40625, 0.671875 ) ]
 
 
 {-| Provides the GnBu5-0 color.
 -}
 gnbu5_0 : ( Float, Float, Float )
 gnbu5_0 =
-    ( 240, 249, 232 )
+    ( 0.9375, 0.97265625, 0.90625 )
 
 
 {-| Provides the GnBu5-1 color.
 -}
 gnbu5_1 : ( Float, Float, Float )
 gnbu5_1 =
-    ( 186, 228, 188 )
+    ( 0.7265625, 0.890625, 0.734375 )
 
 
 {-| Provides the GnBu5-2 color.
 -}
 gnbu5_2 : ( Float, Float, Float )
 gnbu5_2 =
-    ( 123, 204, 196 )
+    ( 0.48046875, 0.796875, 0.765625 )
 
 
 {-| Provides the GnBu5-3 color.
 -}
 gnbu5_3 : ( Float, Float, Float )
 gnbu5_3 =
-    ( 67, 162, 202 )
+    ( 0.26171875, 0.6328125, 0.7890625 )
 
 
 {-| Provides the GnBu5-4 color.
 -}
 gnbu5_4 : ( Float, Float, Float )
 gnbu5_4 =
-    ( 8, 104, 172 )
+    ( 0.03125, 0.40625, 0.671875 )
 
 
 {-| Provides the GnBu6 color scheme.
 -}
 gnbu6 : List ( Float, Float, Float )
 gnbu6 =
-    [ ( 240, 249, 232 ), ( 204, 235, 197 ), ( 168, 221, 181 ), ( 123, 204, 196 ), ( 67, 162, 202 ), ( 8, 104, 172 ) ]
+    [ ( 0.9375, 0.97265625, 0.90625 ), ( 0.796875, 0.91796875, 0.76953125 ), ( 0.65625, 0.86328125, 0.70703125 ), ( 0.48046875, 0.796875, 0.765625 ), ( 0.26171875, 0.6328125, 0.7890625 ), ( 0.03125, 0.40625, 0.671875 ) ]
 
 
 {-| Provides the GnBu6-0 color.
 -}
 gnbu6_0 : ( Float, Float, Float )
 gnbu6_0 =
-    ( 240, 249, 232 )
+    ( 0.9375, 0.97265625, 0.90625 )
 
 
 {-| Provides the GnBu6-1 color.
 -}
 gnbu6_1 : ( Float, Float, Float )
 gnbu6_1 =
-    ( 204, 235, 197 )
+    ( 0.796875, 0.91796875, 0.76953125 )
 
 
 {-| Provides the GnBu6-2 color.
 -}
 gnbu6_2 : ( Float, Float, Float )
 gnbu6_2 =
-    ( 168, 221, 181 )
+    ( 0.65625, 0.86328125, 0.70703125 )
 
 
 {-| Provides the GnBu6-3 color.
 -}
 gnbu6_3 : ( Float, Float, Float )
 gnbu6_3 =
-    ( 123, 204, 196 )
+    ( 0.48046875, 0.796875, 0.765625 )
 
 
 {-| Provides the GnBu6-4 color.
 -}
 gnbu6_4 : ( Float, Float, Float )
 gnbu6_4 =
-    ( 67, 162, 202 )
+    ( 0.26171875, 0.6328125, 0.7890625 )
 
 
 {-| Provides the GnBu6-5 color.
 -}
 gnbu6_5 : ( Float, Float, Float )
 gnbu6_5 =
-    ( 8, 104, 172 )
+    ( 0.03125, 0.40625, 0.671875 )
 
 
 {-| Provides the GnBu7 color scheme.
 -}
 gnbu7 : List ( Float, Float, Float )
 gnbu7 =
-    [ ( 240, 249, 232 ), ( 204, 235, 197 ), ( 168, 221, 181 ), ( 123, 204, 196 ), ( 78, 179, 211 ), ( 43, 140, 190 ), ( 8, 88, 158 ) ]
+    [ ( 0.9375, 0.97265625, 0.90625 ), ( 0.796875, 0.91796875, 0.76953125 ), ( 0.65625, 0.86328125, 0.70703125 ), ( 0.48046875, 0.796875, 0.765625 ), ( 0.3046875, 0.69921875, 0.82421875 ), ( 0.16796875, 0.546875, 0.7421875 ), ( 0.03125, 0.34375, 0.6171875 ) ]
 
 
 {-| Provides the GnBu7-0 color.
 -}
 gnbu7_0 : ( Float, Float, Float )
 gnbu7_0 =
-    ( 240, 249, 232 )
+    ( 0.9375, 0.97265625, 0.90625 )
 
 
 {-| Provides the GnBu7-1 color.
 -}
 gnbu7_1 : ( Float, Float, Float )
 gnbu7_1 =
-    ( 204, 235, 197 )
+    ( 0.796875, 0.91796875, 0.76953125 )
 
 
 {-| Provides the GnBu7-2 color.
 -}
 gnbu7_2 : ( Float, Float, Float )
 gnbu7_2 =
-    ( 168, 221, 181 )
+    ( 0.65625, 0.86328125, 0.70703125 )
 
 
 {-| Provides the GnBu7-3 color.
 -}
 gnbu7_3 : ( Float, Float, Float )
 gnbu7_3 =
-    ( 123, 204, 196 )
+    ( 0.48046875, 0.796875, 0.765625 )
 
 
 {-| Provides the GnBu7-4 color.
 -}
 gnbu7_4 : ( Float, Float, Float )
 gnbu7_4 =
-    ( 78, 179, 211 )
+    ( 0.3046875, 0.69921875, 0.82421875 )
 
 
 {-| Provides the GnBu7-5 color.
 -}
 gnbu7_5 : ( Float, Float, Float )
 gnbu7_5 =
-    ( 43, 140, 190 )
+    ( 0.16796875, 0.546875, 0.7421875 )
 
 
 {-| Provides the GnBu7-6 color.
 -}
 gnbu7_6 : ( Float, Float, Float )
 gnbu7_6 =
-    ( 8, 88, 158 )
+    ( 0.03125, 0.34375, 0.6171875 )
 
 
 {-| Provides the GnBu8 color scheme.
 -}
 gnbu8 : List ( Float, Float, Float )
 gnbu8 =
-    [ ( 247, 252, 240 ), ( 224, 243, 219 ), ( 204, 235, 197 ), ( 168, 221, 181 ), ( 123, 204, 196 ), ( 78, 179, 211 ), ( 43, 140, 190 ), ( 8, 88, 158 ) ]
+    [ ( 0.96484375, 0.984375, 0.9375 ), ( 0.875, 0.94921875, 0.85546875 ), ( 0.796875, 0.91796875, 0.76953125 ), ( 0.65625, 0.86328125, 0.70703125 ), ( 0.48046875, 0.796875, 0.765625 ), ( 0.3046875, 0.69921875, 0.82421875 ), ( 0.16796875, 0.546875, 0.7421875 ), ( 0.03125, 0.34375, 0.6171875 ) ]
 
 
 {-| Provides the GnBu8-0 color.
 -}
 gnbu8_0 : ( Float, Float, Float )
 gnbu8_0 =
-    ( 247, 252, 240 )
+    ( 0.96484375, 0.984375, 0.9375 )
 
 
 {-| Provides the GnBu8-1 color.
 -}
 gnbu8_1 : ( Float, Float, Float )
 gnbu8_1 =
-    ( 224, 243, 219 )
+    ( 0.875, 0.94921875, 0.85546875 )
 
 
 {-| Provides the GnBu8-2 color.
 -}
 gnbu8_2 : ( Float, Float, Float )
 gnbu8_2 =
-    ( 204, 235, 197 )
+    ( 0.796875, 0.91796875, 0.76953125 )
 
 
 {-| Provides the GnBu8-3 color.
 -}
 gnbu8_3 : ( Float, Float, Float )
 gnbu8_3 =
-    ( 168, 221, 181 )
+    ( 0.65625, 0.86328125, 0.70703125 )
 
 
 {-| Provides the GnBu8-4 color.
 -}
 gnbu8_4 : ( Float, Float, Float )
 gnbu8_4 =
-    ( 123, 204, 196 )
+    ( 0.48046875, 0.796875, 0.765625 )
 
 
 {-| Provides the GnBu8-5 color.
 -}
 gnbu8_5 : ( Float, Float, Float )
 gnbu8_5 =
-    ( 78, 179, 211 )
+    ( 0.3046875, 0.69921875, 0.82421875 )
 
 
 {-| Provides the GnBu8-6 color.
 -}
 gnbu8_6 : ( Float, Float, Float )
 gnbu8_6 =
-    ( 43, 140, 190 )
+    ( 0.16796875, 0.546875, 0.7421875 )
 
 
 {-| Provides the GnBu8-7 color.
 -}
 gnbu8_7 : ( Float, Float, Float )
 gnbu8_7 =
-    ( 8, 88, 158 )
+    ( 0.03125, 0.34375, 0.6171875 )
 
 
 {-| Provides the GnBu9 color scheme.
 -}
 gnbu9 : List ( Float, Float, Float )
 gnbu9 =
-    [ ( 247, 252, 240 ), ( 224, 243, 219 ), ( 204, 235, 197 ), ( 168, 221, 181 ), ( 123, 204, 196 ), ( 78, 179, 211 ), ( 43, 140, 190 ), ( 8, 104, 172 ), ( 8, 64, 129 ) ]
+    [ ( 0.96484375, 0.984375, 0.9375 ), ( 0.875, 0.94921875, 0.85546875 ), ( 0.796875, 0.91796875, 0.76953125 ), ( 0.65625, 0.86328125, 0.70703125 ), ( 0.48046875, 0.796875, 0.765625 ), ( 0.3046875, 0.69921875, 0.82421875 ), ( 0.16796875, 0.546875, 0.7421875 ), ( 0.03125, 0.40625, 0.671875 ), ( 0.03125, 0.25, 0.50390625 ) ]
 
 
 {-| Provides the GnBu9-0 color.
 -}
 gnbu9_0 : ( Float, Float, Float )
 gnbu9_0 =
-    ( 247, 252, 240 )
+    ( 0.96484375, 0.984375, 0.9375 )
 
 
 {-| Provides the GnBu9-1 color.
 -}
 gnbu9_1 : ( Float, Float, Float )
 gnbu9_1 =
-    ( 224, 243, 219 )
+    ( 0.875, 0.94921875, 0.85546875 )
 
 
 {-| Provides the GnBu9-2 color.
 -}
 gnbu9_2 : ( Float, Float, Float )
 gnbu9_2 =
-    ( 204, 235, 197 )
+    ( 0.796875, 0.91796875, 0.76953125 )
 
 
 {-| Provides the GnBu9-3 color.
 -}
 gnbu9_3 : ( Float, Float, Float )
 gnbu9_3 =
-    ( 168, 221, 181 )
+    ( 0.65625, 0.86328125, 0.70703125 )
 
 
 {-| Provides the GnBu9-4 color.
 -}
 gnbu9_4 : ( Float, Float, Float )
 gnbu9_4 =
-    ( 123, 204, 196 )
+    ( 0.48046875, 0.796875, 0.765625 )
 
 
 {-| Provides the GnBu9-5 color.
 -}
 gnbu9_5 : ( Float, Float, Float )
 gnbu9_5 =
-    ( 78, 179, 211 )
+    ( 0.3046875, 0.69921875, 0.82421875 )
 
 
 {-| Provides the GnBu9-6 color.
 -}
 gnbu9_6 : ( Float, Float, Float )
 gnbu9_6 =
-    ( 43, 140, 190 )
+    ( 0.16796875, 0.546875, 0.7421875 )
 
 
 {-| Provides the GnBu9-7 color.
 -}
 gnbu9_7 : ( Float, Float, Float )
 gnbu9_7 =
-    ( 8, 104, 172 )
+    ( 0.03125, 0.40625, 0.671875 )
 
 
 {-| Provides the GnBu9-8 color.
 -}
 gnbu9_8 : ( Float, Float, Float )
 gnbu9_8 =
-    ( 8, 64, 129 )
+    ( 0.03125, 0.25, 0.50390625 )
 
 
 {-| Provides the YlOrRd3 color scheme.
 -}
 ylorrd3 : List ( Float, Float, Float )
 ylorrd3 =
-    [ ( 255, 237, 160 ), ( 254, 178, 76 ), ( 240, 59, 32 ) ]
+    [ ( 0.99609375, 0.92578125, 0.625 ), ( 0.9921875, 0.6953125, 0.296875 ), ( 0.9375, 0.23046875, 0.125 ) ]
 
 
 {-| Provides the YlOrRd3-0 color.
 -}
 ylorrd3_0 : ( Float, Float, Float )
 ylorrd3_0 =
-    ( 255, 237, 160 )
+    ( 0.99609375, 0.92578125, 0.625 )
 
 
 {-| Provides the YlOrRd3-1 color.
 -}
 ylorrd3_1 : ( Float, Float, Float )
 ylorrd3_1 =
-    ( 254, 178, 76 )
+    ( 0.9921875, 0.6953125, 0.296875 )
 
 
 {-| Provides the YlOrRd3-2 color.
 -}
 ylorrd3_2 : ( Float, Float, Float )
 ylorrd3_2 =
-    ( 240, 59, 32 )
+    ( 0.9375, 0.23046875, 0.125 )
 
 
 {-| Provides the YlOrRd4 color scheme.
 -}
 ylorrd4 : List ( Float, Float, Float )
 ylorrd4 =
-    [ ( 255, 255, 178 ), ( 254, 204, 92 ), ( 253, 141, 60 ), ( 227, 26, 28 ) ]
+    [ ( 0.99609375, 0.99609375, 0.6953125 ), ( 0.9921875, 0.796875, 0.359375 ), ( 0.98828125, 0.55078125, 0.234375 ), ( 0.88671875, 0.1015625, 0.109375 ) ]
 
 
 {-| Provides the YlOrRd4-0 color.
 -}
 ylorrd4_0 : ( Float, Float, Float )
 ylorrd4_0 =
-    ( 255, 255, 178 )
+    ( 0.99609375, 0.99609375, 0.6953125 )
 
 
 {-| Provides the YlOrRd4-1 color.
 -}
 ylorrd4_1 : ( Float, Float, Float )
 ylorrd4_1 =
-    ( 254, 204, 92 )
+    ( 0.9921875, 0.796875, 0.359375 )
 
 
 {-| Provides the YlOrRd4-2 color.
 -}
 ylorrd4_2 : ( Float, Float, Float )
 ylorrd4_2 =
-    ( 253, 141, 60 )
+    ( 0.98828125, 0.55078125, 0.234375 )
 
 
 {-| Provides the YlOrRd4-3 color.
 -}
 ylorrd4_3 : ( Float, Float, Float )
 ylorrd4_3 =
-    ( 227, 26, 28 )
+    ( 0.88671875, 0.1015625, 0.109375 )
 
 
 {-| Provides the YlOrRd5 color scheme.
 -}
 ylorrd5 : List ( Float, Float, Float )
 ylorrd5 =
-    [ ( 255, 255, 178 ), ( 254, 204, 92 ), ( 253, 141, 60 ), ( 240, 59, 32 ), ( 189, 0, 38 ) ]
+    [ ( 0.99609375, 0.99609375, 0.6953125 ), ( 0.9921875, 0.796875, 0.359375 ), ( 0.98828125, 0.55078125, 0.234375 ), ( 0.9375, 0.23046875, 0.125 ), ( 0.73828125, 0, 0.1484375 ) ]
 
 
 {-| Provides the YlOrRd5-0 color.
 -}
 ylorrd5_0 : ( Float, Float, Float )
 ylorrd5_0 =
-    ( 255, 255, 178 )
+    ( 0.99609375, 0.99609375, 0.6953125 )
 
 
 {-| Provides the YlOrRd5-1 color.
 -}
 ylorrd5_1 : ( Float, Float, Float )
 ylorrd5_1 =
-    ( 254, 204, 92 )
+    ( 0.9921875, 0.796875, 0.359375 )
 
 
 {-| Provides the YlOrRd5-2 color.
 -}
 ylorrd5_2 : ( Float, Float, Float )
 ylorrd5_2 =
-    ( 253, 141, 60 )
+    ( 0.98828125, 0.55078125, 0.234375 )
 
 
 {-| Provides the YlOrRd5-3 color.
 -}
 ylorrd5_3 : ( Float, Float, Float )
 ylorrd5_3 =
-    ( 240, 59, 32 )
+    ( 0.9375, 0.23046875, 0.125 )
 
 
 {-| Provides the YlOrRd5-4 color.
 -}
 ylorrd5_4 : ( Float, Float, Float )
 ylorrd5_4 =
-    ( 189, 0, 38 )
+    ( 0.73828125, 0, 0.1484375 )
 
 
 {-| Provides the YlOrRd6 color scheme.
 -}
 ylorrd6 : List ( Float, Float, Float )
 ylorrd6 =
-    [ ( 255, 255, 178 ), ( 254, 217, 118 ), ( 254, 178, 76 ), ( 253, 141, 60 ), ( 240, 59, 32 ), ( 189, 0, 38 ) ]
+    [ ( 0.99609375, 0.99609375, 0.6953125 ), ( 0.9921875, 0.84765625, 0.4609375 ), ( 0.9921875, 0.6953125, 0.296875 ), ( 0.98828125, 0.55078125, 0.234375 ), ( 0.9375, 0.23046875, 0.125 ), ( 0.73828125, 0, 0.1484375 ) ]
 
 
 {-| Provides the YlOrRd6-0 color.
 -}
 ylorrd6_0 : ( Float, Float, Float )
 ylorrd6_0 =
-    ( 255, 255, 178 )
+    ( 0.99609375, 0.99609375, 0.6953125 )
 
 
 {-| Provides the YlOrRd6-1 color.
 -}
 ylorrd6_1 : ( Float, Float, Float )
 ylorrd6_1 =
-    ( 254, 217, 118 )
+    ( 0.9921875, 0.84765625, 0.4609375 )
 
 
 {-| Provides the YlOrRd6-2 color.
 -}
 ylorrd6_2 : ( Float, Float, Float )
 ylorrd6_2 =
-    ( 254, 178, 76 )
+    ( 0.9921875, 0.6953125, 0.296875 )
 
 
 {-| Provides the YlOrRd6-3 color.
 -}
 ylorrd6_3 : ( Float, Float, Float )
 ylorrd6_3 =
-    ( 253, 141, 60 )
+    ( 0.98828125, 0.55078125, 0.234375 )
 
 
 {-| Provides the YlOrRd6-4 color.
 -}
 ylorrd6_4 : ( Float, Float, Float )
 ylorrd6_4 =
-    ( 240, 59, 32 )
+    ( 0.9375, 0.23046875, 0.125 )
 
 
 {-| Provides the YlOrRd6-5 color.
 -}
 ylorrd6_5 : ( Float, Float, Float )
 ylorrd6_5 =
-    ( 189, 0, 38 )
+    ( 0.73828125, 0, 0.1484375 )
 
 
 {-| Provides the YlOrRd7 color scheme.
 -}
 ylorrd7 : List ( Float, Float, Float )
 ylorrd7 =
-    [ ( 255, 255, 178 ), ( 254, 217, 118 ), ( 254, 178, 76 ), ( 253, 141, 60 ), ( 252, 78, 42 ), ( 227, 26, 28 ), ( 177, 0, 38 ) ]
+    [ ( 0.99609375, 0.99609375, 0.6953125 ), ( 0.9921875, 0.84765625, 0.4609375 ), ( 0.9921875, 0.6953125, 0.296875 ), ( 0.98828125, 0.55078125, 0.234375 ), ( 0.984375, 0.3046875, 0.1640625 ), ( 0.88671875, 0.1015625, 0.109375 ), ( 0.69140625, 0, 0.1484375 ) ]
 
 
 {-| Provides the YlOrRd7-0 color.
 -}
 ylorrd7_0 : ( Float, Float, Float )
 ylorrd7_0 =
-    ( 255, 255, 178 )
+    ( 0.99609375, 0.99609375, 0.6953125 )
 
 
 {-| Provides the YlOrRd7-1 color.
 -}
 ylorrd7_1 : ( Float, Float, Float )
 ylorrd7_1 =
-    ( 254, 217, 118 )
+    ( 0.9921875, 0.84765625, 0.4609375 )
 
 
 {-| Provides the YlOrRd7-2 color.
 -}
 ylorrd7_2 : ( Float, Float, Float )
 ylorrd7_2 =
-    ( 254, 178, 76 )
+    ( 0.9921875, 0.6953125, 0.296875 )
 
 
 {-| Provides the YlOrRd7-3 color.
 -}
 ylorrd7_3 : ( Float, Float, Float )
 ylorrd7_3 =
-    ( 253, 141, 60 )
+    ( 0.98828125, 0.55078125, 0.234375 )
 
 
 {-| Provides the YlOrRd7-4 color.
 -}
 ylorrd7_4 : ( Float, Float, Float )
 ylorrd7_4 =
-    ( 252, 78, 42 )
+    ( 0.984375, 0.3046875, 0.1640625 )
 
 
 {-| Provides the YlOrRd7-5 color.
 -}
 ylorrd7_5 : ( Float, Float, Float )
 ylorrd7_5 =
-    ( 227, 26, 28 )
+    ( 0.88671875, 0.1015625, 0.109375 )
 
 
 {-| Provides the YlOrRd7-6 color.
 -}
 ylorrd7_6 : ( Float, Float, Float )
 ylorrd7_6 =
-    ( 177, 0, 38 )
+    ( 0.69140625, 0, 0.1484375 )
 
 
 {-| Provides the YlOrRd8 color scheme.
 -}
 ylorrd8 : List ( Float, Float, Float )
 ylorrd8 =
-    [ ( 255, 255, 204 ), ( 255, 237, 160 ), ( 254, 217, 118 ), ( 254, 178, 76 ), ( 253, 141, 60 ), ( 252, 78, 42 ), ( 227, 26, 28 ), ( 177, 0, 38 ) ]
+    [ ( 0.99609375, 0.99609375, 0.796875 ), ( 0.99609375, 0.92578125, 0.625 ), ( 0.9921875, 0.84765625, 0.4609375 ), ( 0.9921875, 0.6953125, 0.296875 ), ( 0.98828125, 0.55078125, 0.234375 ), ( 0.984375, 0.3046875, 0.1640625 ), ( 0.88671875, 0.1015625, 0.109375 ), ( 0.69140625, 0, 0.1484375 ) ]
 
 
 {-| Provides the YlOrRd8-0 color.
 -}
 ylorrd8_0 : ( Float, Float, Float )
 ylorrd8_0 =
-    ( 255, 255, 204 )
+    ( 0.99609375, 0.99609375, 0.796875 )
 
 
 {-| Provides the YlOrRd8-1 color.
 -}
 ylorrd8_1 : ( Float, Float, Float )
 ylorrd8_1 =
-    ( 255, 237, 160 )
+    ( 0.99609375, 0.92578125, 0.625 )
 
 
 {-| Provides the YlOrRd8-2 color.
 -}
 ylorrd8_2 : ( Float, Float, Float )
 ylorrd8_2 =
-    ( 254, 217, 118 )
+    ( 0.9921875, 0.84765625, 0.4609375 )
 
 
 {-| Provides the YlOrRd8-3 color.
 -}
 ylorrd8_3 : ( Float, Float, Float )
 ylorrd8_3 =
-    ( 254, 178, 76 )
+    ( 0.9921875, 0.6953125, 0.296875 )
 
 
 {-| Provides the YlOrRd8-4 color.
 -}
 ylorrd8_4 : ( Float, Float, Float )
 ylorrd8_4 =
-    ( 253, 141, 60 )
+    ( 0.98828125, 0.55078125, 0.234375 )
 
 
 {-| Provides the YlOrRd8-5 color.
 -}
 ylorrd8_5 : ( Float, Float, Float )
 ylorrd8_5 =
-    ( 252, 78, 42 )
+    ( 0.984375, 0.3046875, 0.1640625 )
 
 
 {-| Provides the YlOrRd8-6 color.
 -}
 ylorrd8_6 : ( Float, Float, Float )
 ylorrd8_6 =
-    ( 227, 26, 28 )
+    ( 0.88671875, 0.1015625, 0.109375 )
 
 
 {-| Provides the YlOrRd8-7 color.
 -}
 ylorrd8_7 : ( Float, Float, Float )
 ylorrd8_7 =
-    ( 177, 0, 38 )
+    ( 0.69140625, 0, 0.1484375 )
 
 
 {-| Provides the PuRd3 color scheme.
 -}
 purd3 : List ( Float, Float, Float )
 purd3 =
-    [ ( 231, 225, 239 ), ( 201, 148, 199 ), ( 221, 28, 119 ) ]
+    [ ( 0.90234375, 0.87890625, 0.93359375 ), ( 0.78515625, 0.578125, 0.77734375 ), ( 0.86328125, 0.109375, 0.46484375 ) ]
 
 
 {-| Provides the PuRd3-0 color.
 -}
 purd3_0 : ( Float, Float, Float )
 purd3_0 =
-    ( 231, 225, 239 )
+    ( 0.90234375, 0.87890625, 0.93359375 )
 
 
 {-| Provides the PuRd3-1 color.
 -}
 purd3_1 : ( Float, Float, Float )
 purd3_1 =
-    ( 201, 148, 199 )
+    ( 0.78515625, 0.578125, 0.77734375 )
 
 
 {-| Provides the PuRd3-2 color.
 -}
 purd3_2 : ( Float, Float, Float )
 purd3_2 =
-    ( 221, 28, 119 )
+    ( 0.86328125, 0.109375, 0.46484375 )
 
 
 {-| Provides the PuRd4 color scheme.
 -}
 purd4 : List ( Float, Float, Float )
 purd4 =
-    [ ( 241, 238, 246 ), ( 215, 181, 216 ), ( 223, 101, 176 ), ( 206, 18, 86 ) ]
+    [ ( 0.94140625, 0.9296875, 0.9609375 ), ( 0.83984375, 0.70703125, 0.84375 ), ( 0.87109375, 0.39453125, 0.6875 ), ( 0.8046875, 0.0703125, 0.3359375 ) ]
 
 
 {-| Provides the PuRd4-0 color.
 -}
 purd4_0 : ( Float, Float, Float )
 purd4_0 =
-    ( 241, 238, 246 )
+    ( 0.94140625, 0.9296875, 0.9609375 )
 
 
 {-| Provides the PuRd4-1 color.
 -}
 purd4_1 : ( Float, Float, Float )
 purd4_1 =
-    ( 215, 181, 216 )
+    ( 0.83984375, 0.70703125, 0.84375 )
 
 
 {-| Provides the PuRd4-2 color.
 -}
 purd4_2 : ( Float, Float, Float )
 purd4_2 =
-    ( 223, 101, 176 )
+    ( 0.87109375, 0.39453125, 0.6875 )
 
 
 {-| Provides the PuRd4-3 color.
 -}
 purd4_3 : ( Float, Float, Float )
 purd4_3 =
-    ( 206, 18, 86 )
+    ( 0.8046875, 0.0703125, 0.3359375 )
 
 
 {-| Provides the PuRd5 color scheme.
 -}
 purd5 : List ( Float, Float, Float )
 purd5 =
-    [ ( 241, 238, 246 ), ( 215, 181, 216 ), ( 223, 101, 176 ), ( 221, 28, 119 ), ( 152, 0, 67 ) ]
+    [ ( 0.94140625, 0.9296875, 0.9609375 ), ( 0.83984375, 0.70703125, 0.84375 ), ( 0.87109375, 0.39453125, 0.6875 ), ( 0.86328125, 0.109375, 0.46484375 ), ( 0.59375, 0, 0.26171875 ) ]
 
 
 {-| Provides the PuRd5-0 color.
 -}
 purd5_0 : ( Float, Float, Float )
 purd5_0 =
-    ( 241, 238, 246 )
+    ( 0.94140625, 0.9296875, 0.9609375 )
 
 
 {-| Provides the PuRd5-1 color.
 -}
 purd5_1 : ( Float, Float, Float )
 purd5_1 =
-    ( 215, 181, 216 )
+    ( 0.83984375, 0.70703125, 0.84375 )
 
 
 {-| Provides the PuRd5-2 color.
 -}
 purd5_2 : ( Float, Float, Float )
 purd5_2 =
-    ( 223, 101, 176 )
+    ( 0.87109375, 0.39453125, 0.6875 )
 
 
 {-| Provides the PuRd5-3 color.
 -}
 purd5_3 : ( Float, Float, Float )
 purd5_3 =
-    ( 221, 28, 119 )
+    ( 0.86328125, 0.109375, 0.46484375 )
 
 
 {-| Provides the PuRd5-4 color.
 -}
 purd5_4 : ( Float, Float, Float )
 purd5_4 =
-    ( 152, 0, 67 )
+    ( 0.59375, 0, 0.26171875 )
 
 
 {-| Provides the PuRd6 color scheme.
 -}
 purd6 : List ( Float, Float, Float )
 purd6 =
-    [ ( 241, 238, 246 ), ( 212, 185, 218 ), ( 201, 148, 199 ), ( 223, 101, 176 ), ( 221, 28, 119 ), ( 152, 0, 67 ) ]
+    [ ( 0.94140625, 0.9296875, 0.9609375 ), ( 0.828125, 0.72265625, 0.8515625 ), ( 0.78515625, 0.578125, 0.77734375 ), ( 0.87109375, 0.39453125, 0.6875 ), ( 0.86328125, 0.109375, 0.46484375 ), ( 0.59375, 0, 0.26171875 ) ]
 
 
 {-| Provides the PuRd6-0 color.
 -}
 purd6_0 : ( Float, Float, Float )
 purd6_0 =
-    ( 241, 238, 246 )
+    ( 0.94140625, 0.9296875, 0.9609375 )
 
 
 {-| Provides the PuRd6-1 color.
 -}
 purd6_1 : ( Float, Float, Float )
 purd6_1 =
-    ( 212, 185, 218 )
+    ( 0.828125, 0.72265625, 0.8515625 )
 
 
 {-| Provides the PuRd6-2 color.
 -}
 purd6_2 : ( Float, Float, Float )
 purd6_2 =
-    ( 201, 148, 199 )
+    ( 0.78515625, 0.578125, 0.77734375 )
 
 
 {-| Provides the PuRd6-3 color.
 -}
 purd6_3 : ( Float, Float, Float )
 purd6_3 =
-    ( 223, 101, 176 )
+    ( 0.87109375, 0.39453125, 0.6875 )
 
 
 {-| Provides the PuRd6-4 color.
 -}
 purd6_4 : ( Float, Float, Float )
 purd6_4 =
-    ( 221, 28, 119 )
+    ( 0.86328125, 0.109375, 0.46484375 )
 
 
 {-| Provides the PuRd6-5 color.
 -}
 purd6_5 : ( Float, Float, Float )
 purd6_5 =
-    ( 152, 0, 67 )
+    ( 0.59375, 0, 0.26171875 )
 
 
 {-| Provides the PuRd7 color scheme.
 -}
 purd7 : List ( Float, Float, Float )
 purd7 =
-    [ ( 241, 238, 246 ), ( 212, 185, 218 ), ( 201, 148, 199 ), ( 223, 101, 176 ), ( 231, 41, 138 ), ( 206, 18, 86 ), ( 145, 0, 63 ) ]
+    [ ( 0.94140625, 0.9296875, 0.9609375 ), ( 0.828125, 0.72265625, 0.8515625 ), ( 0.78515625, 0.578125, 0.77734375 ), ( 0.87109375, 0.39453125, 0.6875 ), ( 0.90234375, 0.16015625, 0.5390625 ), ( 0.8046875, 0.0703125, 0.3359375 ), ( 0.56640625, 0, 0.24609375 ) ]
 
 
 {-| Provides the PuRd7-0 color.
 -}
 purd7_0 : ( Float, Float, Float )
 purd7_0 =
-    ( 241, 238, 246 )
+    ( 0.94140625, 0.9296875, 0.9609375 )
 
 
 {-| Provides the PuRd7-1 color.
 -}
 purd7_1 : ( Float, Float, Float )
 purd7_1 =
-    ( 212, 185, 218 )
+    ( 0.828125, 0.72265625, 0.8515625 )
 
 
 {-| Provides the PuRd7-2 color.
 -}
 purd7_2 : ( Float, Float, Float )
 purd7_2 =
-    ( 201, 148, 199 )
+    ( 0.78515625, 0.578125, 0.77734375 )
 
 
 {-| Provides the PuRd7-3 color.
 -}
 purd7_3 : ( Float, Float, Float )
 purd7_3 =
-    ( 223, 101, 176 )
+    ( 0.87109375, 0.39453125, 0.6875 )
 
 
 {-| Provides the PuRd7-4 color.
 -}
 purd7_4 : ( Float, Float, Float )
 purd7_4 =
-    ( 231, 41, 138 )
+    ( 0.90234375, 0.16015625, 0.5390625 )
 
 
 {-| Provides the PuRd7-5 color.
 -}
 purd7_5 : ( Float, Float, Float )
 purd7_5 =
-    ( 206, 18, 86 )
+    ( 0.8046875, 0.0703125, 0.3359375 )
 
 
 {-| Provides the PuRd7-6 color.
 -}
 purd7_6 : ( Float, Float, Float )
 purd7_6 =
-    ( 145, 0, 63 )
+    ( 0.56640625, 0, 0.24609375 )
 
 
 {-| Provides the PuRd8 color scheme.
 -}
 purd8 : List ( Float, Float, Float )
 purd8 =
-    [ ( 247, 244, 249 ), ( 231, 225, 239 ), ( 212, 185, 218 ), ( 201, 148, 199 ), ( 223, 101, 176 ), ( 231, 41, 138 ), ( 206, 18, 86 ), ( 145, 0, 63 ) ]
+    [ ( 0.96484375, 0.953125, 0.97265625 ), ( 0.90234375, 0.87890625, 0.93359375 ), ( 0.828125, 0.72265625, 0.8515625 ), ( 0.78515625, 0.578125, 0.77734375 ), ( 0.87109375, 0.39453125, 0.6875 ), ( 0.90234375, 0.16015625, 0.5390625 ), ( 0.8046875, 0.0703125, 0.3359375 ), ( 0.56640625, 0, 0.24609375 ) ]
 
 
 {-| Provides the PuRd8-0 color.
 -}
 purd8_0 : ( Float, Float, Float )
 purd8_0 =
-    ( 247, 244, 249 )
+    ( 0.96484375, 0.953125, 0.97265625 )
 
 
 {-| Provides the PuRd8-1 color.
 -}
 purd8_1 : ( Float, Float, Float )
 purd8_1 =
-    ( 231, 225, 239 )
+    ( 0.90234375, 0.87890625, 0.93359375 )
 
 
 {-| Provides the PuRd8-2 color.
 -}
 purd8_2 : ( Float, Float, Float )
 purd8_2 =
-    ( 212, 185, 218 )
+    ( 0.828125, 0.72265625, 0.8515625 )
 
 
 {-| Provides the PuRd8-3 color.
 -}
 purd8_3 : ( Float, Float, Float )
 purd8_3 =
-    ( 201, 148, 199 )
+    ( 0.78515625, 0.578125, 0.77734375 )
 
 
 {-| Provides the PuRd8-4 color.
 -}
 purd8_4 : ( Float, Float, Float )
 purd8_4 =
-    ( 223, 101, 176 )
+    ( 0.87109375, 0.39453125, 0.6875 )
 
 
 {-| Provides the PuRd8-5 color.
 -}
 purd8_5 : ( Float, Float, Float )
 purd8_5 =
-    ( 231, 41, 138 )
+    ( 0.90234375, 0.16015625, 0.5390625 )
 
 
 {-| Provides the PuRd8-6 color.
 -}
 purd8_6 : ( Float, Float, Float )
 purd8_6 =
-    ( 206, 18, 86 )
+    ( 0.8046875, 0.0703125, 0.3359375 )
 
 
 {-| Provides the PuRd8-7 color.
 -}
 purd8_7 : ( Float, Float, Float )
 purd8_7 =
-    ( 145, 0, 63 )
+    ( 0.56640625, 0, 0.24609375 )
 
 
 {-| Provides the PuRd9 color scheme.
 -}
 purd9 : List ( Float, Float, Float )
 purd9 =
-    [ ( 247, 244, 249 ), ( 231, 225, 239 ), ( 212, 185, 218 ), ( 201, 148, 199 ), ( 223, 101, 176 ), ( 231, 41, 138 ), ( 206, 18, 86 ), ( 152, 0, 67 ), ( 103, 0, 31 ) ]
+    [ ( 0.96484375, 0.953125, 0.97265625 ), ( 0.90234375, 0.87890625, 0.93359375 ), ( 0.828125, 0.72265625, 0.8515625 ), ( 0.78515625, 0.578125, 0.77734375 ), ( 0.87109375, 0.39453125, 0.6875 ), ( 0.90234375, 0.16015625, 0.5390625 ), ( 0.8046875, 0.0703125, 0.3359375 ), ( 0.59375, 0, 0.26171875 ), ( 0.40234375, 0, 0.12109375 ) ]
 
 
 {-| Provides the PuRd9-0 color.
 -}
 purd9_0 : ( Float, Float, Float )
 purd9_0 =
-    ( 247, 244, 249 )
+    ( 0.96484375, 0.953125, 0.97265625 )
 
 
 {-| Provides the PuRd9-1 color.
 -}
 purd9_1 : ( Float, Float, Float )
 purd9_1 =
-    ( 231, 225, 239 )
+    ( 0.90234375, 0.87890625, 0.93359375 )
 
 
 {-| Provides the PuRd9-2 color.
 -}
 purd9_2 : ( Float, Float, Float )
 purd9_2 =
-    ( 212, 185, 218 )
+    ( 0.828125, 0.72265625, 0.8515625 )
 
 
 {-| Provides the PuRd9-3 color.
 -}
 purd9_3 : ( Float, Float, Float )
 purd9_3 =
-    ( 201, 148, 199 )
+    ( 0.78515625, 0.578125, 0.77734375 )
 
 
 {-| Provides the PuRd9-4 color.
 -}
 purd9_4 : ( Float, Float, Float )
 purd9_4 =
-    ( 223, 101, 176 )
+    ( 0.87109375, 0.39453125, 0.6875 )
 
 
 {-| Provides the PuRd9-5 color.
 -}
 purd9_5 : ( Float, Float, Float )
 purd9_5 =
-    ( 231, 41, 138 )
+    ( 0.90234375, 0.16015625, 0.5390625 )
 
 
 {-| Provides the PuRd9-6 color.
 -}
 purd9_6 : ( Float, Float, Float )
 purd9_6 =
-    ( 206, 18, 86 )
+    ( 0.8046875, 0.0703125, 0.3359375 )
 
 
 {-| Provides the PuRd9-7 color.
 -}
 purd9_7 : ( Float, Float, Float )
 purd9_7 =
-    ( 152, 0, 67 )
+    ( 0.59375, 0, 0.26171875 )
 
 
 {-| Provides the PuRd9-8 color.
 -}
 purd9_8 : ( Float, Float, Float )
 purd9_8 =
-    ( 103, 0, 31 )
+    ( 0.40234375, 0, 0.12109375 )
 
 
 {-| Provides the PuBuGn3 color scheme.
 -}
 pubugn3 : List ( Float, Float, Float )
 pubugn3 =
-    [ ( 236, 226, 240 ), ( 166, 189, 219 ), ( 28, 144, 153 ) ]
+    [ ( 0.921875, 0.8828125, 0.9375 ), ( 0.6484375, 0.73828125, 0.85546875 ), ( 0.109375, 0.5625, 0.59765625 ) ]
 
 
 {-| Provides the PuBuGn3-0 color.
 -}
 pubugn3_0 : ( Float, Float, Float )
 pubugn3_0 =
-    ( 236, 226, 240 )
+    ( 0.921875, 0.8828125, 0.9375 )
 
 
 {-| Provides the PuBuGn3-1 color.
 -}
 pubugn3_1 : ( Float, Float, Float )
 pubugn3_1 =
-    ( 166, 189, 219 )
+    ( 0.6484375, 0.73828125, 0.85546875 )
 
 
 {-| Provides the PuBuGn3-2 color.
 -}
 pubugn3_2 : ( Float, Float, Float )
 pubugn3_2 =
-    ( 28, 144, 153 )
+    ( 0.109375, 0.5625, 0.59765625 )
 
 
 {-| Provides the PuBuGn4 color scheme.
 -}
 pubugn4 : List ( Float, Float, Float )
 pubugn4 =
-    [ ( 246, 239, 247 ), ( 189, 201, 225 ), ( 103, 169, 207 ), ( 2, 129, 138 ) ]
+    [ ( 0.9609375, 0.93359375, 0.96484375 ), ( 0.73828125, 0.78515625, 0.87890625 ), ( 0.40234375, 0.66015625, 0.80859375 ), ( 0.0078125, 0.50390625, 0.5390625 ) ]
 
 
 {-| Provides the PuBuGn4-0 color.
 -}
 pubugn4_0 : ( Float, Float, Float )
 pubugn4_0 =
-    ( 246, 239, 247 )
+    ( 0.9609375, 0.93359375, 0.96484375 )
 
 
 {-| Provides the PuBuGn4-1 color.
 -}
 pubugn4_1 : ( Float, Float, Float )
 pubugn4_1 =
-    ( 189, 201, 225 )
+    ( 0.73828125, 0.78515625, 0.87890625 )
 
 
 {-| Provides the PuBuGn4-2 color.
 -}
 pubugn4_2 : ( Float, Float, Float )
 pubugn4_2 =
-    ( 103, 169, 207 )
+    ( 0.40234375, 0.66015625, 0.80859375 )
 
 
 {-| Provides the PuBuGn4-3 color.
 -}
 pubugn4_3 : ( Float, Float, Float )
 pubugn4_3 =
-    ( 2, 129, 138 )
+    ( 0.0078125, 0.50390625, 0.5390625 )
 
 
 {-| Provides the PuBuGn5 color scheme.
 -}
 pubugn5 : List ( Float, Float, Float )
 pubugn5 =
-    [ ( 246, 239, 247 ), ( 189, 201, 225 ), ( 103, 169, 207 ), ( 28, 144, 153 ), ( 1, 108, 89 ) ]
+    [ ( 0.9609375, 0.93359375, 0.96484375 ), ( 0.73828125, 0.78515625, 0.87890625 ), ( 0.40234375, 0.66015625, 0.80859375 ), ( 0.109375, 0.5625, 0.59765625 ), ( 0.00390625, 0.421875, 0.34765625 ) ]
 
 
 {-| Provides the PuBuGn5-0 color.
 -}
 pubugn5_0 : ( Float, Float, Float )
 pubugn5_0 =
-    ( 246, 239, 247 )
+    ( 0.9609375, 0.93359375, 0.96484375 )
 
 
 {-| Provides the PuBuGn5-1 color.
 -}
 pubugn5_1 : ( Float, Float, Float )
 pubugn5_1 =
-    ( 189, 201, 225 )
+    ( 0.73828125, 0.78515625, 0.87890625 )
 
 
 {-| Provides the PuBuGn5-2 color.
 -}
 pubugn5_2 : ( Float, Float, Float )
 pubugn5_2 =
-    ( 103, 169, 207 )
+    ( 0.40234375, 0.66015625, 0.80859375 )
 
 
 {-| Provides the PuBuGn5-3 color.
 -}
 pubugn5_3 : ( Float, Float, Float )
 pubugn5_3 =
-    ( 28, 144, 153 )
+    ( 0.109375, 0.5625, 0.59765625 )
 
 
 {-| Provides the PuBuGn5-4 color.
 -}
 pubugn5_4 : ( Float, Float, Float )
 pubugn5_4 =
-    ( 1, 108, 89 )
+    ( 0.00390625, 0.421875, 0.34765625 )
 
 
 {-| Provides the PuBuGn6 color scheme.
 -}
 pubugn6 : List ( Float, Float, Float )
 pubugn6 =
-    [ ( 246, 239, 247 ), ( 208, 209, 230 ), ( 166, 189, 219 ), ( 103, 169, 207 ), ( 28, 144, 153 ), ( 1, 108, 89 ) ]
+    [ ( 0.9609375, 0.93359375, 0.96484375 ), ( 0.8125, 0.81640625, 0.8984375 ), ( 0.6484375, 0.73828125, 0.85546875 ), ( 0.40234375, 0.66015625, 0.80859375 ), ( 0.109375, 0.5625, 0.59765625 ), ( 0.00390625, 0.421875, 0.34765625 ) ]
 
 
 {-| Provides the PuBuGn6-0 color.
 -}
 pubugn6_0 : ( Float, Float, Float )
 pubugn6_0 =
-    ( 246, 239, 247 )
+    ( 0.9609375, 0.93359375, 0.96484375 )
 
 
 {-| Provides the PuBuGn6-1 color.
 -}
 pubugn6_1 : ( Float, Float, Float )
 pubugn6_1 =
-    ( 208, 209, 230 )
+    ( 0.8125, 0.81640625, 0.8984375 )
 
 
 {-| Provides the PuBuGn6-2 color.
 -}
 pubugn6_2 : ( Float, Float, Float )
 pubugn6_2 =
-    ( 166, 189, 219 )
+    ( 0.6484375, 0.73828125, 0.85546875 )
 
 
 {-| Provides the PuBuGn6-3 color.
 -}
 pubugn6_3 : ( Float, Float, Float )
 pubugn6_3 =
-    ( 103, 169, 207 )
+    ( 0.40234375, 0.66015625, 0.80859375 )
 
 
 {-| Provides the PuBuGn6-4 color.
 -}
 pubugn6_4 : ( Float, Float, Float )
 pubugn6_4 =
-    ( 28, 144, 153 )
+    ( 0.109375, 0.5625, 0.59765625 )
 
 
 {-| Provides the PuBuGn6-5 color.
 -}
 pubugn6_5 : ( Float, Float, Float )
 pubugn6_5 =
-    ( 1, 108, 89 )
+    ( 0.00390625, 0.421875, 0.34765625 )
 
 
 {-| Provides the PuBuGn7 color scheme.
 -}
 pubugn7 : List ( Float, Float, Float )
 pubugn7 =
-    [ ( 246, 239, 247 ), ( 208, 209, 230 ), ( 166, 189, 219 ), ( 103, 169, 207 ), ( 54, 144, 192 ), ( 2, 129, 138 ), ( 1, 100, 80 ) ]
+    [ ( 0.9609375, 0.93359375, 0.96484375 ), ( 0.8125, 0.81640625, 0.8984375 ), ( 0.6484375, 0.73828125, 0.85546875 ), ( 0.40234375, 0.66015625, 0.80859375 ), ( 0.2109375, 0.5625, 0.75 ), ( 0.0078125, 0.50390625, 0.5390625 ), ( 0.00390625, 0.390625, 0.3125 ) ]
 
 
 {-| Provides the PuBuGn7-0 color.
 -}
 pubugn7_0 : ( Float, Float, Float )
 pubugn7_0 =
-    ( 246, 239, 247 )
+    ( 0.9609375, 0.93359375, 0.96484375 )
 
 
 {-| Provides the PuBuGn7-1 color.
 -}
 pubugn7_1 : ( Float, Float, Float )
 pubugn7_1 =
-    ( 208, 209, 230 )
+    ( 0.8125, 0.81640625, 0.8984375 )
 
 
 {-| Provides the PuBuGn7-2 color.
 -}
 pubugn7_2 : ( Float, Float, Float )
 pubugn7_2 =
-    ( 166, 189, 219 )
+    ( 0.6484375, 0.73828125, 0.85546875 )
 
 
 {-| Provides the PuBuGn7-3 color.
 -}
 pubugn7_3 : ( Float, Float, Float )
 pubugn7_3 =
-    ( 103, 169, 207 )
+    ( 0.40234375, 0.66015625, 0.80859375 )
 
 
 {-| Provides the PuBuGn7-4 color.
 -}
 pubugn7_4 : ( Float, Float, Float )
 pubugn7_4 =
-    ( 54, 144, 192 )
+    ( 0.2109375, 0.5625, 0.75 )
 
 
 {-| Provides the PuBuGn7-5 color.
 -}
 pubugn7_5 : ( Float, Float, Float )
 pubugn7_5 =
-    ( 2, 129, 138 )
+    ( 0.0078125, 0.50390625, 0.5390625 )
 
 
 {-| Provides the PuBuGn7-6 color.
 -}
 pubugn7_6 : ( Float, Float, Float )
 pubugn7_6 =
-    ( 1, 100, 80 )
+    ( 0.00390625, 0.390625, 0.3125 )
 
 
 {-| Provides the PuBuGn8 color scheme.
 -}
 pubugn8 : List ( Float, Float, Float )
 pubugn8 =
-    [ ( 255, 247, 251 ), ( 236, 226, 240 ), ( 208, 209, 230 ), ( 166, 189, 219 ), ( 103, 169, 207 ), ( 54, 144, 192 ), ( 2, 129, 138 ), ( 1, 100, 80 ) ]
+    [ ( 0.99609375, 0.96484375, 0.98046875 ), ( 0.921875, 0.8828125, 0.9375 ), ( 0.8125, 0.81640625, 0.8984375 ), ( 0.6484375, 0.73828125, 0.85546875 ), ( 0.40234375, 0.66015625, 0.80859375 ), ( 0.2109375, 0.5625, 0.75 ), ( 0.0078125, 0.50390625, 0.5390625 ), ( 0.00390625, 0.390625, 0.3125 ) ]
 
 
 {-| Provides the PuBuGn8-0 color.
 -}
 pubugn8_0 : ( Float, Float, Float )
 pubugn8_0 =
-    ( 255, 247, 251 )
+    ( 0.99609375, 0.96484375, 0.98046875 )
 
 
 {-| Provides the PuBuGn8-1 color.
 -}
 pubugn8_1 : ( Float, Float, Float )
 pubugn8_1 =
-    ( 236, 226, 240 )
+    ( 0.921875, 0.8828125, 0.9375 )
 
 
 {-| Provides the PuBuGn8-2 color.
 -}
 pubugn8_2 : ( Float, Float, Float )
 pubugn8_2 =
-    ( 208, 209, 230 )
+    ( 0.8125, 0.81640625, 0.8984375 )
 
 
 {-| Provides the PuBuGn8-3 color.
 -}
 pubugn8_3 : ( Float, Float, Float )
 pubugn8_3 =
-    ( 166, 189, 219 )
+    ( 0.6484375, 0.73828125, 0.85546875 )
 
 
 {-| Provides the PuBuGn8-4 color.
 -}
 pubugn8_4 : ( Float, Float, Float )
 pubugn8_4 =
-    ( 103, 169, 207 )
+    ( 0.40234375, 0.66015625, 0.80859375 )
 
 
 {-| Provides the PuBuGn8-5 color.
 -}
 pubugn8_5 : ( Float, Float, Float )
 pubugn8_5 =
-    ( 54, 144, 192 )
+    ( 0.2109375, 0.5625, 0.75 )
 
 
 {-| Provides the PuBuGn8-6 color.
 -}
 pubugn8_6 : ( Float, Float, Float )
 pubugn8_6 =
-    ( 2, 129, 138 )
+    ( 0.0078125, 0.50390625, 0.5390625 )
 
 
 {-| Provides the PuBuGn8-7 color.
 -}
 pubugn8_7 : ( Float, Float, Float )
 pubugn8_7 =
-    ( 1, 100, 80 )
+    ( 0.00390625, 0.390625, 0.3125 )
 
 
 {-| Provides the PuBuGn9 color scheme.
 -}
 pubugn9 : List ( Float, Float, Float )
 pubugn9 =
-    [ ( 255, 247, 251 ), ( 236, 226, 240 ), ( 208, 209, 230 ), ( 166, 189, 219 ), ( 103, 169, 207 ), ( 54, 144, 192 ), ( 2, 129, 138 ), ( 1, 108, 89 ), ( 1, 70, 54 ) ]
+    [ ( 0.99609375, 0.96484375, 0.98046875 ), ( 0.921875, 0.8828125, 0.9375 ), ( 0.8125, 0.81640625, 0.8984375 ), ( 0.6484375, 0.73828125, 0.85546875 ), ( 0.40234375, 0.66015625, 0.80859375 ), ( 0.2109375, 0.5625, 0.75 ), ( 0.0078125, 0.50390625, 0.5390625 ), ( 0.00390625, 0.421875, 0.34765625 ), ( 0.00390625, 0.2734375, 0.2109375 ) ]
 
 
 {-| Provides the PuBuGn9-0 color.
 -}
 pubugn9_0 : ( Float, Float, Float )
 pubugn9_0 =
-    ( 255, 247, 251 )
+    ( 0.99609375, 0.96484375, 0.98046875 )
 
 
 {-| Provides the PuBuGn9-1 color.
 -}
 pubugn9_1 : ( Float, Float, Float )
 pubugn9_1 =
-    ( 236, 226, 240 )
+    ( 0.921875, 0.8828125, 0.9375 )
 
 
 {-| Provides the PuBuGn9-2 color.
 -}
 pubugn9_2 : ( Float, Float, Float )
 pubugn9_2 =
-    ( 208, 209, 230 )
+    ( 0.8125, 0.81640625, 0.8984375 )
 
 
 {-| Provides the PuBuGn9-3 color.
 -}
 pubugn9_3 : ( Float, Float, Float )
 pubugn9_3 =
-    ( 166, 189, 219 )
+    ( 0.6484375, 0.73828125, 0.85546875 )
 
 
 {-| Provides the PuBuGn9-4 color.
 -}
 pubugn9_4 : ( Float, Float, Float )
 pubugn9_4 =
-    ( 103, 169, 207 )
+    ( 0.40234375, 0.66015625, 0.80859375 )
 
 
 {-| Provides the PuBuGn9-5 color.
 -}
 pubugn9_5 : ( Float, Float, Float )
 pubugn9_5 =
-    ( 54, 144, 192 )
+    ( 0.2109375, 0.5625, 0.75 )
 
 
 {-| Provides the PuBuGn9-6 color.
 -}
 pubugn9_6 : ( Float, Float, Float )
 pubugn9_6 =
-    ( 2, 129, 138 )
+    ( 0.0078125, 0.50390625, 0.5390625 )
 
 
 {-| Provides the PuBuGn9-7 color.
 -}
 pubugn9_7 : ( Float, Float, Float )
 pubugn9_7 =
-    ( 1, 108, 89 )
+    ( 0.00390625, 0.421875, 0.34765625 )
 
 
 {-| Provides the PuBuGn9-8 color.
 -}
 pubugn9_8 : ( Float, Float, Float )
 pubugn9_8 =
-    ( 1, 70, 54 )
+    ( 0.00390625, 0.2734375, 0.2109375 )

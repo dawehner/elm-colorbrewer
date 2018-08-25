@@ -12,7 +12,7 @@ const generateColorFile = (filename, colors) => {
     for (count in colors[name]) {
       const colorName = `${name}${count}`.toLowerCase();
       const rgbColours = colors[name][count].map((color) => {
-        const colors = color.replace('(', '').replace(')', '').split(',').map((string) => parseInt(string)).join(',');
+        const colors = color.replace('(', '').replace(')', '').split(',').map((string) => parseInt(string) / 256.0).join(',');
         return `(${colors})`;
       });
 
@@ -47,7 +47,7 @@ Colorbrewer.${filename}.
 ${colorElms.join("\n")}
 `;
 
-  fs.writeFileSync(`ColorBrewer/${filename}.elm`, template);
+  fs.writeFileSync(`src/ColorBrewer/${filename}.elm`, template);
 };
 
 generateColorFile('SequentialSH', data["sequential\nsingle-hue"]);
