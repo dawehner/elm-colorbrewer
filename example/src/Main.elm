@@ -1,12 +1,13 @@
 module Main exposing (main)
 
 import Browser
+import Color
 import Colorbrewer.Qualitative
 import Element exposing (..)
 import Element.Background exposing (..)
 
 
-tupleMap ( a, b, c ) f =
+tupleMap f ( a, b, c ) =
     f a b c
 
 
@@ -15,6 +16,15 @@ colors =
     , ( Colorbrewer.Qualitative.set23_1, "Qualitative.set23_1" )
     , ( Colorbrewer.Qualitative.set23_2, "Qualitative.set23_2" )
     ]
+
+
+toElmUiColor : Color.Color -> ( Float, Float, Float )
+toElmUiColor color =
+    let
+        { red, green, blue } =
+            Color.toRgba color
+    in
+    ( red / 256, green / 256, blue / 256 )
 
 
 view _ =
@@ -27,7 +37,7 @@ view _ =
                     el
                         [ height fill
                         , width (fillPortion 1)
-                        , color <| tupleMap c rgb
+                        , color <| tupleMap rgb <| toElmUiColor c
                         ]
                         (el
                             [ centerX
