@@ -4070,22 +4070,22 @@ orrd n =
             [ rgb 254 232 200, rgb 253 187 132 ]
 
         3 ->
-            orrd_3
+            orrd3
 
         4 ->
-            orrd_4
+            orrd4
 
         5 ->
-            orrd_5
+            orrd5
 
         6 ->
-            orrd_6
+            orrd6
 
         7 ->
-            orrd_7
+            orrd7
 
         8 ->
-            orrd_8
+            orrd8
 
         _ ->
             orrd_9
@@ -4106,22 +4106,22 @@ pubu n =
             [ rgb 236 231 242, rgb 166 189 219 ]
 
         3 ->
-            pubu_3
+            pubu3
 
         4 ->
-            pubu_4
+            pubu4
 
         5 ->
-            pubu_5
+            pubu5
 
         6 ->
-            pubu_6
+            pubu6
 
         7 ->
-            pubu_7
+            pubu7
 
         8 ->
-            pubu_8
+            pubu8
 
         _ ->
             pubu_9
@@ -4142,22 +4142,22 @@ bupu n =
             [ rgb 224 236 244, rgb 158 188 218 ]
 
         3 ->
-            bupu_3
+            bupu3
 
         4 ->
-            bupu_4
+            bupu4
 
         5 ->
-            bupu_5
+            bupu5
 
         6 ->
-            bupu_6
+            bupu6
 
         7 ->
-            bupu_7
+            bupu7
 
         8 ->
-            bupu_8
+            bupu8
 
         _ ->
             bupu_9
@@ -4178,22 +4178,22 @@ bugn n =
             [ rgb 229 245 249, rgb 153 216 201 ]
 
         3 ->
-            bugn_3
+            bugn3
 
         4 ->
-            bugn_4
+            bugn4
 
         5 ->
-            bugn_5
+            bugn5
 
         6 ->
-            bugn_6
+            bugn6
 
         7 ->
-            bugn_7
+            bugn7
 
         8 ->
-            bugn_8
+            bugn8
 
         _ ->
             bugn_9
@@ -4214,22 +4214,22 @@ ylorbr n =
             [ rgb 255 247 188, rgb 254 196 79 ]
 
         3 ->
-            ylorbr_3
+            ylorbr3
 
         4 ->
-            ylorbr_4
+            ylorbr4
 
         5 ->
-            ylorbr_5
+            ylorbr5
 
         6 ->
-            ylorbr_6
+            ylorbr6
 
         7 ->
-            ylorbr_7
+            ylorbr7
 
         8 ->
-            ylorbr_8
+            ylorbr8
 
         _ ->
             ylorbr_9
@@ -4250,22 +4250,22 @@ ylgn n =
             [ rgb 247 252 185, rgb 173 221 142 ]
 
         3 ->
-            ylgn_3
+            ylgn3
 
         4 ->
-            ylgn_4
+            ylgn4
 
         5 ->
-            ylgn_5
+            ylgn5
 
         6 ->
-            ylgn_6
+            ylgn6
 
         7 ->
-            ylgn_7
+            ylgn7
 
         8 ->
-            ylgn_8
+            ylgn8
 
         _ ->
             ylgn_9
@@ -4286,22 +4286,22 @@ rdpu n =
             [ rgb 253 224 221, rgb 250 159 181 ]
 
         3 ->
-            rdpu_3
+            rdpu3
 
         4 ->
-            rdpu_4
+            rdpu4
 
         5 ->
-            rdpu_5
+            rdpu5
 
         6 ->
-            rdpu_6
+            rdpu6
 
         7 ->
-            rdpu_7
+            rdpu7
 
         8 ->
-            rdpu_8
+            rdpu8
 
         _ ->
             rdpu_9
@@ -4322,22 +4322,22 @@ ylgnbu n =
             [ rgb 237 248 177, rgb 127 205 187 ]
 
         3 ->
-            ylgnbu_3
+            ylgnbu3
 
         4 ->
-            ylgnbu_4
+            ylgnbu4
 
         5 ->
-            ylgnbu_5
+            ylgnbu5
 
         6 ->
-            ylgnbu_6
+            ylgnbu6
 
         7 ->
-            ylgnbu_7
+            ylgnbu7
 
         8 ->
-            ylgnbu_8
+            ylgnbu8
 
         _ ->
             ylgnbu_9
@@ -4358,22 +4358,22 @@ gnbu n =
             [ rgb 224 243 219, rgb 168 221 181 ]
 
         3 ->
-            gnbu_3
+            gnbu3
 
         4 ->
-            gnbu_4
+            gnbu4
 
         5 ->
-            gnbu_5
+            gnbu5
 
         6 ->
-            gnbu_6
+            gnbu6
 
         7 ->
-            gnbu_7
+            gnbu7
 
         8 ->
-            gnbu_8
+            gnbu8
 
         _ ->
             gnbu_9
@@ -4394,19 +4394,19 @@ ylorrd n =
             [ rgb 255 237 160, rgb 254 178 76 ]
 
         3 ->
-            ylorrd_3
+            ylorrd3
 
         4 ->
-            ylorrd_4
+            ylorrd4
 
         5 ->
-            ylorrd_5
+            ylorrd5
 
         6 ->
-            ylorrd_6
+            ylorrd6
 
         7 ->
-            ylorrd_7
+            ylorrd7
 
         _ ->
             ylorrd_8
@@ -4427,22 +4427,22 @@ purd n =
             [ rgb 231 225 239, rgb 201 148 199 ]
 
         3 ->
-            purd_3
+            purd3
 
         4 ->
-            purd_4
+            purd4
 
         5 ->
-            purd_5
+            purd5
 
         6 ->
-            purd_6
+            purd6
 
         7 ->
-            purd_7
+            purd7
 
         8 ->
-            purd_8
+            purd8
 
         _ ->
             purd_9
@@ -4463,22 +4463,22 @@ pubugn n =
             [ rgb 236 226 240, rgb 166 189 219 ]
 
         3 ->
-            pubugn_3
+            pubugn3
 
         4 ->
-            pubugn_4
+            pubugn4
 
         5 ->
-            pubugn_5
+            pubugn5
 
         6 ->
-            pubugn_6
+            pubugn6
 
         7 ->
-            pubugn_7
+            pubugn7
 
         8 ->
-            pubugn_8
+            pubugn8
 
         _ ->
             pubugn_9

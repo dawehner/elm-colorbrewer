@@ -4560,28 +4560,28 @@ spectral n =
             [ rgb 252 141 89, rgb 255 255 191 ]
 
         3 ->
-            spectral_3
+            spectral3
 
         4 ->
-            spectral_4
+            spectral4
 
         5 ->
-            spectral_5
+            spectral5
 
         6 ->
-            spectral_6
+            spectral6
 
         7 ->
-            spectral_7
+            spectral7
 
         8 ->
-            spectral_8
+            spectral8
 
         9 ->
-            spectral_9
+            spectral9
 
         10 ->
-            spectral_10
+            spectral10
 
         _ ->
             spectral_11
@@ -4602,28 +4602,28 @@ rdylgn n =
             [ rgb 252 141 89, rgb 255 255 191 ]
 
         3 ->
-            rdylgn_3
+            rdylgn3
 
         4 ->
-            rdylgn_4
+            rdylgn4
 
         5 ->
-            rdylgn_5
+            rdylgn5
 
         6 ->
-            rdylgn_6
+            rdylgn6
 
         7 ->
-            rdylgn_7
+            rdylgn7
 
         8 ->
-            rdylgn_8
+            rdylgn8
 
         9 ->
-            rdylgn_9
+            rdylgn9
 
         10 ->
-            rdylgn_10
+            rdylgn10
 
         _ ->
             rdylgn_11
@@ -4644,28 +4644,28 @@ rdbu n =
             [ rgb 239 138 98, rgb 247 247 247 ]
 
         3 ->
-            rdbu_3
+            rdbu3
 
         4 ->
-            rdbu_4
+            rdbu4
 
         5 ->
-            rdbu_5
+            rdbu5
 
         6 ->
-            rdbu_6
+            rdbu6
 
         7 ->
-            rdbu_7
+            rdbu7
 
         8 ->
-            rdbu_8
+            rdbu8
 
         9 ->
-            rdbu_9
+            rdbu9
 
         10 ->
-            rdbu_10
+            rdbu10
 
         _ ->
             rdbu_11
@@ -4686,28 +4686,28 @@ piyg n =
             [ rgb 233 163 201, rgb 247 247 247 ]
 
         3 ->
-            piyg_3
+            piyg3
 
         4 ->
-            piyg_4
+            piyg4
 
         5 ->
-            piyg_5
+            piyg5
 
         6 ->
-            piyg_6
+            piyg6
 
         7 ->
-            piyg_7
+            piyg7
 
         8 ->
-            piyg_8
+            piyg8
 
         9 ->
-            piyg_9
+            piyg9
 
         10 ->
-            piyg_10
+            piyg10
 
         _ ->
             piyg_11
@@ -4728,28 +4728,28 @@ prgn n =
             [ rgb 175 141 195, rgb 247 247 247 ]
 
         3 ->
-            prgn_3
+            prgn3
 
         4 ->
-            prgn_4
+            prgn4
 
         5 ->
-            prgn_5
+            prgn5
 
         6 ->
-            prgn_6
+            prgn6
 
         7 ->
-            prgn_7
+            prgn7
 
         8 ->
-            prgn_8
+            prgn8
 
         9 ->
-            prgn_9
+            prgn9
 
         10 ->
-            prgn_10
+            prgn10
 
         _ ->
             prgn_11
@@ -4770,28 +4770,28 @@ rdylbu n =
             [ rgb 252 141 89, rgb 255 255 191 ]
 
         3 ->
-            rdylbu_3
+            rdylbu3
 
         4 ->
-            rdylbu_4
+            rdylbu4
 
         5 ->
-            rdylbu_5
+            rdylbu5
 
         6 ->
-            rdylbu_6
+            rdylbu6
 
         7 ->
-            rdylbu_7
+            rdylbu7
 
         8 ->
-            rdylbu_8
+            rdylbu8
 
         9 ->
-            rdylbu_9
+            rdylbu9
 
         10 ->
-            rdylbu_10
+            rdylbu10
 
         _ ->
             rdylbu_11
@@ -4812,28 +4812,28 @@ brbg n =
             [ rgb 216 179 101, rgb 245 245 245 ]
 
         3 ->
-            brbg_3
+            brbg3
 
         4 ->
-            brbg_4
+            brbg4
 
         5 ->
-            brbg_5
+            brbg5
 
         6 ->
-            brbg_6
+            brbg6
 
         7 ->
-            brbg_7
+            brbg7
 
         8 ->
-            brbg_8
+            brbg8
 
         9 ->
-            brbg_9
+            brbg9
 
         10 ->
-            brbg_10
+            brbg10
 
         _ ->
             brbg_11
@@ -4854,28 +4854,28 @@ rdgy n =
             [ rgb 239 138 98, rgb 255 255 255 ]
 
         3 ->
-            rdgy_3
+            rdgy3
 
         4 ->
-            rdgy_4
+            rdgy4
 
         5 ->
-            rdgy_5
+            rdgy5
 
         6 ->
-            rdgy_6
+            rdgy6
 
         7 ->
-            rdgy_7
+            rdgy7
 
         8 ->
-            rdgy_8
+            rdgy8
 
         9 ->
-            rdgy_9
+            rdgy9
 
         10 ->
-            rdgy_10
+            rdgy10
 
         _ ->
             rdgy_11
@@ -4896,28 +4896,28 @@ puor n =
             [ rgb 241 163 64, rgb 247 247 247 ]
 
         3 ->
-            puor_3
+            puor3
 
         4 ->
-            puor_4
+            puor4
 
         5 ->
-            puor_5
+            puor5
 
         6 ->
-            puor_6
+            puor6
 
         7 ->
-            puor_7
+            puor7
 
         8 ->
-            puor_8
+            puor8
 
         9 ->
-            puor_9
+            puor9
 
         10 ->
-            puor_10
+            puor10
 
         _ ->
             puor_11

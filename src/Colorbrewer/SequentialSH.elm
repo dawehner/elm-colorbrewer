@@ -2082,22 +2082,22 @@ oranges n =
             [ rgb 254 230 206, rgb 253 174 107 ]
 
         3 ->
-            oranges_3
+            oranges3
 
         4 ->
-            oranges_4
+            oranges4
 
         5 ->
-            oranges_5
+            oranges5
 
         6 ->
-            oranges_6
+            oranges6
 
         7 ->
-            oranges_7
+            oranges7
 
         8 ->
-            oranges_8
+            oranges8
 
         _ ->
             oranges_9
@@ -2118,22 +2118,22 @@ reds n =
             [ rgb 254 224 210, rgb 252 146 114 ]
 
         3 ->
-            reds_3
+            reds3
 
         4 ->
-            reds_4
+            reds4
 
         5 ->
-            reds_5
+            reds5
 
         6 ->
-            reds_6
+            reds6
 
         7 ->
-            reds_7
+            reds7
 
         8 ->
-            reds_8
+            reds8
 
         _ ->
             reds_9
@@ -2154,22 +2154,22 @@ greens n =
             [ rgb 229 245 224, rgb 161 217 155 ]
 
         3 ->
-            greens_3
+            greens3
 
         4 ->
-            greens_4
+            greens4
 
         5 ->
-            greens_5
+            greens5
 
         6 ->
-            greens_6
+            greens6
 
         7 ->
-            greens_7
+            greens7
 
         8 ->
-            greens_8
+            greens8
 
         _ ->
             greens_9
@@ -2190,22 +2190,22 @@ purples n =
             [ rgb 239 237 245, rgb 188 189 220 ]
 
         3 ->
-            purples_3
+            purples3
 
         4 ->
-            purples_4
+            purples4
 
         5 ->
-            purples_5
+            purples5
 
         6 ->
-            purples_6
+            purples6
 
         7 ->
-            purples_7
+            purples7
 
         8 ->
-            purples_8
+            purples8
 
         _ ->
             purples_9
@@ -2226,22 +2226,22 @@ greys n =
             [ rgb 240 240 240, rgb 189 189 189 ]
 
         3 ->
-            greys_3
+            greys3
 
         4 ->
-            greys_4
+            greys4
 
         5 ->
-            greys_5
+            greys5
 
         6 ->
-            greys_6
+            greys6
 
         7 ->
-            greys_7
+            greys7
 
         8 ->
-            greys_8
+            greys8
 
         _ ->
             greys_9
@@ -2262,22 +2262,22 @@ blues n =
             [ rgb 222 235 247, rgb 158 202 225 ]
 
         3 ->
-            blues_3
+            blues3
 
         4 ->
-            blues_4
+            blues4
 
         5 ->
-            blues_5
+            blues5
 
         6 ->
-            blues_6
+            blues6
 
         7 ->
-            blues_7
+            blues7
 
         8 ->
-            blues_8
+            blues8
 
         _ ->
             blues_9

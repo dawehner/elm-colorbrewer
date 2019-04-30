@@ -2992,19 +2992,19 @@ set2 n =
             [ rgb 102 194 165, rgb 252 141 98 ]
 
         3 ->
-            set2_3
+            set23
 
         4 ->
-            set2_4
+            set24
 
         5 ->
-            set2_5
+            set25
 
         6 ->
-            set2_6
+            set26
 
         7 ->
-            set2_7
+            set27
 
         _ ->
             set2_8
@@ -3025,19 +3025,19 @@ accent n =
             [ rgb 127 201 127, rgb 190 174 212 ]
 
         3 ->
-            accent_3
+            accent3
 
         4 ->
-            accent_4
+            accent4
 
         5 ->
-            accent_5
+            accent5
 
         6 ->
-            accent_6
+            accent6
 
         7 ->
-            accent_7
+            accent7
 
         _ ->
             accent_8
@@ -3058,22 +3058,22 @@ set1 n =
             [ rgb 228 26 28, rgb 55 126 184 ]
 
         3 ->
-            set1_3
+            set13
 
         4 ->
-            set1_4
+            set14
 
         5 ->
-            set1_5
+            set15
 
         6 ->
-            set1_6
+            set16
 
         7 ->
-            set1_7
+            set17
 
         8 ->
-            set1_8
+            set18
 
         _ ->
             set1_9
@@ -3094,31 +3094,31 @@ set3 n =
             [ rgb 141 211 199, rgb 255 255 179 ]
 
         3 ->
-            set3_3
+            set33
 
         4 ->
-            set3_4
+            set34
 
         5 ->
-            set3_5
+            set35
 
         6 ->
-            set3_6
+            set36
 
         7 ->
-            set3_7
+            set37
 
         8 ->
-            set3_8
+            set38
 
         9 ->
-            set3_9
+            set39
 
         10 ->
-            set3_10
+            set310
 
         11 ->
-            set3_11
+            set311
 
         _ ->
             set3_12
@@ -3139,19 +3139,19 @@ dark2 n =
             [ rgb 27 158 119, rgb 217 95 2 ]
 
         3 ->
-            dark2_3
+            dark23
 
         4 ->
-            dark2_4
+            dark24
 
         5 ->
-            dark2_5
+            dark25
 
         6 ->
-            dark2_6
+            dark26
 
         7 ->
-            dark2_7
+            dark27
 
         _ ->
             dark2_8
@@ -3172,31 +3172,31 @@ paired n =
             [ rgb 166 206 227, rgb 31 120 180 ]
 
         3 ->
-            paired_3
+            paired3
 
         4 ->
-            paired_4
+            paired4
 
         5 ->
-            paired_5
+            paired5
 
         6 ->
-            paired_6
+            paired6
 
         7 ->
-            paired_7
+            paired7
 
         8 ->
-            paired_8
+            paired8
 
         9 ->
-            paired_9
+            paired9
 
         10 ->
-            paired_10
+            paired10
 
         11 ->
-            paired_11
+            paired11
 
         _ ->
             paired_12
@@ -3217,19 +3217,19 @@ pastel2 n =
             [ rgb 179 226 205, rgb 253 205 172 ]
 
         3 ->
-            pastel2_3
+            pastel23
 
         4 ->
-            pastel2_4
+            pastel24
 
         5 ->
-            pastel2_5
+            pastel25
 
         6 ->
-            pastel2_6
+            pastel26
 
         7 ->
-            pastel2_7
+            pastel27
 
         _ ->
             pastel2_8
@@ -3250,22 +3250,22 @@ pastel1 n =
             [ rgb 251 180 174, rgb 179 205 227 ]
 
         3 ->
-            pastel1_3
+            pastel13
 
         4 ->
-            pastel1_4
+            pastel14
 
         5 ->
-            pastel1_5
+            pastel15
 
         6 ->
-            pastel1_6
+            pastel16
 
         7 ->
-            pastel1_7
+            pastel17
 
         8 ->
-            pastel1_8
+            pastel18
 
         _ ->
             pastel1_9
