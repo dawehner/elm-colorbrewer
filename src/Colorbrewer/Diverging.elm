@@ -4584,7 +4584,7 @@ spectral n =
             spectral10
 
         _ ->
-            spectral_11
+            spectral11
 
 
 {-| Returns a RdYlGn color scheme.
@@ -4626,7 +4626,7 @@ rdylgn n =
             rdylgn10
 
         _ ->
-            rdylgn_11
+            rdylgn11
 
 
 {-| Returns a RdBu color scheme.
@@ -4668,7 +4668,7 @@ rdbu n =
             rdbu10
 
         _ ->
-            rdbu_11
+            rdbu11
 
 
 {-| Returns a PiYG color scheme.
@@ -4710,7 +4710,7 @@ piyg n =
             piyg10
 
         _ ->
-            piyg_11
+            piyg11
 
 
 {-| Returns a PRGn color scheme.
@@ -4752,7 +4752,7 @@ prgn n =
             prgn10
 
         _ ->
-            prgn_11
+            prgn11
 
 
 {-| Returns a RdYlBu color scheme.
@@ -4794,7 +4794,7 @@ rdylbu n =
             rdylbu10
 
         _ ->
-            rdylbu_11
+            rdylbu11
 
 
 {-| Returns a BrBG color scheme.
@@ -4836,7 +4836,7 @@ brbg n =
             brbg10
 
         _ ->
-            brbg_11
+            brbg11
 
 
 {-| Returns a RdGy color scheme.
@@ -4878,7 +4878,7 @@ rdgy n =
             rdgy10
 
         _ ->
-            rdgy_11
+            rdgy11
 
 
 {-| Returns a PuOr color scheme.
@@ -4920,4 +4920,4 @@ puor n =
             puor10
 
         _ ->
-            puor_11
+            puor11

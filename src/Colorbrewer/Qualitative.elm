@@ -3007,7 +3007,7 @@ set2 n =
             set27
 
         _ ->
-            set2_8
+            set28
 
 
 {-| Returns a Accent color scheme.
@@ -3040,7 +3040,7 @@ accent n =
             accent7
 
         _ ->
-            accent_8
+            accent8
 
 
 {-| Returns a Set1 color scheme.
@@ -3076,7 +3076,7 @@ set1 n =
             set18
 
         _ ->
-            set1_9
+            set19
 
 
 {-| Returns a Set3 color scheme.
@@ -3121,7 +3121,7 @@ set3 n =
             set311
 
         _ ->
-            set3_12
+            set312
 
 
 {-| Returns a Dark2 color scheme.
@@ -3154,7 +3154,7 @@ dark2 n =
             dark27
 
         _ ->
-            dark2_8
+            dark28
 
 
 {-| Returns a Paired color scheme.
@@ -3199,7 +3199,7 @@ paired n =
             paired11
 
         _ ->
-            paired_12
+            paired12
 
 
 {-| Returns a Pastel2 color scheme.
@@ -3232,7 +3232,7 @@ pastel2 n =
             pastel27
 
         _ ->
-            pastel2_8
+            pastel28
 
 
 {-| Returns a Pastel1 color scheme.
@@ -3268,4 +3268,4 @@ pastel1 n =
             pastel18
 
         _ ->
-            pastel1_9
+            pastel19

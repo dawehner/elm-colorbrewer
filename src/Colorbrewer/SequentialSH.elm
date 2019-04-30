@@ -2100,7 +2100,7 @@ oranges n =
             oranges8
 
         _ ->
-            oranges_9
+            oranges9
 
 
 {-| Returns a Reds color scheme.
@@ -2136,7 +2136,7 @@ reds n =
             reds8
 
         _ ->
-            reds_9
+            reds9
 
 
 {-| Returns a Greens color scheme.
@@ -2172,7 +2172,7 @@ greens n =
             greens8
 
         _ ->
-            greens_9
+            greens9
 
 
 {-| Returns a Purples color scheme.
@@ -2208,7 +2208,7 @@ purples n =
             purples8
 
         _ ->
-            purples_9
+            purples9
 
 
 {-| Returns a Greys color scheme.
@@ -2244,7 +2244,7 @@ greys n =
             greys8
 
         _ ->
-            greys_9
+            greys9
 
 
 {-| Returns a Blues color scheme.
@@ -2280,4 +2280,4 @@ blues n =
             blues8
 
         _ ->
-            blues_9
+            blues9

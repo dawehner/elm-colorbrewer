@@ -57,7 +57,7 @@ ${colorName} n = case n of
   0 -> []
 ${range(1, minLength).map(n => `  ${n} -> [${generateRgbColours(colors[name][minLength]).slice(0, n).join(', ')}]`).join(`\n`)}
 ${range(minLength, maxLength).map(n => `  ${n} -> ${colorName}${n}`).join(`\n`)}
-  _ -> ${colorName}_${maxLength}
+  _ -> ${colorName}${maxLength}
 `);
 
     colorNames.push(colorName);

@@ -4088,7 +4088,7 @@ orrd n =
             orrd8
 
         _ ->
-            orrd_9
+            orrd9
 
 
 {-| Returns a PuBu color scheme.
@@ -4124,7 +4124,7 @@ pubu n =
             pubu8
 
         _ ->
-            pubu_9
+            pubu9
 
 
 {-| Returns a BuPu color scheme.
@@ -4160,7 +4160,7 @@ bupu n =
             bupu8
 
         _ ->
-            bupu_9
+            bupu9
 
 
 {-| Returns a BuGn color scheme.
@@ -4196,7 +4196,7 @@ bugn n =
             bugn8
 
         _ ->
-            bugn_9
+            bugn9
 
 
 {-| Returns a YlOrBr color scheme.
@@ -4232,7 +4232,7 @@ ylorbr n =
             ylorbr8
 
         _ ->
-            ylorbr_9
+            ylorbr9
 
 
 {-| Returns a YlGn color scheme.
@@ -4268,7 +4268,7 @@ ylgn n =
             ylgn8
 
         _ ->
-            ylgn_9
+            ylgn9
 
 
 {-| Returns a RdPu color scheme.
@@ -4304,7 +4304,7 @@ rdpu n =
             rdpu8
 
         _ ->
-            rdpu_9
+            rdpu9
 
 
 {-| Returns a YlGnBu color scheme.
@@ -4340,7 +4340,7 @@ ylgnbu n =
             ylgnbu8
 
         _ ->
-            ylgnbu_9
+            ylgnbu9
 
 
 {-| Returns a GnBu color scheme.
@@ -4376,7 +4376,7 @@ gnbu n =
             gnbu8
 
         _ ->
-            gnbu_9
+            gnbu9
 
 
 {-| Returns a YlOrRd color scheme.
@@ -4409,7 +4409,7 @@ ylorrd n =
             ylorrd7
 
         _ ->
-            ylorrd_8
+            ylorrd8
 
 
 {-| Returns a PuRd color scheme.
@@ -4445,7 +4445,7 @@ purd n =
             purd8
 
         _ ->
-            purd_9
+            purd9
 
 
 {-| Returns a PuBuGn color scheme.
@@ -4481,4 +4481,4 @@ pubugn n =
             pubugn8
 
         _ ->
-            pubugn_9
+            pubugn9
