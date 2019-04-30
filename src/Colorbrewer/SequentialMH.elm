@@ -1,8 +1,8 @@
-module Colorbrewer.SequentialMH exposing (orrd3_0, orrd3_1, orrd3_2, orrd3, orrd4_0, orrd4_1, orrd4_2, orrd4_3, orrd4, orrd5_0, orrd5_1, orrd5_2, orrd5_3, orrd5_4, orrd5, orrd6_0, orrd6_1, orrd6_2, orrd6_3, orrd6_4, orrd6_5, orrd6, orrd7_0, orrd7_1, orrd7_2, orrd7_3, orrd7_4, orrd7_5, orrd7_6, orrd7, orrd8_0, orrd8_1, orrd8_2, orrd8_3, orrd8_4, orrd8_5, orrd8_6, orrd8_7, orrd8, orrd9_0, orrd9_1, orrd9_2, orrd9_3, orrd9_4, orrd9_5, orrd9_6, orrd9_7, orrd9_8, orrd9, pubu3_0, pubu3_1, pubu3_2, pubu3, pubu4_0, pubu4_1, pubu4_2, pubu4_3, pubu4, pubu5_0, pubu5_1, pubu5_2, pubu5_3, pubu5_4, pubu5, pubu6_0, pubu6_1, pubu6_2, pubu6_3, pubu6_4, pubu6_5, pubu6, pubu7_0, pubu7_1, pubu7_2, pubu7_3, pubu7_4, pubu7_5, pubu7_6, pubu7, pubu8_0, pubu8_1, pubu8_2, pubu8_3, pubu8_4, pubu8_5, pubu8_6, pubu8_7, pubu8, pubu9_0, pubu9_1, pubu9_2, pubu9_3, pubu9_4, pubu9_5, pubu9_6, pubu9_7, pubu9_8, pubu9, bupu3_0, bupu3_1, bupu3_2, bupu3, bupu4_0, bupu4_1, bupu4_2, bupu4_3, bupu4, bupu5_0, bupu5_1, bupu5_2, bupu5_3, bupu5_4, bupu5, bupu6_0, bupu6_1, bupu6_2, bupu6_3, bupu6_4, bupu6_5, bupu6, bupu7_0, bupu7_1, bupu7_2, bupu7_3, bupu7_4, bupu7_5, bupu7_6, bupu7, bupu8_0, bupu8_1, bupu8_2, bupu8_3, bupu8_4, bupu8_5, bupu8_6, bupu8_7, bupu8, bupu9_0, bupu9_1, bupu9_2, bupu9_3, bupu9_4, bupu9_5, bupu9_6, bupu9_7, bupu9_8, bupu9, bugn3_0, bugn3_1, bugn3_2, bugn3, bugn4_0, bugn4_1, bugn4_2, bugn4_3, bugn4, bugn5_0, bugn5_1, bugn5_2, bugn5_3, bugn5_4, bugn5, bugn6_0, bugn6_1, bugn6_2, bugn6_3, bugn6_4, bugn6_5, bugn6, bugn7_0, bugn7_1, bugn7_2, bugn7_3, bugn7_4, bugn7_5, bugn7_6, bugn7, bugn8_0, bugn8_1, bugn8_2, bugn8_3, bugn8_4, bugn8_5, bugn8_6, bugn8_7, bugn8, bugn9_0, bugn9_1, bugn9_2, bugn9_3, bugn9_4, bugn9_5, bugn9_6, bugn9_7, bugn9_8, bugn9, ylorbr3_0, ylorbr3_1, ylorbr3_2, ylorbr3, ylorbr4_0, ylorbr4_1, ylorbr4_2, ylorbr4_3, ylorbr4, ylorbr5_0, ylorbr5_1, ylorbr5_2, ylorbr5_3, ylorbr5_4, ylorbr5, ylorbr6_0, ylorbr6_1, ylorbr6_2, ylorbr6_3, ylorbr6_4, ylorbr6_5, ylorbr6, ylorbr7_0, ylorbr7_1, ylorbr7_2, ylorbr7_3, ylorbr7_4, ylorbr7_5, ylorbr7_6, ylorbr7, ylorbr8_0, ylorbr8_1, ylorbr8_2, ylorbr8_3, ylorbr8_4, ylorbr8_5, ylorbr8_6, ylorbr8_7, ylorbr8, ylorbr9_0, ylorbr9_1, ylorbr9_2, ylorbr9_3, ylorbr9_4, ylorbr9_5, ylorbr9_6, ylorbr9_7, ylorbr9_8, ylorbr9, ylgn3_0, ylgn3_1, ylgn3_2, ylgn3, ylgn4_0, ylgn4_1, ylgn4_2, ylgn4_3, ylgn4, ylgn5_0, ylgn5_1, ylgn5_2, ylgn5_3, ylgn5_4, ylgn5, ylgn6_0, ylgn6_1, ylgn6_2, ylgn6_3, ylgn6_4, ylgn6_5, ylgn6, ylgn7_0, ylgn7_1, ylgn7_2, ylgn7_3, ylgn7_4, ylgn7_5, ylgn7_6, ylgn7, ylgn8_0, ylgn8_1, ylgn8_2, ylgn8_3, ylgn8_4, ylgn8_5, ylgn8_6, ylgn8_7, ylgn8, ylgn9_0, ylgn9_1, ylgn9_2, ylgn9_3, ylgn9_4, ylgn9_5, ylgn9_6, ylgn9_7, ylgn9_8, ylgn9, rdpu3_0, rdpu3_1, rdpu3_2, rdpu3, rdpu4_0, rdpu4_1, rdpu4_2, rdpu4_3, rdpu4, rdpu5_0, rdpu5_1, rdpu5_2, rdpu5_3, rdpu5_4, rdpu5, rdpu6_0, rdpu6_1, rdpu6_2, rdpu6_3, rdpu6_4, rdpu6_5, rdpu6, rdpu7_0, rdpu7_1, rdpu7_2, rdpu7_3, rdpu7_4, rdpu7_5, rdpu7_6, rdpu7, rdpu8_0, rdpu8_1, rdpu8_2, rdpu8_3, rdpu8_4, rdpu8_5, rdpu8_6, rdpu8_7, rdpu8, rdpu9_0, rdpu9_1, rdpu9_2, rdpu9_3, rdpu9_4, rdpu9_5, rdpu9_6, rdpu9_7, rdpu9_8, rdpu9, ylgnbu3_0, ylgnbu3_1, ylgnbu3_2, ylgnbu3, ylgnbu4_0, ylgnbu4_1, ylgnbu4_2, ylgnbu4_3, ylgnbu4, ylgnbu5_0, ylgnbu5_1, ylgnbu5_2, ylgnbu5_3, ylgnbu5_4, ylgnbu5, ylgnbu6_0, ylgnbu6_1, ylgnbu6_2, ylgnbu6_3, ylgnbu6_4, ylgnbu6_5, ylgnbu6, ylgnbu7_0, ylgnbu7_1, ylgnbu7_2, ylgnbu7_3, ylgnbu7_4, ylgnbu7_5, ylgnbu7_6, ylgnbu7, ylgnbu8_0, ylgnbu8_1, ylgnbu8_2, ylgnbu8_3, ylgnbu8_4, ylgnbu8_5, ylgnbu8_6, ylgnbu8_7, ylgnbu8, ylgnbu9_0, ylgnbu9_1, ylgnbu9_2, ylgnbu9_3, ylgnbu9_4, ylgnbu9_5, ylgnbu9_6, ylgnbu9_7, ylgnbu9_8, ylgnbu9, gnbu3_0, gnbu3_1, gnbu3_2, gnbu3, gnbu4_0, gnbu4_1, gnbu4_2, gnbu4_3, gnbu4, gnbu5_0, gnbu5_1, gnbu5_2, gnbu5_3, gnbu5_4, gnbu5, gnbu6_0, gnbu6_1, gnbu6_2, gnbu6_3, gnbu6_4, gnbu6_5, gnbu6, gnbu7_0, gnbu7_1, gnbu7_2, gnbu7_3, gnbu7_4, gnbu7_5, gnbu7_6, gnbu7, gnbu8_0, gnbu8_1, gnbu8_2, gnbu8_3, gnbu8_4, gnbu8_5, gnbu8_6, gnbu8_7, gnbu8, gnbu9_0, gnbu9_1, gnbu9_2, gnbu9_3, gnbu9_4, gnbu9_5, gnbu9_6, gnbu9_7, gnbu9_8, gnbu9, ylorrd3_0, ylorrd3_1, ylorrd3_2, ylorrd3, ylorrd4_0, ylorrd4_1, ylorrd4_2, ylorrd4_3, ylorrd4, ylorrd5_0, ylorrd5_1, ylorrd5_2, ylorrd5_3, ylorrd5_4, ylorrd5, ylorrd6_0, ylorrd6_1, ylorrd6_2, ylorrd6_3, ylorrd6_4, ylorrd6_5, ylorrd6, ylorrd7_0, ylorrd7_1, ylorrd7_2, ylorrd7_3, ylorrd7_4, ylorrd7_5, ylorrd7_6, ylorrd7, ylorrd8_0, ylorrd8_1, ylorrd8_2, ylorrd8_3, ylorrd8_4, ylorrd8_5, ylorrd8_6, ylorrd8_7, ylorrd8, purd3_0, purd3_1, purd3_2, purd3, purd4_0, purd4_1, purd4_2, purd4_3, purd4, purd5_0, purd5_1, purd5_2, purd5_3, purd5_4, purd5, purd6_0, purd6_1, purd6_2, purd6_3, purd6_4, purd6_5, purd6, purd7_0, purd7_1, purd7_2, purd7_3, purd7_4, purd7_5, purd7_6, purd7, purd8_0, purd8_1, purd8_2, purd8_3, purd8_4, purd8_5, purd8_6, purd8_7, purd8, purd9_0, purd9_1, purd9_2, purd9_3, purd9_4, purd9_5, purd9_6, purd9_7, purd9_8, purd9, pubugn3_0, pubugn3_1, pubugn3_2, pubugn3, pubugn4_0, pubugn4_1, pubugn4_2, pubugn4_3, pubugn4, pubugn5_0, pubugn5_1, pubugn5_2, pubugn5_3, pubugn5_4, pubugn5, pubugn6_0, pubugn6_1, pubugn6_2, pubugn6_3, pubugn6_4, pubugn6_5, pubugn6, pubugn7_0, pubugn7_1, pubugn7_2, pubugn7_3, pubugn7_4, pubugn7_5, pubugn7_6, pubugn7, pubugn8_0, pubugn8_1, pubugn8_2, pubugn8_3, pubugn8_4, pubugn8_5, pubugn8_6, pubugn8_7, pubugn8, pubugn9_0, pubugn9_1, pubugn9_2, pubugn9_3, pubugn9_4, pubugn9_5, pubugn9_6, pubugn9_7, pubugn9_8, pubugn9)
+module Colorbrewer.SequentialMH exposing (orrd3_0, orrd3_1, orrd3_2, orrd3, orrd4_0, orrd4_1, orrd4_2, orrd4_3, orrd4, orrd5_0, orrd5_1, orrd5_2, orrd5_3, orrd5_4, orrd5, orrd6_0, orrd6_1, orrd6_2, orrd6_3, orrd6_4, orrd6_5, orrd6, orrd7_0, orrd7_1, orrd7_2, orrd7_3, orrd7_4, orrd7_5, orrd7_6, orrd7, orrd8_0, orrd8_1, orrd8_2, orrd8_3, orrd8_4, orrd8_5, orrd8_6, orrd8_7, orrd8, orrd9_0, orrd9_1, orrd9_2, orrd9_3, orrd9_4, orrd9_5, orrd9_6, orrd9_7, orrd9_8, orrd9, pubu3_0, pubu3_1, pubu3_2, pubu3, pubu4_0, pubu4_1, pubu4_2, pubu4_3, pubu4, pubu5_0, pubu5_1, pubu5_2, pubu5_3, pubu5_4, pubu5, pubu6_0, pubu6_1, pubu6_2, pubu6_3, pubu6_4, pubu6_5, pubu6, pubu7_0, pubu7_1, pubu7_2, pubu7_3, pubu7_4, pubu7_5, pubu7_6, pubu7, pubu8_0, pubu8_1, pubu8_2, pubu8_3, pubu8_4, pubu8_5, pubu8_6, pubu8_7, pubu8, pubu9_0, pubu9_1, pubu9_2, pubu9_3, pubu9_4, pubu9_5, pubu9_6, pubu9_7, pubu9_8, pubu9, bupu3_0, bupu3_1, bupu3_2, bupu3, bupu4_0, bupu4_1, bupu4_2, bupu4_3, bupu4, bupu5_0, bupu5_1, bupu5_2, bupu5_3, bupu5_4, bupu5, bupu6_0, bupu6_1, bupu6_2, bupu6_3, bupu6_4, bupu6_5, bupu6, bupu7_0, bupu7_1, bupu7_2, bupu7_3, bupu7_4, bupu7_5, bupu7_6, bupu7, bupu8_0, bupu8_1, bupu8_2, bupu8_3, bupu8_4, bupu8_5, bupu8_6, bupu8_7, bupu8, bupu9_0, bupu9_1, bupu9_2, bupu9_3, bupu9_4, bupu9_5, bupu9_6, bupu9_7, bupu9_8, bupu9, bugn3_0, bugn3_1, bugn3_2, bugn3, bugn4_0, bugn4_1, bugn4_2, bugn4_3, bugn4, bugn5_0, bugn5_1, bugn5_2, bugn5_3, bugn5_4, bugn5, bugn6_0, bugn6_1, bugn6_2, bugn6_3, bugn6_4, bugn6_5, bugn6, bugn7_0, bugn7_1, bugn7_2, bugn7_3, bugn7_4, bugn7_5, bugn7_6, bugn7, bugn8_0, bugn8_1, bugn8_2, bugn8_3, bugn8_4, bugn8_5, bugn8_6, bugn8_7, bugn8, bugn9_0, bugn9_1, bugn9_2, bugn9_3, bugn9_4, bugn9_5, bugn9_6, bugn9_7, bugn9_8, bugn9, ylorbr3_0, ylorbr3_1, ylorbr3_2, ylorbr3, ylorbr4_0, ylorbr4_1, ylorbr4_2, ylorbr4_3, ylorbr4, ylorbr5_0, ylorbr5_1, ylorbr5_2, ylorbr5_3, ylorbr5_4, ylorbr5, ylorbr6_0, ylorbr6_1, ylorbr6_2, ylorbr6_3, ylorbr6_4, ylorbr6_5, ylorbr6, ylorbr7_0, ylorbr7_1, ylorbr7_2, ylorbr7_3, ylorbr7_4, ylorbr7_5, ylorbr7_6, ylorbr7, ylorbr8_0, ylorbr8_1, ylorbr8_2, ylorbr8_3, ylorbr8_4, ylorbr8_5, ylorbr8_6, ylorbr8_7, ylorbr8, ylorbr9_0, ylorbr9_1, ylorbr9_2, ylorbr9_3, ylorbr9_4, ylorbr9_5, ylorbr9_6, ylorbr9_7, ylorbr9_8, ylorbr9, ylgn3_0, ylgn3_1, ylgn3_2, ylgn3, ylgn4_0, ylgn4_1, ylgn4_2, ylgn4_3, ylgn4, ylgn5_0, ylgn5_1, ylgn5_2, ylgn5_3, ylgn5_4, ylgn5, ylgn6_0, ylgn6_1, ylgn6_2, ylgn6_3, ylgn6_4, ylgn6_5, ylgn6, ylgn7_0, ylgn7_1, ylgn7_2, ylgn7_3, ylgn7_4, ylgn7_5, ylgn7_6, ylgn7, ylgn8_0, ylgn8_1, ylgn8_2, ylgn8_3, ylgn8_4, ylgn8_5, ylgn8_6, ylgn8_7, ylgn8, ylgn9_0, ylgn9_1, ylgn9_2, ylgn9_3, ylgn9_4, ylgn9_5, ylgn9_6, ylgn9_7, ylgn9_8, ylgn9, rdpu3_0, rdpu3_1, rdpu3_2, rdpu3, rdpu4_0, rdpu4_1, rdpu4_2, rdpu4_3, rdpu4, rdpu5_0, rdpu5_1, rdpu5_2, rdpu5_3, rdpu5_4, rdpu5, rdpu6_0, rdpu6_1, rdpu6_2, rdpu6_3, rdpu6_4, rdpu6_5, rdpu6, rdpu7_0, rdpu7_1, rdpu7_2, rdpu7_3, rdpu7_4, rdpu7_5, rdpu7_6, rdpu7, rdpu8_0, rdpu8_1, rdpu8_2, rdpu8_3, rdpu8_4, rdpu8_5, rdpu8_6, rdpu8_7, rdpu8, rdpu9_0, rdpu9_1, rdpu9_2, rdpu9_3, rdpu9_4, rdpu9_5, rdpu9_6, rdpu9_7, rdpu9_8, rdpu9, ylgnbu3_0, ylgnbu3_1, ylgnbu3_2, ylgnbu3, ylgnbu4_0, ylgnbu4_1, ylgnbu4_2, ylgnbu4_3, ylgnbu4, ylgnbu5_0, ylgnbu5_1, ylgnbu5_2, ylgnbu5_3, ylgnbu5_4, ylgnbu5, ylgnbu6_0, ylgnbu6_1, ylgnbu6_2, ylgnbu6_3, ylgnbu6_4, ylgnbu6_5, ylgnbu6, ylgnbu7_0, ylgnbu7_1, ylgnbu7_2, ylgnbu7_3, ylgnbu7_4, ylgnbu7_5, ylgnbu7_6, ylgnbu7, ylgnbu8_0, ylgnbu8_1, ylgnbu8_2, ylgnbu8_3, ylgnbu8_4, ylgnbu8_5, ylgnbu8_6, ylgnbu8_7, ylgnbu8, ylgnbu9_0, ylgnbu9_1, ylgnbu9_2, ylgnbu9_3, ylgnbu9_4, ylgnbu9_5, ylgnbu9_6, ylgnbu9_7, ylgnbu9_8, ylgnbu9, gnbu3_0, gnbu3_1, gnbu3_2, gnbu3, gnbu4_0, gnbu4_1, gnbu4_2, gnbu4_3, gnbu4, gnbu5_0, gnbu5_1, gnbu5_2, gnbu5_3, gnbu5_4, gnbu5, gnbu6_0, gnbu6_1, gnbu6_2, gnbu6_3, gnbu6_4, gnbu6_5, gnbu6, gnbu7_0, gnbu7_1, gnbu7_2, gnbu7_3, gnbu7_4, gnbu7_5, gnbu7_6, gnbu7, gnbu8_0, gnbu8_1, gnbu8_2, gnbu8_3, gnbu8_4, gnbu8_5, gnbu8_6, gnbu8_7, gnbu8, gnbu9_0, gnbu9_1, gnbu9_2, gnbu9_3, gnbu9_4, gnbu9_5, gnbu9_6, gnbu9_7, gnbu9_8, gnbu9, ylorrd3_0, ylorrd3_1, ylorrd3_2, ylorrd3, ylorrd4_0, ylorrd4_1, ylorrd4_2, ylorrd4_3, ylorrd4, ylorrd5_0, ylorrd5_1, ylorrd5_2, ylorrd5_3, ylorrd5_4, ylorrd5, ylorrd6_0, ylorrd6_1, ylorrd6_2, ylorrd6_3, ylorrd6_4, ylorrd6_5, ylorrd6, ylorrd7_0, ylorrd7_1, ylorrd7_2, ylorrd7_3, ylorrd7_4, ylorrd7_5, ylorrd7_6, ylorrd7, ylorrd8_0, ylorrd8_1, ylorrd8_2, ylorrd8_3, ylorrd8_4, ylorrd8_5, ylorrd8_6, ylorrd8_7, ylorrd8, purd3_0, purd3_1, purd3_2, purd3, purd4_0, purd4_1, purd4_2, purd4_3, purd4, purd5_0, purd5_1, purd5_2, purd5_3, purd5_4, purd5, purd6_0, purd6_1, purd6_2, purd6_3, purd6_4, purd6_5, purd6, purd7_0, purd7_1, purd7_2, purd7_3, purd7_4, purd7_5, purd7_6, purd7, purd8_0, purd8_1, purd8_2, purd8_3, purd8_4, purd8_5, purd8_6, purd8_7, purd8, purd9_0, purd9_1, purd9_2, purd9_3, purd9_4, purd9_5, purd9_6, purd9_7, purd9_8, purd9, pubugn3_0, pubugn3_1, pubugn3_2, pubugn3, pubugn4_0, pubugn4_1, pubugn4_2, pubugn4_3, pubugn4, pubugn5_0, pubugn5_1, pubugn5_2, pubugn5_3, pubugn5_4, pubugn5, pubugn6_0, pubugn6_1, pubugn6_2, pubugn6_3, pubugn6_4, pubugn6_5, pubugn6, pubugn7_0, pubugn7_1, pubugn7_2, pubugn7_3, pubugn7_4, pubugn7_5, pubugn7_6, pubugn7, pubugn8_0, pubugn8_1, pubugn8_2, pubugn8_3, pubugn8_4, pubugn8_5, pubugn8_6, pubugn8_7, pubugn8, pubugn9_0, pubugn9_1, pubugn9_2, pubugn9_3, pubugn9_4, pubugn9_5, pubugn9_6, pubugn9_7, pubugn9_8, pubugn9, orrd, pubu, bupu, bugn, ylorbr, ylgn, rdpu, ylgnbu, gnbu, ylorrd, purd, pubugn)
 
 {-| Exposes SequentialMH colors from colorbrewer.
 
-@docs orrd3_0, orrd3_1, orrd3_2, orrd3, orrd4_0, orrd4_1, orrd4_2, orrd4_3, orrd4, orrd5_0, orrd5_1, orrd5_2, orrd5_3, orrd5_4, orrd5, orrd6_0, orrd6_1, orrd6_2, orrd6_3, orrd6_4, orrd6_5, orrd6, orrd7_0, orrd7_1, orrd7_2, orrd7_3, orrd7_4, orrd7_5, orrd7_6, orrd7, orrd8_0, orrd8_1, orrd8_2, orrd8_3, orrd8_4, orrd8_5, orrd8_6, orrd8_7, orrd8, orrd9_0, orrd9_1, orrd9_2, orrd9_3, orrd9_4, orrd9_5, orrd9_6, orrd9_7, orrd9_8, orrd9, pubu3_0, pubu3_1, pubu3_2, pubu3, pubu4_0, pubu4_1, pubu4_2, pubu4_3, pubu4, pubu5_0, pubu5_1, pubu5_2, pubu5_3, pubu5_4, pubu5, pubu6_0, pubu6_1, pubu6_2, pubu6_3, pubu6_4, pubu6_5, pubu6, pubu7_0, pubu7_1, pubu7_2, pubu7_3, pubu7_4, pubu7_5, pubu7_6, pubu7, pubu8_0, pubu8_1, pubu8_2, pubu8_3, pubu8_4, pubu8_5, pubu8_6, pubu8_7, pubu8, pubu9_0, pubu9_1, pubu9_2, pubu9_3, pubu9_4, pubu9_5, pubu9_6, pubu9_7, pubu9_8, pubu9, bupu3_0, bupu3_1, bupu3_2, bupu3, bupu4_0, bupu4_1, bupu4_2, bupu4_3, bupu4, bupu5_0, bupu5_1, bupu5_2, bupu5_3, bupu5_4, bupu5, bupu6_0, bupu6_1, bupu6_2, bupu6_3, bupu6_4, bupu6_5, bupu6, bupu7_0, bupu7_1, bupu7_2, bupu7_3, bupu7_4, bupu7_5, bupu7_6, bupu7, bupu8_0, bupu8_1, bupu8_2, bupu8_3, bupu8_4, bupu8_5, bupu8_6, bupu8_7, bupu8, bupu9_0, bupu9_1, bupu9_2, bupu9_3, bupu9_4, bupu9_5, bupu9_6, bupu9_7, bupu9_8, bupu9, bugn3_0, bugn3_1, bugn3_2, bugn3, bugn4_0, bugn4_1, bugn4_2, bugn4_3, bugn4, bugn5_0, bugn5_1, bugn5_2, bugn5_3, bugn5_4, bugn5, bugn6_0, bugn6_1, bugn6_2, bugn6_3, bugn6_4, bugn6_5, bugn6, bugn7_0, bugn7_1, bugn7_2, bugn7_3, bugn7_4, bugn7_5, bugn7_6, bugn7, bugn8_0, bugn8_1, bugn8_2, bugn8_3, bugn8_4, bugn8_5, bugn8_6, bugn8_7, bugn8, bugn9_0, bugn9_1, bugn9_2, bugn9_3, bugn9_4, bugn9_5, bugn9_6, bugn9_7, bugn9_8, bugn9, ylorbr3_0, ylorbr3_1, ylorbr3_2, ylorbr3, ylorbr4_0, ylorbr4_1, ylorbr4_2, ylorbr4_3, ylorbr4, ylorbr5_0, ylorbr5_1, ylorbr5_2, ylorbr5_3, ylorbr5_4, ylorbr5, ylorbr6_0, ylorbr6_1, ylorbr6_2, ylorbr6_3, ylorbr6_4, ylorbr6_5, ylorbr6, ylorbr7_0, ylorbr7_1, ylorbr7_2, ylorbr7_3, ylorbr7_4, ylorbr7_5, ylorbr7_6, ylorbr7, ylorbr8_0, ylorbr8_1, ylorbr8_2, ylorbr8_3, ylorbr8_4, ylorbr8_5, ylorbr8_6, ylorbr8_7, ylorbr8, ylorbr9_0, ylorbr9_1, ylorbr9_2, ylorbr9_3, ylorbr9_4, ylorbr9_5, ylorbr9_6, ylorbr9_7, ylorbr9_8, ylorbr9, ylgn3_0, ylgn3_1, ylgn3_2, ylgn3, ylgn4_0, ylgn4_1, ylgn4_2, ylgn4_3, ylgn4, ylgn5_0, ylgn5_1, ylgn5_2, ylgn5_3, ylgn5_4, ylgn5, ylgn6_0, ylgn6_1, ylgn6_2, ylgn6_3, ylgn6_4, ylgn6_5, ylgn6, ylgn7_0, ylgn7_1, ylgn7_2, ylgn7_3, ylgn7_4, ylgn7_5, ylgn7_6, ylgn7, ylgn8_0, ylgn8_1, ylgn8_2, ylgn8_3, ylgn8_4, ylgn8_5, ylgn8_6, ylgn8_7, ylgn8, ylgn9_0, ylgn9_1, ylgn9_2, ylgn9_3, ylgn9_4, ylgn9_5, ylgn9_6, ylgn9_7, ylgn9_8, ylgn9, rdpu3_0, rdpu3_1, rdpu3_2, rdpu3, rdpu4_0, rdpu4_1, rdpu4_2, rdpu4_3, rdpu4, rdpu5_0, rdpu5_1, rdpu5_2, rdpu5_3, rdpu5_4, rdpu5, rdpu6_0, rdpu6_1, rdpu6_2, rdpu6_3, rdpu6_4, rdpu6_5, rdpu6, rdpu7_0, rdpu7_1, rdpu7_2, rdpu7_3, rdpu7_4, rdpu7_5, rdpu7_6, rdpu7, rdpu8_0, rdpu8_1, rdpu8_2, rdpu8_3, rdpu8_4, rdpu8_5, rdpu8_6, rdpu8_7, rdpu8, rdpu9_0, rdpu9_1, rdpu9_2, rdpu9_3, rdpu9_4, rdpu9_5, rdpu9_6, rdpu9_7, rdpu9_8, rdpu9, ylgnbu3_0, ylgnbu3_1, ylgnbu3_2, ylgnbu3, ylgnbu4_0, ylgnbu4_1, ylgnbu4_2, ylgnbu4_3, ylgnbu4, ylgnbu5_0, ylgnbu5_1, ylgnbu5_2, ylgnbu5_3, ylgnbu5_4, ylgnbu5, ylgnbu6_0, ylgnbu6_1, ylgnbu6_2, ylgnbu6_3, ylgnbu6_4, ylgnbu6_5, ylgnbu6, ylgnbu7_0, ylgnbu7_1, ylgnbu7_2, ylgnbu7_3, ylgnbu7_4, ylgnbu7_5, ylgnbu7_6, ylgnbu7, ylgnbu8_0, ylgnbu8_1, ylgnbu8_2, ylgnbu8_3, ylgnbu8_4, ylgnbu8_5, ylgnbu8_6, ylgnbu8_7, ylgnbu8, ylgnbu9_0, ylgnbu9_1, ylgnbu9_2, ylgnbu9_3, ylgnbu9_4, ylgnbu9_5, ylgnbu9_6, ylgnbu9_7, ylgnbu9_8, ylgnbu9, gnbu3_0, gnbu3_1, gnbu3_2, gnbu3, gnbu4_0, gnbu4_1, gnbu4_2, gnbu4_3, gnbu4, gnbu5_0, gnbu5_1, gnbu5_2, gnbu5_3, gnbu5_4, gnbu5, gnbu6_0, gnbu6_1, gnbu6_2, gnbu6_3, gnbu6_4, gnbu6_5, gnbu6, gnbu7_0, gnbu7_1, gnbu7_2, gnbu7_3, gnbu7_4, gnbu7_5, gnbu7_6, gnbu7, gnbu8_0, gnbu8_1, gnbu8_2, gnbu8_3, gnbu8_4, gnbu8_5, gnbu8_6, gnbu8_7, gnbu8, gnbu9_0, gnbu9_1, gnbu9_2, gnbu9_3, gnbu9_4, gnbu9_5, gnbu9_6, gnbu9_7, gnbu9_8, gnbu9, ylorrd3_0, ylorrd3_1, ylorrd3_2, ylorrd3, ylorrd4_0, ylorrd4_1, ylorrd4_2, ylorrd4_3, ylorrd4, ylorrd5_0, ylorrd5_1, ylorrd5_2, ylorrd5_3, ylorrd5_4, ylorrd5, ylorrd6_0, ylorrd6_1, ylorrd6_2, ylorrd6_3, ylorrd6_4, ylorrd6_5, ylorrd6, ylorrd7_0, ylorrd7_1, ylorrd7_2, ylorrd7_3, ylorrd7_4, ylorrd7_5, ylorrd7_6, ylorrd7, ylorrd8_0, ylorrd8_1, ylorrd8_2, ylorrd8_3, ylorrd8_4, ylorrd8_5, ylorrd8_6, ylorrd8_7, ylorrd8, purd3_0, purd3_1, purd3_2, purd3, purd4_0, purd4_1, purd4_2, purd4_3, purd4, purd5_0, purd5_1, purd5_2, purd5_3, purd5_4, purd5, purd6_0, purd6_1, purd6_2, purd6_3, purd6_4, purd6_5, purd6, purd7_0, purd7_1, purd7_2, purd7_3, purd7_4, purd7_5, purd7_6, purd7, purd8_0, purd8_1, purd8_2, purd8_3, purd8_4, purd8_5, purd8_6, purd8_7, purd8, purd9_0, purd9_1, purd9_2, purd9_3, purd9_4, purd9_5, purd9_6, purd9_7, purd9_8, purd9, pubugn3_0, pubugn3_1, pubugn3_2, pubugn3, pubugn4_0, pubugn4_1, pubugn4_2, pubugn4_3, pubugn4, pubugn5_0, pubugn5_1, pubugn5_2, pubugn5_3, pubugn5_4, pubugn5, pubugn6_0, pubugn6_1, pubugn6_2, pubugn6_3, pubugn6_4, pubugn6_5, pubugn6, pubugn7_0, pubugn7_1, pubugn7_2, pubugn7_3, pubugn7_4, pubugn7_5, pubugn7_6, pubugn7, pubugn8_0, pubugn8_1, pubugn8_2, pubugn8_3, pubugn8_4, pubugn8_5, pubugn8_6, pubugn8_7, pubugn8, pubugn9_0, pubugn9_1, pubugn9_2, pubugn9_3, pubugn9_4, pubugn9_5, pubugn9_6, pubugn9_7, pubugn9_8, pubugn9
+@docs orrd3_0, orrd3_1, orrd3_2, orrd3, orrd4_0, orrd4_1, orrd4_2, orrd4_3, orrd4, orrd5_0, orrd5_1, orrd5_2, orrd5_3, orrd5_4, orrd5, orrd6_0, orrd6_1, orrd6_2, orrd6_3, orrd6_4, orrd6_5, orrd6, orrd7_0, orrd7_1, orrd7_2, orrd7_3, orrd7_4, orrd7_5, orrd7_6, orrd7, orrd8_0, orrd8_1, orrd8_2, orrd8_3, orrd8_4, orrd8_5, orrd8_6, orrd8_7, orrd8, orrd9_0, orrd9_1, orrd9_2, orrd9_3, orrd9_4, orrd9_5, orrd9_6, orrd9_7, orrd9_8, orrd9, pubu3_0, pubu3_1, pubu3_2, pubu3, pubu4_0, pubu4_1, pubu4_2, pubu4_3, pubu4, pubu5_0, pubu5_1, pubu5_2, pubu5_3, pubu5_4, pubu5, pubu6_0, pubu6_1, pubu6_2, pubu6_3, pubu6_4, pubu6_5, pubu6, pubu7_0, pubu7_1, pubu7_2, pubu7_3, pubu7_4, pubu7_5, pubu7_6, pubu7, pubu8_0, pubu8_1, pubu8_2, pubu8_3, pubu8_4, pubu8_5, pubu8_6, pubu8_7, pubu8, pubu9_0, pubu9_1, pubu9_2, pubu9_3, pubu9_4, pubu9_5, pubu9_6, pubu9_7, pubu9_8, pubu9, bupu3_0, bupu3_1, bupu3_2, bupu3, bupu4_0, bupu4_1, bupu4_2, bupu4_3, bupu4, bupu5_0, bupu5_1, bupu5_2, bupu5_3, bupu5_4, bupu5, bupu6_0, bupu6_1, bupu6_2, bupu6_3, bupu6_4, bupu6_5, bupu6, bupu7_0, bupu7_1, bupu7_2, bupu7_3, bupu7_4, bupu7_5, bupu7_6, bupu7, bupu8_0, bupu8_1, bupu8_2, bupu8_3, bupu8_4, bupu8_5, bupu8_6, bupu8_7, bupu8, bupu9_0, bupu9_1, bupu9_2, bupu9_3, bupu9_4, bupu9_5, bupu9_6, bupu9_7, bupu9_8, bupu9, bugn3_0, bugn3_1, bugn3_2, bugn3, bugn4_0, bugn4_1, bugn4_2, bugn4_3, bugn4, bugn5_0, bugn5_1, bugn5_2, bugn5_3, bugn5_4, bugn5, bugn6_0, bugn6_1, bugn6_2, bugn6_3, bugn6_4, bugn6_5, bugn6, bugn7_0, bugn7_1, bugn7_2, bugn7_3, bugn7_4, bugn7_5, bugn7_6, bugn7, bugn8_0, bugn8_1, bugn8_2, bugn8_3, bugn8_4, bugn8_5, bugn8_6, bugn8_7, bugn8, bugn9_0, bugn9_1, bugn9_2, bugn9_3, bugn9_4, bugn9_5, bugn9_6, bugn9_7, bugn9_8, bugn9, ylorbr3_0, ylorbr3_1, ylorbr3_2, ylorbr3, ylorbr4_0, ylorbr4_1, ylorbr4_2, ylorbr4_3, ylorbr4, ylorbr5_0, ylorbr5_1, ylorbr5_2, ylorbr5_3, ylorbr5_4, ylorbr5, ylorbr6_0, ylorbr6_1, ylorbr6_2, ylorbr6_3, ylorbr6_4, ylorbr6_5, ylorbr6, ylorbr7_0, ylorbr7_1, ylorbr7_2, ylorbr7_3, ylorbr7_4, ylorbr7_5, ylorbr7_6, ylorbr7, ylorbr8_0, ylorbr8_1, ylorbr8_2, ylorbr8_3, ylorbr8_4, ylorbr8_5, ylorbr8_6, ylorbr8_7, ylorbr8, ylorbr9_0, ylorbr9_1, ylorbr9_2, ylorbr9_3, ylorbr9_4, ylorbr9_5, ylorbr9_6, ylorbr9_7, ylorbr9_8, ylorbr9, ylgn3_0, ylgn3_1, ylgn3_2, ylgn3, ylgn4_0, ylgn4_1, ylgn4_2, ylgn4_3, ylgn4, ylgn5_0, ylgn5_1, ylgn5_2, ylgn5_3, ylgn5_4, ylgn5, ylgn6_0, ylgn6_1, ylgn6_2, ylgn6_3, ylgn6_4, ylgn6_5, ylgn6, ylgn7_0, ylgn7_1, ylgn7_2, ylgn7_3, ylgn7_4, ylgn7_5, ylgn7_6, ylgn7, ylgn8_0, ylgn8_1, ylgn8_2, ylgn8_3, ylgn8_4, ylgn8_5, ylgn8_6, ylgn8_7, ylgn8, ylgn9_0, ylgn9_1, ylgn9_2, ylgn9_3, ylgn9_4, ylgn9_5, ylgn9_6, ylgn9_7, ylgn9_8, ylgn9, rdpu3_0, rdpu3_1, rdpu3_2, rdpu3, rdpu4_0, rdpu4_1, rdpu4_2, rdpu4_3, rdpu4, rdpu5_0, rdpu5_1, rdpu5_2, rdpu5_3, rdpu5_4, rdpu5, rdpu6_0, rdpu6_1, rdpu6_2, rdpu6_3, rdpu6_4, rdpu6_5, rdpu6, rdpu7_0, rdpu7_1, rdpu7_2, rdpu7_3, rdpu7_4, rdpu7_5, rdpu7_6, rdpu7, rdpu8_0, rdpu8_1, rdpu8_2, rdpu8_3, rdpu8_4, rdpu8_5, rdpu8_6, rdpu8_7, rdpu8, rdpu9_0, rdpu9_1, rdpu9_2, rdpu9_3, rdpu9_4, rdpu9_5, rdpu9_6, rdpu9_7, rdpu9_8, rdpu9, ylgnbu3_0, ylgnbu3_1, ylgnbu3_2, ylgnbu3, ylgnbu4_0, ylgnbu4_1, ylgnbu4_2, ylgnbu4_3, ylgnbu4, ylgnbu5_0, ylgnbu5_1, ylgnbu5_2, ylgnbu5_3, ylgnbu5_4, ylgnbu5, ylgnbu6_0, ylgnbu6_1, ylgnbu6_2, ylgnbu6_3, ylgnbu6_4, ylgnbu6_5, ylgnbu6, ylgnbu7_0, ylgnbu7_1, ylgnbu7_2, ylgnbu7_3, ylgnbu7_4, ylgnbu7_5, ylgnbu7_6, ylgnbu7, ylgnbu8_0, ylgnbu8_1, ylgnbu8_2, ylgnbu8_3, ylgnbu8_4, ylgnbu8_5, ylgnbu8_6, ylgnbu8_7, ylgnbu8, ylgnbu9_0, ylgnbu9_1, ylgnbu9_2, ylgnbu9_3, ylgnbu9_4, ylgnbu9_5, ylgnbu9_6, ylgnbu9_7, ylgnbu9_8, ylgnbu9, gnbu3_0, gnbu3_1, gnbu3_2, gnbu3, gnbu4_0, gnbu4_1, gnbu4_2, gnbu4_3, gnbu4, gnbu5_0, gnbu5_1, gnbu5_2, gnbu5_3, gnbu5_4, gnbu5, gnbu6_0, gnbu6_1, gnbu6_2, gnbu6_3, gnbu6_4, gnbu6_5, gnbu6, gnbu7_0, gnbu7_1, gnbu7_2, gnbu7_3, gnbu7_4, gnbu7_5, gnbu7_6, gnbu7, gnbu8_0, gnbu8_1, gnbu8_2, gnbu8_3, gnbu8_4, gnbu8_5, gnbu8_6, gnbu8_7, gnbu8, gnbu9_0, gnbu9_1, gnbu9_2, gnbu9_3, gnbu9_4, gnbu9_5, gnbu9_6, gnbu9_7, gnbu9_8, gnbu9, ylorrd3_0, ylorrd3_1, ylorrd3_2, ylorrd3, ylorrd4_0, ylorrd4_1, ylorrd4_2, ylorrd4_3, ylorrd4, ylorrd5_0, ylorrd5_1, ylorrd5_2, ylorrd5_3, ylorrd5_4, ylorrd5, ylorrd6_0, ylorrd6_1, ylorrd6_2, ylorrd6_3, ylorrd6_4, ylorrd6_5, ylorrd6, ylorrd7_0, ylorrd7_1, ylorrd7_2, ylorrd7_3, ylorrd7_4, ylorrd7_5, ylorrd7_6, ylorrd7, ylorrd8_0, ylorrd8_1, ylorrd8_2, ylorrd8_3, ylorrd8_4, ylorrd8_5, ylorrd8_6, ylorrd8_7, ylorrd8, purd3_0, purd3_1, purd3_2, purd3, purd4_0, purd4_1, purd4_2, purd4_3, purd4, purd5_0, purd5_1, purd5_2, purd5_3, purd5_4, purd5, purd6_0, purd6_1, purd6_2, purd6_3, purd6_4, purd6_5, purd6, purd7_0, purd7_1, purd7_2, purd7_3, purd7_4, purd7_5, purd7_6, purd7, purd8_0, purd8_1, purd8_2, purd8_3, purd8_4, purd8_5, purd8_6, purd8_7, purd8, purd9_0, purd9_1, purd9_2, purd9_3, purd9_4, purd9_5, purd9_6, purd9_7, purd9_8, purd9, pubugn3_0, pubugn3_1, pubugn3_2, pubugn3, pubugn4_0, pubugn4_1, pubugn4_2, pubugn4_3, pubugn4, pubugn5_0, pubugn5_1, pubugn5_2, pubugn5_3, pubugn5_4, pubugn5, pubugn6_0, pubugn6_1, pubugn6_2, pubugn6_3, pubugn6_4, pubugn6_5, pubugn6, pubugn7_0, pubugn7_1, pubugn7_2, pubugn7_3, pubugn7_4, pubugn7_5, pubugn7_6, pubugn7, pubugn8_0, pubugn8_1, pubugn8_2, pubugn8_3, pubugn8_4, pubugn8_5, pubugn8_6, pubugn8_7, pubugn8, pubugn9_0, pubugn9_1, pubugn9_2, pubugn9_3, pubugn9_4, pubugn9_5, pubugn9_6, pubugn9_7, pubugn9_8, pubugn9, orrd, pubu, bupu, bugn, ylorbr, ylgn, rdpu, ylgnbu, gnbu, ylorrd, purd, pubugn
 
 -}
 
@@ -4053,3 +4053,432 @@ pubugn9_7 =
 pubugn9_8 : Color
 pubugn9_8 =
     rgb 1 70 54
+
+
+{-| Returns a OrRd color scheme.
+-}
+orrd : Int -> List Color
+orrd n =
+    case n of
+        0 ->
+            []
+
+        1 ->
+            [ rgb 254 232 200 ]
+
+        2 ->
+            [ rgb 254 232 200, rgb 253 187 132 ]
+
+        3 ->
+            orrd_3
+
+        4 ->
+            orrd_4
+
+        5 ->
+            orrd_5
+
+        6 ->
+            orrd_6
+
+        7 ->
+            orrd_7
+
+        8 ->
+            orrd_8
+
+        _ ->
+            orrd_9
+
+
+{-| Returns a PuBu color scheme.
+-}
+pubu : Int -> List Color
+pubu n =
+    case n of
+        0 ->
+            []
+
+        1 ->
+            [ rgb 236 231 242 ]
+
+        2 ->
+            [ rgb 236 231 242, rgb 166 189 219 ]
+
+        3 ->
+            pubu_3
+
+        4 ->
+            pubu_4
+
+        5 ->
+            pubu_5
+
+        6 ->
+            pubu_6
+
+        7 ->
+            pubu_7
+
+        8 ->
+            pubu_8
+
+        _ ->
+            pubu_9
+
+
+{-| Returns a BuPu color scheme.
+-}
+bupu : Int -> List Color
+bupu n =
+    case n of
+        0 ->
+            []
+
+        1 ->
+            [ rgb 224 236 244 ]
+
+        2 ->
+            [ rgb 224 236 244, rgb 158 188 218 ]
+
+        3 ->
+            bupu_3
+
+        4 ->
+            bupu_4
+
+        5 ->
+            bupu_5
+
+        6 ->
+            bupu_6
+
+        7 ->
+            bupu_7
+
+        8 ->
+            bupu_8
+
+        _ ->
+            bupu_9
+
+
+{-| Returns a BuGn color scheme.
+-}
+bugn : Int -> List Color
+bugn n =
+    case n of
+        0 ->
+            []
+
+        1 ->
+            [ rgb 229 245 249 ]
+
+        2 ->
+            [ rgb 229 245 249, rgb 153 216 201 ]
+
+        3 ->
+            bugn_3
+
+        4 ->
+            bugn_4
+
+        5 ->
+            bugn_5
+
+        6 ->
+            bugn_6
+
+        7 ->
+            bugn_7
+
+        8 ->
+            bugn_8
+
+        _ ->
+            bugn_9
+
+
+{-| Returns a YlOrBr color scheme.
+-}
+ylorbr : Int -> List Color
+ylorbr n =
+    case n of
+        0 ->
+            []
+
+        1 ->
+            [ rgb 255 247 188 ]
+
+        2 ->
+            [ rgb 255 247 188, rgb 254 196 79 ]
+
+        3 ->
+            ylorbr_3
+
+        4 ->
+            ylorbr_4
+
+        5 ->
+            ylorbr_5
+
+        6 ->
+            ylorbr_6
+
+        7 ->
+            ylorbr_7
+
+        8 ->
+            ylorbr_8
+
+        _ ->
+            ylorbr_9
+
+
+{-| Returns a YlGn color scheme.
+-}
+ylgn : Int -> List Color
+ylgn n =
+    case n of
+        0 ->
+            []
+
+        1 ->
+            [ rgb 247 252 185 ]
+
+        2 ->
+            [ rgb 247 252 185, rgb 173 221 142 ]
+
+        3 ->
+            ylgn_3
+
+        4 ->
+            ylgn_4
+
+        5 ->
+            ylgn_5
+
+        6 ->
+            ylgn_6
+
+        7 ->
+            ylgn_7
+
+        8 ->
+            ylgn_8
+
+        _ ->
+            ylgn_9
+
+
+{-| Returns a RdPu color scheme.
+-}
+rdpu : Int -> List Color
+rdpu n =
+    case n of
+        0 ->
+            []
+
+        1 ->
+            [ rgb 253 224 221 ]
+
+        2 ->
+            [ rgb 253 224 221, rgb 250 159 181 ]
+
+        3 ->
+            rdpu_3
+
+        4 ->
+            rdpu_4
+
+        5 ->
+            rdpu_5
+
+        6 ->
+            rdpu_6
+
+        7 ->
+            rdpu_7
+
+        8 ->
+            rdpu_8
+
+        _ ->
+            rdpu_9
+
+
+{-| Returns a YlGnBu color scheme.
+-}
+ylgnbu : Int -> List Color
+ylgnbu n =
+    case n of
+        0 ->
+            []
+
+        1 ->
+            [ rgb 237 248 177 ]
+
+        2 ->
+            [ rgb 237 248 177, rgb 127 205 187 ]
+
+        3 ->
+            ylgnbu_3
+
+        4 ->
+            ylgnbu_4
+
+        5 ->
+            ylgnbu_5
+
+        6 ->
+            ylgnbu_6
+
+        7 ->
+            ylgnbu_7
+
+        8 ->
+            ylgnbu_8
+
+        _ ->
+            ylgnbu_9
+
+
+{-| Returns a GnBu color scheme.
+-}
+gnbu : Int -> List Color
+gnbu n =
+    case n of
+        0 ->
+            []
+
+        1 ->
+            [ rgb 224 243 219 ]
+
+        2 ->
+            [ rgb 224 243 219, rgb 168 221 181 ]
+
+        3 ->
+            gnbu_3
+
+        4 ->
+            gnbu_4
+
+        5 ->
+            gnbu_5
+
+        6 ->
+            gnbu_6
+
+        7 ->
+            gnbu_7
+
+        8 ->
+            gnbu_8
+
+        _ ->
+            gnbu_9
+
+
+{-| Returns a YlOrRd color scheme.
+-}
+ylorrd : Int -> List Color
+ylorrd n =
+    case n of
+        0 ->
+            []
+
+        1 ->
+            [ rgb 255 237 160 ]
+
+        2 ->
+            [ rgb 255 237 160, rgb 254 178 76 ]
+
+        3 ->
+            ylorrd_3
+
+        4 ->
+            ylorrd_4
+
+        5 ->
+            ylorrd_5
+
+        6 ->
+            ylorrd_6
+
+        7 ->
+            ylorrd_7
+
+        _ ->
+            ylorrd_8
+
+
+{-| Returns a PuRd color scheme.
+-}
+purd : Int -> List Color
+purd n =
+    case n of
+        0 ->
+            []
+
+        1 ->
+            [ rgb 231 225 239 ]
+
+        2 ->
+            [ rgb 231 225 239, rgb 201 148 199 ]
+
+        3 ->
+            purd_3
+
+        4 ->
+            purd_4
+
+        5 ->
+            purd_5
+
+        6 ->
+            purd_6
+
+        7 ->
+            purd_7
+
+        8 ->
+            purd_8
+
+        _ ->
+            purd_9
+
+
+{-| Returns a PuBuGn color scheme.
+-}
+pubugn : Int -> List Color
+pubugn n =
+    case n of
+        0 ->
+            []
+
+        1 ->
+            [ rgb 236 226 240 ]
+
+        2 ->
+            [ rgb 236 226 240, rgb 166 189 219 ]
+
+        3 ->
+            pubugn_3
+
+        4 ->
+            pubugn_4
+
+        5 ->
+            pubugn_5
+
+        6 ->
+            pubugn_6
+
+        7 ->
+            pubugn_7
+
+        8 ->
+            pubugn_8
+
+        _ ->
+            pubugn_9

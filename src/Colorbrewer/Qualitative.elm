@@ -1,8 +1,8 @@
-module Colorbrewer.Qualitative exposing (set23_0, set23_1, set23_2, set23, set24_0, set24_1, set24_2, set24_3, set24, set25_0, set25_1, set25_2, set25_3, set25_4, set25, set26_0, set26_1, set26_2, set26_3, set26_4, set26_5, set26, set27_0, set27_1, set27_2, set27_3, set27_4, set27_5, set27_6, set27, set28_0, set28_1, set28_2, set28_3, set28_4, set28_5, set28_6, set28_7, set28, accent3_0, accent3_1, accent3_2, accent3, accent4_0, accent4_1, accent4_2, accent4_3, accent4, accent5_0, accent5_1, accent5_2, accent5_3, accent5_4, accent5, accent6_0, accent6_1, accent6_2, accent6_3, accent6_4, accent6_5, accent6, accent7_0, accent7_1, accent7_2, accent7_3, accent7_4, accent7_5, accent7_6, accent7, accent8_0, accent8_1, accent8_2, accent8_3, accent8_4, accent8_5, accent8_6, accent8_7, accent8, set13_0, set13_1, set13_2, set13, set14_0, set14_1, set14_2, set14_3, set14, set15_0, set15_1, set15_2, set15_3, set15_4, set15, set16_0, set16_1, set16_2, set16_3, set16_4, set16_5, set16, set17_0, set17_1, set17_2, set17_3, set17_4, set17_5, set17_6, set17, set18_0, set18_1, set18_2, set18_3, set18_4, set18_5, set18_6, set18_7, set18, set19_0, set19_1, set19_2, set19_3, set19_4, set19_5, set19_6, set19_7, set19_8, set19, set33_0, set33_1, set33_2, set33, set34_0, set34_1, set34_2, set34_3, set34, set35_0, set35_1, set35_2, set35_3, set35_4, set35, set36_0, set36_1, set36_2, set36_3, set36_4, set36_5, set36, set37_0, set37_1, set37_2, set37_3, set37_4, set37_5, set37_6, set37, set38_0, set38_1, set38_2, set38_3, set38_4, set38_5, set38_6, set38_7, set38, set39_0, set39_1, set39_2, set39_3, set39_4, set39_5, set39_6, set39_7, set39_8, set39, set310_0, set310_1, set310_2, set310_3, set310_4, set310_5, set310_6, set310_7, set310_8, set310_9, set310, set311_0, set311_1, set311_2, set311_3, set311_4, set311_5, set311_6, set311_7, set311_8, set311_9, set311_10, set311, set312_0, set312_1, set312_2, set312_3, set312_4, set312_5, set312_6, set312_7, set312_8, set312_9, set312_10, set312_11, set312, dark23_0, dark23_1, dark23_2, dark23, dark24_0, dark24_1, dark24_2, dark24_3, dark24, dark25_0, dark25_1, dark25_2, dark25_3, dark25_4, dark25, dark26_0, dark26_1, dark26_2, dark26_3, dark26_4, dark26_5, dark26, dark27_0, dark27_1, dark27_2, dark27_3, dark27_4, dark27_5, dark27_6, dark27, dark28_0, dark28_1, dark28_2, dark28_3, dark28_4, dark28_5, dark28_6, dark28_7, dark28, paired3_0, paired3_1, paired3_2, paired3, paired4_0, paired4_1, paired4_2, paired4_3, paired4, paired5_0, paired5_1, paired5_2, paired5_3, paired5_4, paired5, paired6_0, paired6_1, paired6_2, paired6_3, paired6_4, paired6_5, paired6, paired7_0, paired7_1, paired7_2, paired7_3, paired7_4, paired7_5, paired7_6, paired7, paired8_0, paired8_1, paired8_2, paired8_3, paired8_4, paired8_5, paired8_6, paired8_7, paired8, paired9_0, paired9_1, paired9_2, paired9_3, paired9_4, paired9_5, paired9_6, paired9_7, paired9_8, paired9, paired10_0, paired10_1, paired10_2, paired10_3, paired10_4, paired10_5, paired10_6, paired10_7, paired10_8, paired10_9, paired10, paired11_0, paired11_1, paired11_2, paired11_3, paired11_4, paired11_5, paired11_6, paired11_7, paired11_8, paired11_9, paired11_10, paired11, paired12_0, paired12_1, paired12_2, paired12_3, paired12_4, paired12_5, paired12_6, paired12_7, paired12_8, paired12_9, paired12_10, paired12_11, paired12, pastel23_0, pastel23_1, pastel23_2, pastel23, pastel24_0, pastel24_1, pastel24_2, pastel24_3, pastel24, pastel25_0, pastel25_1, pastel25_2, pastel25_3, pastel25_4, pastel25, pastel26_0, pastel26_1, pastel26_2, pastel26_3, pastel26_4, pastel26_5, pastel26, pastel27_0, pastel27_1, pastel27_2, pastel27_3, pastel27_4, pastel27_5, pastel27_6, pastel27, pastel28_0, pastel28_1, pastel28_2, pastel28_3, pastel28_4, pastel28_5, pastel28_6, pastel28_7, pastel28, pastel13_0, pastel13_1, pastel13_2, pastel13, pastel14_0, pastel14_1, pastel14_2, pastel14_3, pastel14, pastel15_0, pastel15_1, pastel15_2, pastel15_3, pastel15_4, pastel15, pastel16_0, pastel16_1, pastel16_2, pastel16_3, pastel16_4, pastel16_5, pastel16, pastel17_0, pastel17_1, pastel17_2, pastel17_3, pastel17_4, pastel17_5, pastel17_6, pastel17, pastel18_0, pastel18_1, pastel18_2, pastel18_3, pastel18_4, pastel18_5, pastel18_6, pastel18_7, pastel18, pastel19_0, pastel19_1, pastel19_2, pastel19_3, pastel19_4, pastel19_5, pastel19_6, pastel19_7, pastel19_8, pastel19)
+module Colorbrewer.Qualitative exposing (set23_0, set23_1, set23_2, set23, set24_0, set24_1, set24_2, set24_3, set24, set25_0, set25_1, set25_2, set25_3, set25_4, set25, set26_0, set26_1, set26_2, set26_3, set26_4, set26_5, set26, set27_0, set27_1, set27_2, set27_3, set27_4, set27_5, set27_6, set27, set28_0, set28_1, set28_2, set28_3, set28_4, set28_5, set28_6, set28_7, set28, accent3_0, accent3_1, accent3_2, accent3, accent4_0, accent4_1, accent4_2, accent4_3, accent4, accent5_0, accent5_1, accent5_2, accent5_3, accent5_4, accent5, accent6_0, accent6_1, accent6_2, accent6_3, accent6_4, accent6_5, accent6, accent7_0, accent7_1, accent7_2, accent7_3, accent7_4, accent7_5, accent7_6, accent7, accent8_0, accent8_1, accent8_2, accent8_3, accent8_4, accent8_5, accent8_6, accent8_7, accent8, set13_0, set13_1, set13_2, set13, set14_0, set14_1, set14_2, set14_3, set14, set15_0, set15_1, set15_2, set15_3, set15_4, set15, set16_0, set16_1, set16_2, set16_3, set16_4, set16_5, set16, set17_0, set17_1, set17_2, set17_3, set17_4, set17_5, set17_6, set17, set18_0, set18_1, set18_2, set18_3, set18_4, set18_5, set18_6, set18_7, set18, set19_0, set19_1, set19_2, set19_3, set19_4, set19_5, set19_6, set19_7, set19_8, set19, set33_0, set33_1, set33_2, set33, set34_0, set34_1, set34_2, set34_3, set34, set35_0, set35_1, set35_2, set35_3, set35_4, set35, set36_0, set36_1, set36_2, set36_3, set36_4, set36_5, set36, set37_0, set37_1, set37_2, set37_3, set37_4, set37_5, set37_6, set37, set38_0, set38_1, set38_2, set38_3, set38_4, set38_5, set38_6, set38_7, set38, set39_0, set39_1, set39_2, set39_3, set39_4, set39_5, set39_6, set39_7, set39_8, set39, set310_0, set310_1, set310_2, set310_3, set310_4, set310_5, set310_6, set310_7, set310_8, set310_9, set310, set311_0, set311_1, set311_2, set311_3, set311_4, set311_5, set311_6, set311_7, set311_8, set311_9, set311_10, set311, set312_0, set312_1, set312_2, set312_3, set312_4, set312_5, set312_6, set312_7, set312_8, set312_9, set312_10, set312_11, set312, dark23_0, dark23_1, dark23_2, dark23, dark24_0, dark24_1, dark24_2, dark24_3, dark24, dark25_0, dark25_1, dark25_2, dark25_3, dark25_4, dark25, dark26_0, dark26_1, dark26_2, dark26_3, dark26_4, dark26_5, dark26, dark27_0, dark27_1, dark27_2, dark27_3, dark27_4, dark27_5, dark27_6, dark27, dark28_0, dark28_1, dark28_2, dark28_3, dark28_4, dark28_5, dark28_6, dark28_7, dark28, paired3_0, paired3_1, paired3_2, paired3, paired4_0, paired4_1, paired4_2, paired4_3, paired4, paired5_0, paired5_1, paired5_2, paired5_3, paired5_4, paired5, paired6_0, paired6_1, paired6_2, paired6_3, paired6_4, paired6_5, paired6, paired7_0, paired7_1, paired7_2, paired7_3, paired7_4, paired7_5, paired7_6, paired7, paired8_0, paired8_1, paired8_2, paired8_3, paired8_4, paired8_5, paired8_6, paired8_7, paired8, paired9_0, paired9_1, paired9_2, paired9_3, paired9_4, paired9_5, paired9_6, paired9_7, paired9_8, paired9, paired10_0, paired10_1, paired10_2, paired10_3, paired10_4, paired10_5, paired10_6, paired10_7, paired10_8, paired10_9, paired10, paired11_0, paired11_1, paired11_2, paired11_3, paired11_4, paired11_5, paired11_6, paired11_7, paired11_8, paired11_9, paired11_10, paired11, paired12_0, paired12_1, paired12_2, paired12_3, paired12_4, paired12_5, paired12_6, paired12_7, paired12_8, paired12_9, paired12_10, paired12_11, paired12, pastel23_0, pastel23_1, pastel23_2, pastel23, pastel24_0, pastel24_1, pastel24_2, pastel24_3, pastel24, pastel25_0, pastel25_1, pastel25_2, pastel25_3, pastel25_4, pastel25, pastel26_0, pastel26_1, pastel26_2, pastel26_3, pastel26_4, pastel26_5, pastel26, pastel27_0, pastel27_1, pastel27_2, pastel27_3, pastel27_4, pastel27_5, pastel27_6, pastel27, pastel28_0, pastel28_1, pastel28_2, pastel28_3, pastel28_4, pastel28_5, pastel28_6, pastel28_7, pastel28, pastel13_0, pastel13_1, pastel13_2, pastel13, pastel14_0, pastel14_1, pastel14_2, pastel14_3, pastel14, pastel15_0, pastel15_1, pastel15_2, pastel15_3, pastel15_4, pastel15, pastel16_0, pastel16_1, pastel16_2, pastel16_3, pastel16_4, pastel16_5, pastel16, pastel17_0, pastel17_1, pastel17_2, pastel17_3, pastel17_4, pastel17_5, pastel17_6, pastel17, pastel18_0, pastel18_1, pastel18_2, pastel18_3, pastel18_4, pastel18_5, pastel18_6, pastel18_7, pastel18, pastel19_0, pastel19_1, pastel19_2, pastel19_3, pastel19_4, pastel19_5, pastel19_6, pastel19_7, pastel19_8, pastel19, set2, accent, set1, set3, dark2, paired, pastel2, pastel1)
 
 {-| Exposes Qualitative colors from colorbrewer.
 
-@docs set23_0, set23_1, set23_2, set23, set24_0, set24_1, set24_2, set24_3, set24, set25_0, set25_1, set25_2, set25_3, set25_4, set25, set26_0, set26_1, set26_2, set26_3, set26_4, set26_5, set26, set27_0, set27_1, set27_2, set27_3, set27_4, set27_5, set27_6, set27, set28_0, set28_1, set28_2, set28_3, set28_4, set28_5, set28_6, set28_7, set28, accent3_0, accent3_1, accent3_2, accent3, accent4_0, accent4_1, accent4_2, accent4_3, accent4, accent5_0, accent5_1, accent5_2, accent5_3, accent5_4, accent5, accent6_0, accent6_1, accent6_2, accent6_3, accent6_4, accent6_5, accent6, accent7_0, accent7_1, accent7_2, accent7_3, accent7_4, accent7_5, accent7_6, accent7, accent8_0, accent8_1, accent8_2, accent8_3, accent8_4, accent8_5, accent8_6, accent8_7, accent8, set13_0, set13_1, set13_2, set13, set14_0, set14_1, set14_2, set14_3, set14, set15_0, set15_1, set15_2, set15_3, set15_4, set15, set16_0, set16_1, set16_2, set16_3, set16_4, set16_5, set16, set17_0, set17_1, set17_2, set17_3, set17_4, set17_5, set17_6, set17, set18_0, set18_1, set18_2, set18_3, set18_4, set18_5, set18_6, set18_7, set18, set19_0, set19_1, set19_2, set19_3, set19_4, set19_5, set19_6, set19_7, set19_8, set19, set33_0, set33_1, set33_2, set33, set34_0, set34_1, set34_2, set34_3, set34, set35_0, set35_1, set35_2, set35_3, set35_4, set35, set36_0, set36_1, set36_2, set36_3, set36_4, set36_5, set36, set37_0, set37_1, set37_2, set37_3, set37_4, set37_5, set37_6, set37, set38_0, set38_1, set38_2, set38_3, set38_4, set38_5, set38_6, set38_7, set38, set39_0, set39_1, set39_2, set39_3, set39_4, set39_5, set39_6, set39_7, set39_8, set39, set310_0, set310_1, set310_2, set310_3, set310_4, set310_5, set310_6, set310_7, set310_8, set310_9, set310, set311_0, set311_1, set311_2, set311_3, set311_4, set311_5, set311_6, set311_7, set311_8, set311_9, set311_10, set311, set312_0, set312_1, set312_2, set312_3, set312_4, set312_5, set312_6, set312_7, set312_8, set312_9, set312_10, set312_11, set312, dark23_0, dark23_1, dark23_2, dark23, dark24_0, dark24_1, dark24_2, dark24_3, dark24, dark25_0, dark25_1, dark25_2, dark25_3, dark25_4, dark25, dark26_0, dark26_1, dark26_2, dark26_3, dark26_4, dark26_5, dark26, dark27_0, dark27_1, dark27_2, dark27_3, dark27_4, dark27_5, dark27_6, dark27, dark28_0, dark28_1, dark28_2, dark28_3, dark28_4, dark28_5, dark28_6, dark28_7, dark28, paired3_0, paired3_1, paired3_2, paired3, paired4_0, paired4_1, paired4_2, paired4_3, paired4, paired5_0, paired5_1, paired5_2, paired5_3, paired5_4, paired5, paired6_0, paired6_1, paired6_2, paired6_3, paired6_4, paired6_5, paired6, paired7_0, paired7_1, paired7_2, paired7_3, paired7_4, paired7_5, paired7_6, paired7, paired8_0, paired8_1, paired8_2, paired8_3, paired8_4, paired8_5, paired8_6, paired8_7, paired8, paired9_0, paired9_1, paired9_2, paired9_3, paired9_4, paired9_5, paired9_6, paired9_7, paired9_8, paired9, paired10_0, paired10_1, paired10_2, paired10_3, paired10_4, paired10_5, paired10_6, paired10_7, paired10_8, paired10_9, paired10, paired11_0, paired11_1, paired11_2, paired11_3, paired11_4, paired11_5, paired11_6, paired11_7, paired11_8, paired11_9, paired11_10, paired11, paired12_0, paired12_1, paired12_2, paired12_3, paired12_4, paired12_5, paired12_6, paired12_7, paired12_8, paired12_9, paired12_10, paired12_11, paired12, pastel23_0, pastel23_1, pastel23_2, pastel23, pastel24_0, pastel24_1, pastel24_2, pastel24_3, pastel24, pastel25_0, pastel25_1, pastel25_2, pastel25_3, pastel25_4, pastel25, pastel26_0, pastel26_1, pastel26_2, pastel26_3, pastel26_4, pastel26_5, pastel26, pastel27_0, pastel27_1, pastel27_2, pastel27_3, pastel27_4, pastel27_5, pastel27_6, pastel27, pastel28_0, pastel28_1, pastel28_2, pastel28_3, pastel28_4, pastel28_5, pastel28_6, pastel28_7, pastel28, pastel13_0, pastel13_1, pastel13_2, pastel13, pastel14_0, pastel14_1, pastel14_2, pastel14_3, pastel14, pastel15_0, pastel15_1, pastel15_2, pastel15_3, pastel15_4, pastel15, pastel16_0, pastel16_1, pastel16_2, pastel16_3, pastel16_4, pastel16_5, pastel16, pastel17_0, pastel17_1, pastel17_2, pastel17_3, pastel17_4, pastel17_5, pastel17_6, pastel17, pastel18_0, pastel18_1, pastel18_2, pastel18_3, pastel18_4, pastel18_5, pastel18_6, pastel18_7, pastel18, pastel19_0, pastel19_1, pastel19_2, pastel19_3, pastel19_4, pastel19_5, pastel19_6, pastel19_7, pastel19_8, pastel19
+@docs set23_0, set23_1, set23_2, set23, set24_0, set24_1, set24_2, set24_3, set24, set25_0, set25_1, set25_2, set25_3, set25_4, set25, set26_0, set26_1, set26_2, set26_3, set26_4, set26_5, set26, set27_0, set27_1, set27_2, set27_3, set27_4, set27_5, set27_6, set27, set28_0, set28_1, set28_2, set28_3, set28_4, set28_5, set28_6, set28_7, set28, accent3_0, accent3_1, accent3_2, accent3, accent4_0, accent4_1, accent4_2, accent4_3, accent4, accent5_0, accent5_1, accent5_2, accent5_3, accent5_4, accent5, accent6_0, accent6_1, accent6_2, accent6_3, accent6_4, accent6_5, accent6, accent7_0, accent7_1, accent7_2, accent7_3, accent7_4, accent7_5, accent7_6, accent7, accent8_0, accent8_1, accent8_2, accent8_3, accent8_4, accent8_5, accent8_6, accent8_7, accent8, set13_0, set13_1, set13_2, set13, set14_0, set14_1, set14_2, set14_3, set14, set15_0, set15_1, set15_2, set15_3, set15_4, set15, set16_0, set16_1, set16_2, set16_3, set16_4, set16_5, set16, set17_0, set17_1, set17_2, set17_3, set17_4, set17_5, set17_6, set17, set18_0, set18_1, set18_2, set18_3, set18_4, set18_5, set18_6, set18_7, set18, set19_0, set19_1, set19_2, set19_3, set19_4, set19_5, set19_6, set19_7, set19_8, set19, set33_0, set33_1, set33_2, set33, set34_0, set34_1, set34_2, set34_3, set34, set35_0, set35_1, set35_2, set35_3, set35_4, set35, set36_0, set36_1, set36_2, set36_3, set36_4, set36_5, set36, set37_0, set37_1, set37_2, set37_3, set37_4, set37_5, set37_6, set37, set38_0, set38_1, set38_2, set38_3, set38_4, set38_5, set38_6, set38_7, set38, set39_0, set39_1, set39_2, set39_3, set39_4, set39_5, set39_6, set39_7, set39_8, set39, set310_0, set310_1, set310_2, set310_3, set310_4, set310_5, set310_6, set310_7, set310_8, set310_9, set310, set311_0, set311_1, set311_2, set311_3, set311_4, set311_5, set311_6, set311_7, set311_8, set311_9, set311_10, set311, set312_0, set312_1, set312_2, set312_3, set312_4, set312_5, set312_6, set312_7, set312_8, set312_9, set312_10, set312_11, set312, dark23_0, dark23_1, dark23_2, dark23, dark24_0, dark24_1, dark24_2, dark24_3, dark24, dark25_0, dark25_1, dark25_2, dark25_3, dark25_4, dark25, dark26_0, dark26_1, dark26_2, dark26_3, dark26_4, dark26_5, dark26, dark27_0, dark27_1, dark27_2, dark27_3, dark27_4, dark27_5, dark27_6, dark27, dark28_0, dark28_1, dark28_2, dark28_3, dark28_4, dark28_5, dark28_6, dark28_7, dark28, paired3_0, paired3_1, paired3_2, paired3, paired4_0, paired4_1, paired4_2, paired4_3, paired4, paired5_0, paired5_1, paired5_2, paired5_3, paired5_4, paired5, paired6_0, paired6_1, paired6_2, paired6_3, paired6_4, paired6_5, paired6, paired7_0, paired7_1, paired7_2, paired7_3, paired7_4, paired7_5, paired7_6, paired7, paired8_0, paired8_1, paired8_2, paired8_3, paired8_4, paired8_5, paired8_6, paired8_7, paired8, paired9_0, paired9_1, paired9_2, paired9_3, paired9_4, paired9_5, paired9_6, paired9_7, paired9_8, paired9, paired10_0, paired10_1, paired10_2, paired10_3, paired10_4, paired10_5, paired10_6, paired10_7, paired10_8, paired10_9, paired10, paired11_0, paired11_1, paired11_2, paired11_3, paired11_4, paired11_5, paired11_6, paired11_7, paired11_8, paired11_9, paired11_10, paired11, paired12_0, paired12_1, paired12_2, paired12_3, paired12_4, paired12_5, paired12_6, paired12_7, paired12_8, paired12_9, paired12_10, paired12_11, paired12, pastel23_0, pastel23_1, pastel23_2, pastel23, pastel24_0, pastel24_1, pastel24_2, pastel24_3, pastel24, pastel25_0, pastel25_1, pastel25_2, pastel25_3, pastel25_4, pastel25, pastel26_0, pastel26_1, pastel26_2, pastel26_3, pastel26_4, pastel26_5, pastel26, pastel27_0, pastel27_1, pastel27_2, pastel27_3, pastel27_4, pastel27_5, pastel27_6, pastel27, pastel28_0, pastel28_1, pastel28_2, pastel28_3, pastel28_4, pastel28_5, pastel28_6, pastel28_7, pastel28, pastel13_0, pastel13_1, pastel13_2, pastel13, pastel14_0, pastel14_1, pastel14_2, pastel14_3, pastel14, pastel15_0, pastel15_1, pastel15_2, pastel15_3, pastel15_4, pastel15, pastel16_0, pastel16_1, pastel16_2, pastel16_3, pastel16_4, pastel16_5, pastel16, pastel17_0, pastel17_1, pastel17_2, pastel17_3, pastel17_4, pastel17_5, pastel17_6, pastel17, pastel18_0, pastel18_1, pastel18_2, pastel18_3, pastel18_4, pastel18_5, pastel18_6, pastel18_7, pastel18, pastel19_0, pastel19_1, pastel19_2, pastel19_3, pastel19_4, pastel19_5, pastel19_6, pastel19_7, pastel19_8, pastel19, set2, accent, set1, set3, dark2, paired, pastel2, pastel1
 
 -}
 
@@ -2975,3 +2975,297 @@ pastel19_7 =
 pastel19_8 : Color
 pastel19_8 =
     rgb 242 242 242
+
+
+{-| Returns a Set2 color scheme.
+-}
+set2 : Int -> List Color
+set2 n =
+    case n of
+        0 ->
+            []
+
+        1 ->
+            [ rgb 102 194 165 ]
+
+        2 ->
+            [ rgb 102 194 165, rgb 252 141 98 ]
+
+        3 ->
+            set2_3
+
+        4 ->
+            set2_4
+
+        5 ->
+            set2_5
+
+        6 ->
+            set2_6
+
+        7 ->
+            set2_7
+
+        _ ->
+            set2_8
+
+
+{-| Returns a Accent color scheme.
+-}
+accent : Int -> List Color
+accent n =
+    case n of
+        0 ->
+            []
+
+        1 ->
+            [ rgb 127 201 127 ]
+
+        2 ->
+            [ rgb 127 201 127, rgb 190 174 212 ]
+
+        3 ->
+            accent_3
+
+        4 ->
+            accent_4
+
+        5 ->
+            accent_5
+
+        6 ->
+            accent_6
+
+        7 ->
+            accent_7
+
+        _ ->
+            accent_8
+
+
+{-| Returns a Set1 color scheme.
+-}
+set1 : Int -> List Color
+set1 n =
+    case n of
+        0 ->
+            []
+
+        1 ->
+            [ rgb 228 26 28 ]
+
+        2 ->
+            [ rgb 228 26 28, rgb 55 126 184 ]
+
+        3 ->
+            set1_3
+
+        4 ->
+            set1_4
+
+        5 ->
+            set1_5
+
+        6 ->
+            set1_6
+
+        7 ->
+            set1_7
+
+        8 ->
+            set1_8
+
+        _ ->
+            set1_9
+
+
+{-| Returns a Set3 color scheme.
+-}
+set3 : Int -> List Color
+set3 n =
+    case n of
+        0 ->
+            []
+
+        1 ->
+            [ rgb 141 211 199 ]
+
+        2 ->
+            [ rgb 141 211 199, rgb 255 255 179 ]
+
+        3 ->
+            set3_3
+
+        4 ->
+            set3_4
+
+        5 ->
+            set3_5
+
+        6 ->
+            set3_6
+
+        7 ->
+            set3_7
+
+        8 ->
+            set3_8
+
+        9 ->
+            set3_9
+
+        10 ->
+            set3_10
+
+        11 ->
+            set3_11
+
+        _ ->
+            set3_12
+
+
+{-| Returns a Dark2 color scheme.
+-}
+dark2 : Int -> List Color
+dark2 n =
+    case n of
+        0 ->
+            []
+
+        1 ->
+            [ rgb 27 158 119 ]
+
+        2 ->
+            [ rgb 27 158 119, rgb 217 95 2 ]
+
+        3 ->
+            dark2_3
+
+        4 ->
+            dark2_4
+
+        5 ->
+            dark2_5
+
+        6 ->
+            dark2_6
+
+        7 ->
+            dark2_7
+
+        _ ->
+            dark2_8
+
+
+{-| Returns a Paired color scheme.
+-}
+paired : Int -> List Color
+paired n =
+    case n of
+        0 ->
+            []
+
+        1 ->
+            [ rgb 166 206 227 ]
+
+        2 ->
+            [ rgb 166 206 227, rgb 31 120 180 ]
+
+        3 ->
+            paired_3
+
+        4 ->
+            paired_4
+
+        5 ->
+            paired_5
+
+        6 ->
+            paired_6
+
+        7 ->
+            paired_7
+
+        8 ->
+            paired_8
+
+        9 ->
+            paired_9
+
+        10 ->
+            paired_10
+
+        11 ->
+            paired_11
+
+        _ ->
+            paired_12
+
+
+{-| Returns a Pastel2 color scheme.
+-}
+pastel2 : Int -> List Color
+pastel2 n =
+    case n of
+        0 ->
+            []
+
+        1 ->
+            [ rgb 179 226 205 ]
+
+        2 ->
+            [ rgb 179 226 205, rgb 253 205 172 ]
+
+        3 ->
+            pastel2_3
+
+        4 ->
+            pastel2_4
+
+        5 ->
+            pastel2_5
+
+        6 ->
+            pastel2_6
+
+        7 ->
+            pastel2_7
+
+        _ ->
+            pastel2_8
+
+
+{-| Returns a Pastel1 color scheme.
+-}
+pastel1 : Int -> List Color
+pastel1 n =
+    case n of
+        0 ->
+            []
+
+        1 ->
+            [ rgb 251 180 174 ]
+
+        2 ->
+            [ rgb 251 180 174, rgb 179 205 227 ]
+
+        3 ->
+            pastel1_3
+
+        4 ->
+            pastel1_4
+
+        5 ->
+            pastel1_5
+
+        6 ->
+            pastel1_6
+
+        7 ->
+            pastel1_7
+
+        8 ->
+            pastel1_8
+
+        _ ->
+            pastel1_9
