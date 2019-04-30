@@ -1,15 +1,15 @@
-const fs = require('fs');
+import * as fs from 'fs';
 
-const data = JSON.parse(fs.readFileSync('colorbrewer.json'));
+const data = JSON.parse(fs.readFileSync('colorbrewer.json').toString());
 
-const generateColorFile = (filename, colors) => {
+const generateColorFile = (filename : string, colors) => {
   delete colors.index;
 
   const colorElms = [];
   const colorNames = [];
-  for (name in colors) {
+  for (let name in colors) {
     delete colors[name]['type'];
-    for (count in colors[name]) {
+    for (let count in colors[name]) {
       const colorName = `${name}${count}`.toLowerCase();
       const rgbColours = colors[name][count].map((color) => {
 	const colors = color.replace('(', '').replace(')', '').split(',').map((string) => parseInt(string)).join(' ');
