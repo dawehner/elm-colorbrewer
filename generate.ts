@@ -2,15 +2,21 @@ import * as fs from 'fs';
 
 const data = JSON.parse(fs.readFileSync('colorbrewer.json').toString());
 
-const range = (start : number, end : number) : Array<number> => Array.from({length: (end - start)}, (v, k) => k + start);
+const range = (start: number, end: number): Array<number> =>
+  Array.from({ length: end - start }, (v, k) => k + start);
 
-const generateRgbColours = (cs : Array<string>) : Array<string> => cs.map((color) => {
-	const colors = color.replace('(', '').replace(')', '').split(',').map((string) => parseInt(string)).join(' ');
+const generateRgbColours = (cs: Array<string>): Array<string> =>
+  cs.map(color => {
+    const colors = color
+      .replace('(', '')
+      .replace(')', '')
+      .split(',')
+      .map(string => parseInt(string))
+      .join(' ');
     return `rgb ${colors}`;
-  }
-);
+  });
 
-const generateColorFile = (filename : string, colors) => {
+const generateColorFile = (filename: string, colors) => {
   delete colors.index;
 
   const colorElms = [];
@@ -29,7 +35,9 @@ ${colorName}_${index} = ${rgbColour}
 `;
       });
       // Add individual colors.
-      Object.keys(rgbColours).forEach((index) => colorNames.push(`${colorName}_${index}`));
+      Object.keys(rgbColours).forEach(index =>
+        colorNames.push(`${colorName}_${index}`)
+      );
 
       // Add the entire colorscheme.
       colorElms.push(`
@@ -37,7 +45,7 @@ ${colorName}_${index} = ${rgbColour}
 ${colorName} : List Color
 ${colorName} = [${rgbColours.join(', ')}]
 
-${individualColors.join("\n")}
+${individualColors.join('\n')}
 `);
       colorNames.push(colorName);
     }
@@ -55,15 +63,26 @@ ${individualColors.join("\n")}
 ${colorName} : Int -> List Color
 ${colorName} n = case n of
   0 -> []
-${range(1, minLength).map(n => `  ${n} -> [${generateRgbColours(colors[name][minLength]).slice(0, n).join(', ')}]`).join(`\n`)}
-${range(minLength, maxLength).map(n => `  ${n} -> ${colorName}${n}`).join(`\n`)}
+${range(1, minLength)
+      .map(
+        n =>
+          `  ${n} -> [${generateRgbColours(colors[name][minLength])
+            .slice(0, n)
+            .join(', ')}]`
+      )
+      .join(`\n`)}
+${range(minLength, maxLength)
+      .map(n => `  ${n} -> ${colorName}${n}`)
+      .join(`\n`)}
   _ -> ${colorName}${maxLength}
 `);
 
     colorNames.push(colorName);
   }
 
-  const template = `module Colorbrewer.${filename} exposing (${colorNames.join(', ')})
+  const template = `module Colorbrewer.${filename} exposing (${colorNames.join(
+    ', '
+  )})
 
 {-|
 Exposes ${filename} colors from colorbrewer.
@@ -74,13 +93,13 @@ Exposes ${filename} colors from colorbrewer.
 
 import Color exposing (Color, rgb)
 
-${colorElms.join("\n")}
+${colorElms.join('\n')}
 `;
 
   fs.writeFileSync(`src/ColorBrewer/${filename}.elm`, template);
 };
 
-generateColorFile('SequentialSH', data["sequential\nsingle-hue"]);
-generateColorFile('SequentialMH', data["sequential\nmulti-hue"]);
+generateColorFile('SequentialSH', data['sequential\nsingle-hue']);
+generateColorFile('SequentialMH', data['sequential\nmulti-hue']);
 generateColorFile('Diverging', data['diverging']);
 generateColorFile('Qualitative', data['qualitative']);
