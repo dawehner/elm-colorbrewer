@@ -7,5 +7,5 @@ format-js:
 	prettier --single-quote --write generate.ts
 
 format: format-js
-	elm-format src/Colorbrewer --yes
+	./node_modules/.bin/elm-format src/Colorbrewer --yes
 
