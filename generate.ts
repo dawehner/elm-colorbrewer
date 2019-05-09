@@ -13,7 +13,7 @@ const generateRgbColours = (cs: Array<string>): Array<string> =>
       .split(',')
       .map(string => parseInt(string))
       .join(' ');
-    return `rgb ${colors}`;
+    return `rgb255 ${colors}`;
   });
 
 const generateColorFile = (filename: string, colors) => {
@@ -91,7 +91,7 @@ Exposes ${filename} colors from colorbrewer.
 
 -}
 
-import Color exposing (Color, rgb)
+import Color exposing (Color, rgb255)
 
 ${colorElms.join('\n')}
 `;
